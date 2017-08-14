@@ -1,0 +1,127 @@
+/**
+ * (RTL) Direction
+ *
+ * Author: ABdoWeb
+ * Author Profile: http://themeforest.net/user/abdoweb
+ * Theme Name: Rydon 2.0
+ */
+
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Reset
+ * 2.0 - Typography
+ * 3.0 - Elements
+ */
+
+/*!======== 1.0 Reset ========*/
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+/*!======== 2.0 Typography ========*/
+body,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input,
+select,
+textarea,
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
+blockquote cite,
+blockquote small,
+.post-password-form label,
+.main-navigation .menu-item-description,
+.post-navigation .meta-nav,
+.post-navigation .post-title,
+.pagination,
+.image-navigation,
+.comment-navigation,
+.site-title,
+.site-description,
+.widget-title,
+.widget_calendar caption,
+.widget_rss .rss-date,
+.widget_rss cite,
+.author-heading,
+.entry-footer,
+.page-title,
+.page-links,
+.entry-caption,
+.comments-title,
+.comment-reply-title,
+.comment-metadata,
+.pingback .edit-link,
+.comment-list .reply a,
+.comment-form label,
+.comment-notes,
+.comment-awaiting-moderation,
+.logged-in-as,
+.form-allowed-tags,
+.no-comments,
+.wp-caption-text,
+.gallery-caption {
+	font-family: 'El Messiri', sans-serif;
+}
+
+::-webkit-input-placeholder {
+	font-family: 'El Messiri', sans-serif;
+}
+
+:-moz-placeholder {
+	font-family: 'El Messiri', sans-serif;
+}
+
+::-moz-placeholder {
+	font-family: 'El Messiri', sans-serif;
+}
+
+:-ms-input-placeholder {
+	font-family: 'El Messiri', sans-serif;
+}
+
+/*!======== 3.0 Elements ========*/
+#a_back {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 4px 10px 4px 12px;
+}
+#a_back i {
+    padding: 0 8px 0 0;
+}
+.address-block, .phone-block, .email-block {
+    direction: ltr;
+}
+.ft-single-post .ft-back2blog:before,
+.ft-single-post .ft-back2menu:before {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.single-post .sp-share-title {
+    margin-left: 5px;
+}
+.single-post .sp-tags-title {
+    margin-left: 20px;
+}
+caption,
+th,
+td {
+	text-align: right;
+}
+blockquote {
+	border-right: 4px solid rgba(51, 51, 51, 0.7);
+	border-left: 0;
+    padding: 30px;
+	padding-right: 60px;
+}
+blockquote:before {
+    right: 15px;
+    left: 0px;
+}
+#nav-videochannel::-webkit-scrollbar-thumb {
+    background: url(assets/images/scrollbar-rtl.png);
+    background-position: left;
+    background-repeat: repeat-x;
+}

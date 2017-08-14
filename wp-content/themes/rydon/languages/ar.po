@@ -1,0 +1,191 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Project-Id-Version: Rydon\n"
+"POT-Creation-Date: 2016-10-24 15:50+0100\n"
+"PO-Revision-Date: 2016-10-25 02:29+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: ar\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:16
+msgid "Oops! That page can’t be found."
+msgstr "عفوا! تلك الصفحة لا يمكن العثور عليها."
+
+#: 404.php:18 page.php:25 template-posts.php:63
+msgid "Back to menu"
+msgstr "العودة إلى القائمة"
+
+#: archive.php:25 index.php:25 search.php:25 single.php:28 template-blog.php:41
+#: template-posts.php:42
+msgid "Posted by"
+msgstr "منشور من طرف"
+
+#: archive.php:25 index.php:25 search.php:25 single.php:28 template-blog.php:41
+#: template-posts.php:42
+msgid "at"
+msgstr "في"
+
+#: archive.php:29 index.php:29 search.php:29 template-blog.php:45
+#: template-posts.php:46
+msgid "Read more"
+msgstr "اقرأ المزيد"
+
+#: archive.php:43 index.php:48 search.php:43 template-posts.php:60
+msgid "Older Entries"
+msgstr "مقالات قديمة"
+
+#: archive.php:46 index.php:51 search.php:46 template-blog.php:53
+msgid "Go to blog"
+msgstr "الذهاب إلى المدونة"
+
+#: archive.php:49 index.php:54 search.php:49 template-posts.php:66
+msgid "Newer Entries"
+msgstr "مقالات جديدة"
+
+#: archive.php:57 index.php:37 search.php:57 template-posts.php:74
+msgid "Sorry, no posts matched your criteria."
+msgstr "عفوا، لا يوجد منشور يطابق معيارك."
+
+#: comments.php:23
+msgid "No Comments"
+msgstr "لا يوجد تعليقات"
+
+#: comments.php:23
+msgid "One Comment"
+msgstr "تعليق واحد"
+
+#: comments.php:23
+msgid "% Comments"
+msgstr "% تعليقات"
+
+#: comments.php:33
+msgid "&larr; Older Comments"
+msgstr "&larr;  أقدم تعليقات"
+
+#: comments.php:34
+msgid "Newer Comments &rarr;"
+msgstr "تعليقات جديدة &rarr;"
+
+#: comments.php:39
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: comments.php:46
+msgid "Name *"
+msgstr "اسم *"
+
+#: comments.php:48
+msgid "Email *"
+msgstr "البريد الإلكتروني *"
+
+#: comments.php:50
+msgid "Website"
+msgstr "موقع الكتروني"
+
+#: comments.php:55
+msgid "Submit"
+msgstr "إرسال"
+
+#: comments.php:57
+msgid "Leave a Comment"
+msgstr "اترك تعليقا"
+
+#: comments.php:61
+msgid "Comment"
+msgstr "التعليق"
+
+#: functions.php:261
+msgid "%1$s at %2$s"
+msgstr "%1$s في %2$s"
+
+#: functions.php:270
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك ينتظر الموافقة عليه."
+
+#: searchform.php:12
+msgid "Search Site..."
+msgstr "البحث في الموقع..."
+
+#: single.php:36
+msgid "TAGS"
+msgstr "الأوسمة"
+
+#: single.php:39
+msgid "SHARE"
+msgstr "شارك"
+
+#: single.php:62
+msgid "Previous post"
+msgstr "المقال السابق"
+
+#: single.php:65
+msgid "Back to blog"
+msgstr "العودة إلى المدونة"
+
+#: single.php:68
+msgid "Next post"
+msgstr "المقال التالي"
+
+#: template-contact.php:19
+msgid "Drop us a line"
+msgstr "أكتب لنا"
+
+#: template-contact.php:21
+msgid "Your message was sent!"
+msgstr "تم إرسال رسالتك!"
+
+#: template-contact.php:25
+msgid "Name"
+msgstr "إسم"
+
+#: template-contact.php:26 template-contact.php:33 template-contact.php:40
+#: template-contact.php:48
+msgid "* This field is required"
+msgstr "* هذه الخانة مطلوبة"
+
+#: template-contact.php:27
+msgid "* Invalid name"
+msgstr "* إسم غير صالح"
+
+#: template-contact.php:32
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: template-contact.php:34
+msgid "* Invalid email address"
+msgstr "* البريد الإلكتروني غير صالح"
+
+#: template-contact.php:39
+msgid "Phone"
+msgstr "الهاتف"
+
+#: template-contact.php:41
+msgid "* Invalid phone numbers"
+msgstr "* رقم الهاتف غير صالح"
+
+#: template-contact.php:47
+msgid "Message"
+msgstr "الرسالة"
+
+#: template-contact.php:49
+msgid "* The message is too short"
+msgstr "* الرسالة قصيرة جدا"
+
+#: template-contact.php:53
+msgid "Send"
+msgstr "إرسال"
+
+#: template-contact.php:253
+msgid "Information"
+msgstr "معلومات"
