@@ -26,24 +26,21 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-4">
-                <p>Schulterblatt</p>
-                <p><img src="http://hoangx.de/bok/wp-content/uploads/2016/03/schulterblatt.jpg" alt=""></p>
-                <p>Schulterblatt 3.</p>
-                <p>20357 Hamburg</p>
-            </div>
-            <div class="col-sm-4">
-                <p>Ottensen</p>
-                <p><img height="297" src="http://hoangx.de/bok/wp-content/uploads/2017/04/Ottensen.jpg" alt=""></p>
-                <p>Ottensener Hauptstraße 1.</p>
-                <p>22765 Hamburg</p>
-            </div>
-            <div class="col-sm-4">
-                <p>Sternschanzen<p>
-                <img height="297" src="http://hoangx.de/bok/wp-content/uploads/2017/04/Schanzenstraße.jpg" alt="">
-                <p>Schanzenstraße 36.</p>
-                <p>20357 Hamburg</p>
-            </div>
+            <?php $loop = new WP_Query( array( 'post_type' => 'restaurant', 'posts_per_page' => 10 ) ); ?>
+
+            <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+
+                <div class="col-sm-4">
+                    <p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title() ?></a></p>
+                    <?php if ( has_post_thumbnail() ) : ?>
+                        <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+                            <?php the_post_thumbnail('medium'); ?>
+                        </a>
+                    <?php endif; ?>
+                    <?php the_content(); ?>
+                </div>
+
+            <?php endwhile; ?>
         </div>
      </div>
     <div class="container">
@@ -121,7 +118,7 @@
 
             // Override our map zoom level once our fitBounds function runs (Make sure it only runs once)
             var boundsListener = google.maps.event.addListener((map), 'bounds_changed', function(event) {
-                this.setZoom(14);
+                this.setZoom(13);
                 google.maps.event.removeListener(boundsListener);
             });
         }
