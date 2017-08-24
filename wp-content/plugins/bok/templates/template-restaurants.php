@@ -1,9 +1,7 @@
 <?php
 /**
- * Template Name: Example Page Template
+ * Template Name: Restaurant
  *
- * A template used to demonstrate how to include the template
- * using this plugin.
  *
  * @package PTE
  * @since 	1.0.0
@@ -11,15 +9,6 @@
  */
 ?>
 
-<?php
-/*
- * Template name: Restaurant
- *
- * Author: Quoc Khanh Nguyen
- * Author Profile: http://themeforest.net/user/abdoweb
- * Theme Name: Rydon 2.0
- */
-?>
 <style>
     #map_wrapper {
         height: 400px;

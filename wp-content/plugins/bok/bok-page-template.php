@@ -7,7 +7,7 @@ Author: Quoc Khanh Nguyen
 Author URI: https://hoangx.de/bok
 */
 
-class PageTemplater {
+class Bok_Page_Template {
 
     /**
      * A reference to an instance of this class.
@@ -25,11 +25,10 @@ class PageTemplater {
     public static function get_instance() {
 
         if ( null == self::$instance ) {
-            self::$instance = new PageTemplater();
+            self::$instance = new Bok_Page_Template();
         }
 
         return self::$instance;
-
     }
 
     /**
