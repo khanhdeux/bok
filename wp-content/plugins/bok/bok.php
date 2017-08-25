@@ -51,4 +51,5 @@ function bok_class_file_autoloader( $class_name ) {
 spl_autoload_register( 'bok_class_file_autoloader' );
 
 add_action( 'plugins_loaded', array( 'Bok_Page_Template', 'get_instance' ) );
-add_action( 'init', array( 'Bok_Restaurant', 'createPostType' )  );
+add_action( 'init', array( 'Bok_Restaurant', 'create' )  );
+

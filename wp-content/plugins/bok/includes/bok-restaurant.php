@@ -5,7 +5,7 @@
  */
 class Bok_Restaurant {
 
-    public function createPostType() {
+    public function create() {
         $labels = array(
             'name'               => _x( 'Restaurants', 'post type general name', 'bok' ),
             'singular_name'      => _x( 'Restaurant', 'post type singular name', 'bok' ),
