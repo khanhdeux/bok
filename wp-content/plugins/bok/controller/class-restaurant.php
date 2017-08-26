@@ -1,11 +1,28 @@
 <?php
-
+namespace Bok\Controller;
 /**
  * Class Bok_Restaurant
  */
-class Bok_Restaurant {
+class Restaurant extends Base {
 
-    public function create() {
+    const POST_TYPE = 'restaurant';
+
+    /**
+     * Returns an instance of this class.
+     */
+    public static function init() {
+        self::createPostType();
+    }
+
+    /**
+     * Initializes the plugin by setting filters and administration functions.
+     */
+    private function __construct() {}
+
+    /**
+     * Create custom post type
+     */
+    public static function createPostType() {
         $labels = array(
             'name'               => _x( 'Restaurants', 'post type general name', 'bok' ),
             'singular_name'      => _x( 'Restaurant', 'post type singular name', 'bok' ),
@@ -31,7 +48,7 @@ class Bok_Restaurant {
             'show_ui'            => true,
             'show_in_menu'       => true,
             'query_var'          => true,
-            'rewrite'            => array( 'slug' => 'restaurant' ),
+            'rewrite'            => array( 'slug' => self::POST_TYPE ),
             'capability_type'    => 'post',
             'has_archive'        => true,
             'hierarchical'       => false,
@@ -40,7 +57,7 @@ class Bok_Restaurant {
             'menu_icon'          => 'dashicons-admin-multisite'
         );
 
-        register_post_type( 'restaurant', $args );
+        register_post_type( self::POST_TYPE, $args );
         flush_rewrite_rules();
     }
 }

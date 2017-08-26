@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d36b1a2a-34a6-4c03-800e-75c6f61631c3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/bok-page-template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/includes/bok-restaurant.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/class-page-template.php" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/bok-page-template.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/modules/class-restaurant-post-type.php" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/includes/bok-restaurant.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/lib/autoloader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/controller/class-base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/controller/class-restaurant.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/bok-page-template.php" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/includes/bok-restaurant.php" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/controller/class-metabox-slider.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/bok.php" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/bok.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-restaurants.php" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-restaurants.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="box.iws" />
@@ -44,54 +44,14 @@
     <favorites_list name="box" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.89384615">
+    <splitter split-orientation="vertical" split-proportion="0.8871287">
       <split-first>
         <leaf>
-          <file leaf-file-name="template-restaurant.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/rydon/template-restaurant.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-4.6363635" vertical-offset="0" max-vertical-offset="2025">
-                  <caret line="17" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="129" selection-end-column="6" />
-                  <folding>
-                    <element signature="e#6#153#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="link-template.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-includes/link-template.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.627451" vertical-offset="1591" max-vertical-offset="62205">
-                  <caret line="120" column="15" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="15" />
-                  <folding>
-                    <marker date="1502741985000" expanded="true" signature="53933:53981" placeholder="SELECT p.ID ..." />
-                    <marker date="1502741985000" expanded="true" signature="82915:83002" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="class-wp-query.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-query.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-6.2916665" vertical-offset="46739" max-vertical-offset="61770">
-                  <caret line="3132" column="20" selection-start-line="3132" selection-start-column="20" selection-end-line="3132" selection-end-column="20" />
-                  <folding>
-                    <marker date="1502742143000" expanded="true" signature="77345:77440" placeholder="SELECT ${$di..." />
-                    <marker date="1502742143000" expanded="true" signature="85673:85771" placeholder="SELECT ${$fo..." />
-                    <marker date="1502742143000" expanded="true" signature="88589:88697" placeholder="SELECT ${$fo..." />
-                    <marker date="1502742143000" expanded="true" signature="91005:91090" placeholder="SELECT ${{$w..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="bok.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="bok.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/bok.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-5.1568627" vertical-offset="517" max-vertical-offset="885">
-                  <caret line="52" column="55" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="55" />
+                <state vertical-scroll-proportion="0.7744565" vertical-offset="15" max-vertical-offset="405">
+                  <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
                   <folding>
                     <element signature="e#6#238#0#PHP" expanded="true" />
                   </folding>
@@ -99,33 +59,59 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="bok-restaurant.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/includes/bok-restaurant.php">
+          <file leaf-file-name="class-metabox-slider.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/controller/class-metabox-slider.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.4705882" vertical-offset="0" max-vertical-offset="765">
-                  <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="bok-page-template.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/bok-page-template.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.33152175" vertical-offset="1423" max-vertical-offset="2355">
-                  <caret line="109" column="81" selection-start-line="109" selection-start-column="72" selection-end-line="109" selection-end-column="81" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="template-restaurants.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/template-restaurants.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="2055">
-                  <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+                <state vertical-scroll-proportion="-3.5686274" vertical-offset="178" max-vertical-offset="1665">
+                  <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
                   <folding>
-                    <element signature="e#6#99#0#PHP" expanded="true" />
+                    <element signature="e#1333#1360#0#HTML" expanded="true" />
+                    <element signature="e#1478#1557#0#HTML" expanded="true" />
+                    <element signature="e#1761#1855#0#HTML" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="class-base.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/controller/class-base.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="405">
+                  <caret line="11" column="38" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="38" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="class-restaurant.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/controller/class-restaurant.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1020">
+                  <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="19" selection-end-column="37" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="autoloader.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/lib/autoloader.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="1005">
+                  <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+                  <folding>
+                    <element signature="e#6#79#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/template.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="2460">
+                  <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#6#165#0#PHP" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -165,9 +151,20 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/class-page-template.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/includes/page-template.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/includes/bok-page-template.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/bok/includes/bok-restaurant.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/bok/bok.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-restaurants.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/bok/bok-page-template.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/bok/includes/bok-slider.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/bok/includes/bok-base.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/bok/lib/autoloader.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/bok/file/class-file-reader.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/bok/type/class-restaurant.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/bok/includes/bok-restaurant.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/bok/template.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/bok/lib/template.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/bok/controller/class-base.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/bok/controller/class-restaurant.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/bok/controller/class-metabox-slider.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/bok/bok.php" />
       </list>
     </option>
   </component>
@@ -365,7 +362,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -387,7 +384,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="akismet" />
+              <option name="myItemId" value="bok" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -412,11 +413,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/wp-content/plugins/bok/includes" />
+      <recent name="$PROJECT_DIR$/wp-content/plugins/bok/controller" />
+      <recent name="$PROJECT_DIR$/wp-content/plugins/bok/lib" />
       <recent name="$PROJECT_DIR$/wp-content/plugins/bok" />
-      <recent name="$PROJECT_DIR$/wp-content/plugins/bok/modules" />
-      <recent name="$PROJECT_DIR$/wp-content/plugins/bok/templates" />
-      <recent name="$PROJECT_DIR$/wp-content/themes/rydon" />
+      <recent name="$PROJECT_DIR$/wp-content/plugins/bok/includes" />
+      <recent name="$PROJECT_DIR$/wp-content/plugins" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/wp-content/plugins/bok/includes" />
@@ -498,7 +499,19 @@
       <option name="project" value="LOCAL" />
       <updated>1503517189854</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Autoload for the plugins">
+      <created>1503605347621</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1503605347621</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Change name">
+      <created>1503685439939</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1503685439939</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -519,7 +532,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2533235" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.288774" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -551,7 +564,9 @@
     <MESSAGE value="hardcode restaurant page" />
     <MESSAGE value="New plugin with restaurant post type" />
     <MESSAGE value="Rearrange structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rearrange structure" />
+    <MESSAGE value="Autoload for the plugins" />
+    <MESSAGE value="Change name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -625,6 +640,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -653,6 +669,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26914153" vertical-offset="1069" max-vertical-offset="1500">
           <caret line="100" column="38" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -742,6 +759,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.6139706" vertical-offset="1099" max-vertical-offset="4155">
           <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -783,10 +801,10 @@
         <state vertical-scroll-proportion="-6.2916665" vertical-offset="46739" max-vertical-offset="61770">
           <caret line="3132" column="20" selection-start-line="3132" selection-start-column="20" selection-end-line="3132" selection-end-column="20" />
           <folding>
-            <marker date="1502742143000" expanded="true" signature="77345:77440" placeholder="SELECT ${$di..." />
-            <marker date="1502742143000" expanded="true" signature="85673:85771" placeholder="SELECT ${$fo..." />
-            <marker date="1502742143000" expanded="true" signature="88589:88697" placeholder="SELECT ${$fo..." />
-            <marker date="1502742143000" expanded="true" signature="91005:91090" placeholder="SELECT ${{$w..." />
+            <marker date="1502742143000" expanded="true" signature="-1:-1" placeholder="SELECT ${$di..." />
+            <marker date="1502742143000" expanded="true" signature="-1:-1" placeholder="SELECT ${$fo..." />
+            <marker date="1502742143000" expanded="true" signature="-1:-1" placeholder="SELECT ${$fo..." />
+            <marker date="1502742143000" expanded="true" signature="-1:-1" placeholder="SELECT ${{$w..." />
           </folding>
         </state>
       </provider>
@@ -796,8 +814,8 @@
         <state vertical-scroll-proportion="-2.627451" vertical-offset="1591" max-vertical-offset="62205">
           <caret line="120" column="15" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="15" />
           <folding>
-            <marker date="1502741985000" expanded="true" signature="53933:53981" placeholder="SELECT p.ID ..." />
-            <marker date="1502741985000" expanded="true" signature="82915:83002" placeholder="..." />
+            <marker date="1502741985000" expanded="true" signature="-1:-1" placeholder="SELECT p.ID ..." />
+            <marker date="1502741985000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -812,17 +830,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/includes/bok-restaurant.php">
+    <entry file="file://$PROJECT_DIR$/wp-admin/includes/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4705882" vertical-offset="0" max-vertical-offset="765">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state vertical-scroll-proportion="-5.4583335" vertical-offset="13339" max-vertical-offset="31890">
+          <caret line="905" column="9" selection-start-line="905" selection-start-column="9" selection-end-line="905" selection-end-column="9" />
+          <folding>
+            <marker date="1493405984000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1493405984000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493405984000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493405984000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493405984000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493405984000" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..." />
+            <marker date="1493405984000" expanded="true" signature="-1:-1" placeholder="SELECT ID, p..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/basic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.208333" vertical-offset="1606" max-vertical-offset="2025">
+          <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.7916665" vertical-offset="4886" max-vertical-offset="15255">
+          <caret line="335" column="9" selection-start-line="335" selection-start-column="9" selection-end-line="335" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/template-restaurants.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="2055">
+        <state vertical-scroll-proportion="0.03797468" vertical-offset="165" max-vertical-offset="2055">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding>
             <element signature="e#6#99#0#PHP" expanded="true" />
@@ -830,21 +872,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/bok.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/lib/autoloader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.1568627" vertical-offset="517" max-vertical-offset="885">
-          <caret line="52" column="55" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="55" />
+        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="1005">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
-            <element signature="e#6#238#0#PHP" expanded="true" />
+            <element signature="e#6#79#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/bok-page-template.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33152175" vertical-offset="1423" max-vertical-offset="2355">
-          <caret line="109" column="81" selection-start-line="109" selection-start-column="72" selection-end-line="109" selection-end-column="81" />
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="2460">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#6#165#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/controller/class-base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="405">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/controller/class-restaurant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/controller/class-metabox-slider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5686274" vertical-offset="178" max-vertical-offset="1665">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="e#1333#1360#0#HTML" expanded="true" />
+            <element signature="e#1478#1557#0#HTML" expanded="true" />
+            <element signature="e#1761#1855#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/bok.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7744565" vertical-offset="15" max-vertical-offset="405">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#238#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

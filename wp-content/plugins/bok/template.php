@@ -6,8 +6,9 @@ Version: 1.0.0
 Author: Quoc Khanh Nguyen
 Author URI: https://hoangx.de/bok
 */
+namespace Bok;
 
-class Bok_Page_Template {
+class Template {
 
     /**
      * A reference to an instance of this class.
@@ -22,10 +23,10 @@ class Bok_Page_Template {
     /**
      * Returns an instance of this class.
      */
-    public static function get_instance() {
+    public static function init() {
 
         if ( null == self::$instance ) {
-            self::$instance = new Bok_Page_Template();
+            self::$instance = new self;
         }
 
         return self::$instance;
