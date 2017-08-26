@@ -1,3 +1,3 @@
 $(document).ready(function() {
-    $('.image-link').viewbox();
+    $('.slider-image').viewbox();
 });

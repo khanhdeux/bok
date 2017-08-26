@@ -29,7 +29,7 @@ get_header(); ?>
                                 if(!empty($image)) {
                                     ?>
                                     <div class="col-sm-2">
-                                        <a href="<?php echo wp_get_attachment_image_src($image, 'full')[0]; ?>" class="image-link">
+                                        <a href="<?php echo wp_get_attachment_image_src($image, 'full')[0]; ?>" class="slider-image thumbnail">
                                             <img src="<?php echo wp_get_attachment_image_src($image, 'thumbnail')[0]; ?>" alt="">
                                         </a>
                                     </div>

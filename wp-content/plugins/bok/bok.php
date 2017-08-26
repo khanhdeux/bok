@@ -20,6 +20,8 @@ include_once( 'lib/autoloader.php' );
 // Load template
 include_once( 'template.php' );
 
+\Bok\Controller\Bok::getInstance();
+
 // Init restaurant post type
 \Bok\Controller\Restaurant::getInstance();
 
