@@ -955,7 +955,7 @@ a:visited.ui-button,
 	border: 1px solid #fbcb09;
 	background: #fdf5ce url("images/ui-bg_glass_100_fdf5ce_1x400.png") 50% 50% repeat-x;
 	font-weight: bold;
-	color: #c77405;
+	color: #000000;
 }
 .ui-state-hover a,
 .ui-state-hover a:hover,
@@ -980,20 +980,20 @@ a.ui-button:focus {
 a.ui-button:active,
 .ui-button:active,
 .ui-button.ui-state-active:hover {
-	border: 1px solid #fbd850;
+	border: 1px solid #edeef0;
 	background: #ffffff;
 	font-weight: bold;
-	color: #eb8f00;
+	color: #000000;
 }
 .ui-icon-background,
 .ui-state-active .ui-icon-background {
-	border: #fbd850;
-	background-color: #eb8f00;
+	border: #edeef0;
+	background-color: #000000;
 }
 .ui-state-active a,
 .ui-state-active a:link,
 .ui-state-active a:visited {
-	color: #eb8f00;
+	color: #000000;
 	text-decoration: none;
 }
 
