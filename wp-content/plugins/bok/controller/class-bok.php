@@ -11,8 +11,6 @@ namespace Bok\Controller;
 
 class Bok extends Base {
 
-    protected static $instance;
-
     protected $overrideTemplates = array('template-home.php');
 
     public static function getInstance() {
@@ -36,6 +34,8 @@ class Bok extends Base {
         add_filter('page_template',  array($this, 'overrideTemplates'));
         // Init restaurant post type
         \Bok\Controller\Restaurant::getInstance();
+        // Init news post type
+        \Bok\Controller\News::getInstance();
     }
 
     /**

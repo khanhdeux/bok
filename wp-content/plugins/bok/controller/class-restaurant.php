@@ -3,11 +3,11 @@ namespace Bok\Controller;
 /**
  * Class Bok_Restaurant
  */
-class Restaurant extends Base {
+class Restaurant extends Post_Type {
 
     protected static $instance;
 
-    const POST_TYPE_NAME = 'restaurant';
+    protected $name = 'restaurant';
 
     public static function getInstance() {
         $class = get_called_class();
@@ -22,13 +22,11 @@ class Restaurant extends Base {
     /**
      * Initializes the plugin by setting filters and administration functions.
      */
-    private function __construct() {
-        /* Create custom post type*/
-        add_action('init', array(__CLASS__, 'createPostType'));
-        /* Filter the single_template with our custom function*/
-        add_filter('single_template',  array(__CLASS__, 'initTemplate'));
+    protected function __construct() {
+        parent::__construct();
+
         /* Include js/css scripts*/
-        add_action('after_setup_theme', array(__CLASS__, 'initScripts'));
+        add_action('after_setup_theme', array($this, 'initScripts'));
 
         //init the meta box slider
         /**@var \Bok\Controller\Metabox_Slider $metaboxSlider */
@@ -48,7 +46,7 @@ class Restaurant extends Base {
     }
 
     public function initScripts() {
-        add_action('wp_enqueue_scripts', array(__CLASS__, 'customRestaurantScripts'));
+        add_action('wp_enqueue_scripts', array($this, 'customRestaurantScripts'));
     }
 
     /**
@@ -61,7 +59,7 @@ class Restaurant extends Base {
     /**
      * Create custom post type
      */
-    public function createPostType() {
+    public function create() {
         $labels = array(
             'name' => _x('Restaurants', 'post type general name', 'bok'),
             'singular_name' => _x('Restaurant', 'post type singular name', 'bok'),
@@ -87,7 +85,7 @@ class Restaurant extends Base {
             'show_ui' => true,
             'show_in_menu' => true,
             'query_var' => true,
-            'rewrite' => array('slug' => self::POST_TYPE_NAME),
+            'rewrite' => array('slug' => $this->name),
             'capability_type' => 'post',
             'has_archive' => true,
             'hierarchical' => false,
@@ -96,27 +94,7 @@ class Restaurant extends Base {
             'menu_icon' => 'dashicons-admin-multisite'
         );
 
-        register_post_type(self::POST_TYPE_NAME, $args);
+        register_post_type($this->name, $args);
         flush_rewrite_rules();
-    }
-
-    /**
-     * Init single restaurant template
-     *
-     * @param $single
-     * @return string
-     */
-    public function initTemplate($single) {
-        global $post;
-
-        /* Checks for single template by post type */
-        if ( $post->post_type == self::POST_TYPE_NAME ) {
-            $templateFile = 'single-' . self::POST_TYPE_NAME . '.php';
-            if ( file_exists( BOK__PLUGIN_DIR . 'templates/' . $templateFile ) ) {
-                return BOK__PLUGIN_DIR . 'templates/' . $templateFile;
-            }
-        }
-
-        return $single;
     }
 }

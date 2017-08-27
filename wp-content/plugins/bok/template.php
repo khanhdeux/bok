@@ -75,7 +75,8 @@ class Template {
 
         // Add your templates to this array.
         $this->templates = array(
-            'template-restaurants.php'     => 'Our Restaurants Template',
+            'template-restaurants.php'     => 'Bok Restaurants Template',
+            'template-news.php'            => 'Bok News Template',
         );
 
     }
