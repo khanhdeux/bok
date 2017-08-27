@@ -30,6 +30,9 @@ class Bok extends Base {
         add_action( 'plugins_loaded', array( 'Bok\\Template', 'init' ));
         // init scripts
         add_action('after_setup_theme', array(__CLASS__, 'init'));
+
+        // Init restaurant post type
+        \Bok\Controller\Restaurant::getInstance();
     }
 
     /**

@@ -22,11 +22,3 @@ include_once( 'template.php' );
 
 \Bok\Controller\Bok::getInstance();
 
-// Init restaurant post type
-\Bok\Controller\Restaurant::getInstance();
-
-//init the meta box slider
-/**@var \Bok\Controller\Metabox_Slider $metaboxSlider */
-$metaboxSlider = \Bok\Controller\Metabox_Slider::getInstance();
-$metaboxSlider->setName('Slider Images');
-$metaboxSlider->setPostTypes(['restaurant']);

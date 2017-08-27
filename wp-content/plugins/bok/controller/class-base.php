@@ -4,7 +4,8 @@ namespace Bok\Controller;
  * Class Base
  */
 class Base {
-    private static $instance;
+
+    protected static $instance;
 
     // private constructor
     private function __construct() { }

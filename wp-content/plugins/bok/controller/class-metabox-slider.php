@@ -3,13 +3,7 @@ namespace Bok\Controller;
 /**
  * Class Metabox_Slider
  */
-class Metabox_Slider extends Base {
-
-    protected static $instance;
-
-    protected static $postTypes = array();
-
-    protected static $name = 'Images';
+class Metabox_Slider extends Metabox_Base {
 
     protected static $numOfImage = 6;
 
@@ -17,7 +11,7 @@ class Metabox_Slider extends Base {
         $class = get_called_class();
 
         if (!self::$instance[$class]) {
-            self::$instance[$class] = new self;
+            self::$instance[$class] = new $class(func_get_args());
         }
 
         return self::$instance[$class];
@@ -26,17 +20,18 @@ class Metabox_Slider extends Base {
     /**
      * Returns an instance of this class.
      */
-    public static function init() {
-        add_action('add_meta_boxes', array(__CLASS__, 'custom_postimage_meta_box'));
-        add_action('save_post', array(__CLASS__, 'custom_postimage_meta_box_save'));
-        add_action('wp_enqueue_scripts', array(__CLASS__, 'custom_slider_scripts'));
+    public function init() {
+        add_action('add_meta_boxes', array($this, 'custom_postimage_meta_box'));
+        add_action('save_post', array($this, 'custom_postimage_meta_box_save'));
+        add_action('wp_enqueue_scripts', array($this, 'custom_slider_scripts'));
     }
 
     /**
      * Initializes the plugin by setting filters and administration functions.
      */
-    private function __construct() {
-        add_action('after_setup_theme', array(__CLASS__, 'init'));
+    protected function __construct() {
+        call_user_func_array(array('parent', '__construct'), func_get_args());
+        add_action('after_setup_theme', array($this, 'init'));
     }
 
     /**
@@ -51,9 +46,9 @@ class Metabox_Slider extends Base {
      * On which post types should the box appear?
      */
     public function custom_postimage_meta_box() {
-        $post_types = self::$postTypes;
+        $post_types = $this->getPostTypes();
         foreach ($post_types as $pt) {
-            add_meta_box('custom_postimage_meta_box', self::$name, array(__CLASS__, 'custom_postimage_meta_box_func'), $pt, 'side', 'low');
+            add_meta_box('custom_postimage_meta_box', $this->name, array($this, 'custom_postimage_meta_box_func'), $pt, 'side', 'low');
         }
     }
 
@@ -64,7 +59,7 @@ class Metabox_Slider extends Base {
      */
     function custom_postimage_meta_box_func($post) {
         //an array with all the images (ba meta key). The same array has to be in custom_postimage_meta_box_save($post_id) as well.
-        $meta_keys = self::getMetaKeys();
+        $meta_keys = $this->getMetaKeys();
 
         foreach ($meta_keys as $meta_key) {
             $image_meta_val = get_post_meta($post->ID, $meta_key, true);
@@ -142,7 +137,7 @@ class Metabox_Slider extends Base {
         if (isset($_POST['custom_postimage_meta_box_nonce']) && wp_verify_nonce($_POST['custom_postimage_meta_box_nonce'], 'custom_postimage_meta_box')) {
 
             //same array as in custom_postimage_meta_box_func($post)
-            $meta_keys = self::getMetaKeys();
+            $meta_keys = $this->getMetaKeys();
             foreach ($meta_keys as $meta_key) {
                 if (isset($_POST[$meta_key]) && intval($_POST[$meta_key]) != '') {
                     update_post_meta($post_id, $meta_key, intval($_POST[$meta_key]));
@@ -151,7 +146,7 @@ class Metabox_Slider extends Base {
                 }
             }
 
-            update_post_meta($post_id, 'slider_image_count', intval(count(self::getMetaKeys())));
+            update_post_meta($post_id, 'slider_image_count', intval(count($this->getMetaKeys())));
         }
     }
 
@@ -159,25 +154,9 @@ class Metabox_Slider extends Base {
         $meta_keys = array();
 
         for($i = 0; $i < self::$numOfImage; $i++) {
-            $meta_keys[] = 'slider_image_' . $i;
+            $meta_keys[] = $this->id .  '_' . $i;
         }
 
         return $meta_keys;
-    }
-
-    public function setPostTypes($postTypes) {
-        self::$postTypes = $postTypes;
-    }
-
-    public function getPostTypes() {
-        return self::$postTypes;
-    }
-
-    public function setName($name) {
-        self::$name = $name;
-    }
-
-    public function getName() {
-        return self::$name;
     }
 }

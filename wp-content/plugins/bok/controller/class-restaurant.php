@@ -29,6 +29,22 @@ class Restaurant extends Base {
         add_filter('single_template',  array(__CLASS__, 'initTemplate'));
         /* Include js/css scripts*/
         add_action('after_setup_theme', array(__CLASS__, 'initScripts'));
+
+        //init the meta box slider
+        /**@var \Bok\Controller\Metabox_Slider $metaboxSlider */
+        \Bok\Controller\Metabox_Slider::getInstance('slider_image', 'Slider',['restaurant'] );
+
+        //init metabox wysiwug
+        /**@var \Bok\Controller\Metabox_Wysiwyg $metaboxEditor */
+        \Bok\Controller\Metabox_Wysiwyg::getInstance('restaurant_lunch_menu', 'Mittagtisch',['restaurant']);
+
+        //init metabox wysiwug
+        /**@var \Bok\Controller\Metabox_Wysiwyg $metaboxEditor */
+        \Bok\Controller\Metabox_Wysiwyg::getInstance('restaurant_day_menu', 'Mittag',['restaurant']);
+
+        //init metabox wysiwug
+        /**@var \Bok\Controller\Metabox_Wysiwyg $metaboxEditor */
+        \Bok\Controller\Metabox_Wysiwyg::getInstance('restaurant_evening_menu', 'Abend',['restaurant']);
     }
 
     public function initScripts() {
