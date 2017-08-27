@@ -34,3 +34,22 @@
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
+
+.row .news-body {
+    text-align: justify;
+}
+
+.row .media-object {
+    max-width: 150px;
+}
+
+.thumbnail-left {
+    float: left;
+    padding-right: 15px;
+}
+
+.thumbnail-right {
+    float: right;
+    padding-left: 15px;
+}
+

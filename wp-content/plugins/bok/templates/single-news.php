@@ -17,7 +17,18 @@ get_header(); ?>
                         <h2><?php the_title(); ?></h2>
                     </div>
                     <div class="row">
-                        <?php the_content(); wp_link_pages(); ?>
+                        <div class="news">
+                            <div class="thumbnail-left media-top">
+                                <a class="thumbnail" href="<?php the_permalink(); ?>">
+                                    <?php if ( has_post_thumbnail() ) : ?>
+                                        <img class="media-object" src="<?php the_post_thumbnail_url('thumbnail'); ?>" alt="<?php the_title_attribute(); ?>">
+                                    <?php endif; ?>
+                                </a>
+                            </div>
+                            <div class="news-body">
+                                <?php the_content() ?>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
