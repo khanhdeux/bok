@@ -40,7 +40,6 @@ class Restaurant extends Base {
      */
     public function customRestaurantScripts() {
         wp_enqueue_script('bokGoogleMaps', plugins_url( BOK__PLUGIN_NAME . '/js/bok.googlemaps.js'), array('jquery'));
-        wp_enqueue_script('bokInit', plugins_url( BOK__PLUGIN_NAME . '/js/bok.init.js'), array('jquery'));
     }
 
     /**
