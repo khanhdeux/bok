@@ -18,3 +18,19 @@
     left: 0px;
     margin-left: 0px;
 }
+
+.imprint {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.imprint a {
+    font-size: 20px;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}

@@ -13,6 +13,8 @@ class Bok extends Base {
 
     protected static $instance;
 
+    protected $overrideTemplates = array('template-home.php');
+
     public static function getInstance() {
         $class = get_called_class();
 
@@ -29,8 +31,9 @@ class Bok extends Base {
         //init template
         add_action( 'plugins_loaded', array( 'Bok\\Template', 'init' ));
         // init scripts
-        add_action('after_setup_theme', array(__CLASS__, 'init'));
-
+        add_action('after_setup_theme', array($this, 'init'));
+        // Override templates
+        add_filter('page_template',  array($this, 'overrideTemplates'));
         // Init restaurant post type
         \Bok\Controller\Restaurant::getInstance();
     }
@@ -38,8 +41,8 @@ class Bok extends Base {
     /**
      * Returns an instance of this class.
      */
-    public static function init() {
-        add_action('wp_enqueue_scripts', array(__CLASS__, 'initScripts'));
+    public function init() {
+        add_action('wp_enqueue_scripts', array($this, 'initScripts'));
     }
 
     /**
@@ -53,5 +56,22 @@ class Bok extends Base {
         wp_enqueue_style( 'bootstrapCSS', plugins_url( BOK__PLUGIN_NAME . '/css/bootstrap.min.css'));
         wp_enqueue_style( 'jquery-uiCSS', plugins_url( BOK__PLUGIN_NAME . '/css/jquery-ui.css'));
         wp_enqueue_style( 'main', plugins_url( BOK__PLUGIN_NAME . '/css/main.css'));
+    }
+
+    /**
+     * Overrides template
+     *
+     * @param $path
+     * @param string $file
+     * @return string
+     */
+    public function overrideTemplates($page_template) {
+        $id = substr($page_template, strrpos($page_template, '/') + 1);
+
+        if (in_array($id, $this->overrideTemplates)) {
+            $page_template = BOK__PLUGIN_DIR . 'templates/' . $id;
+        }
+
+        return $page_template;
     }
 }
