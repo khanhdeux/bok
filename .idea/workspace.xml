@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d36b1a2a-34a6-4c03-800e-75c6f61631c3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/css/main.css" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/templates/single-restaurant.php" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/templates/single-restaurant.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="box.iws" />
@@ -53,6 +52,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/rydon/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2437" max-vertical-offset="29430">
+              <caret line="174" column="1" selection-start-line="174" selection-start-column="1" selection-end-line="174" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="single-restaurant.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/single-restaurant.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,8 +75,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.086538464" vertical-offset="0" max-vertical-offset="520">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.34615386" vertical-offset="0" max-vertical-offset="520">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -123,31 +132,6 @@
                 <marker date="1503838802000" expanded="true" signature="2932:2998" placeholder="{...}" />
                 <marker date="1503838802000" expanded="true" signature="3008:3069" placeholder="{...}" />
                 <marker date="1503838802000" expanded="true" signature="3328:3354" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="general-template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.083333" vertical-offset="45622" max-vertical-offset="57330">
-              <caret line="3069" column="9" selection-start-line="3069" selection-start-column="9" selection-end-line="3069" selection-end-column="9" />
-              <folding>
-                <marker date="1502741986000" expanded="true" signature="29372:29385" placeholder="..." />
-                <marker date="1502741986000" expanded="true" signature="56013:56195" placeholder="SELECT YEAR(..." />
-                <marker date="1502741986000" expanded="true" signature="57087:57222" placeholder="SELECT YEAR(..." />
-                <marker date="1502741986000" expanded="true" signature="57987:58231" placeholder="SELECT YEAR(..." />
-                <marker date="1502741986000" expanded="true" signature="59202:59440" placeholder="SELECT DISTI..." />
-                <marker date="1502741986000" expanded="true" signature="60844:60902" placeholder="SELECT * FRO..." />
-                <marker date="1502741986000" expanded="true" signature="63207:63302" placeholder="SELECT 1 as ..." />
-                <marker date="1502741986000" expanded="true" signature="64540:64754" placeholder="SELECT MONTH..." />
-                <marker date="1502741986000" expanded="true" signature="64783:65014" placeholder="SELECT MONTH..." />
-                <marker date="1502741986000" expanded="true" signature="65190:65331" placeholder="..." />
-                <marker date="1502741986000" expanded="true" signature="65325:65331" placeholder="..." />
-                <marker date="1502741986000" expanded="true" signature="65776:65782" placeholder="..." />
-                <marker date="1502741986000" expanded="true" signature="66585:66591" placeholder="..." />
-                <marker date="1502741986000" expanded="true" signature="66684:66919" placeholder="SELECT DISTI..." />
               </folding>
             </state>
           </provider>
@@ -564,7 +548,13 @@
       <option name="project" value="LOCAL" />
       <updated>1503840050308</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="align slider">
+      <created>1503841252284</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1503841252284</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -585,7 +575,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27843428" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27843428" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -627,7 +617,8 @@
     <MESSAGE value="tinymce plugins" />
     <MESSAGE value="style a little bit" />
     <MESSAGE value="Restructure class to object + slider WYSIWUG" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restructure class to object + slider WYSIWUG" />
+    <MESSAGE value="align slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="align slider" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -672,14 +663,6 @@
           <folding>
             <element signature="e#6#79#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/rydon/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="21068" max-vertical-offset="29430">
-          <caret line="1414" column="1" selection-start-line="1414" selection-start-column="1" selection-end-line="1414" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,20 +1011,20 @@
         <state vertical-scroll-proportion="-14.083333" vertical-offset="45622" max-vertical-offset="57330">
           <caret line="3069" column="9" selection-start-line="3069" selection-start-column="9" selection-end-line="3069" selection-end-column="9" />
           <folding>
-            <marker date="1502741986000" expanded="true" signature="29372:29385" placeholder="..." />
-            <marker date="1502741986000" expanded="true" signature="56013:56195" placeholder="SELECT YEAR(..." />
-            <marker date="1502741986000" expanded="true" signature="57087:57222" placeholder="SELECT YEAR(..." />
-            <marker date="1502741986000" expanded="true" signature="57987:58231" placeholder="SELECT YEAR(..." />
-            <marker date="1502741986000" expanded="true" signature="59202:59440" placeholder="SELECT DISTI..." />
-            <marker date="1502741986000" expanded="true" signature="60844:60902" placeholder="SELECT * FRO..." />
-            <marker date="1502741986000" expanded="true" signature="63207:63302" placeholder="SELECT 1 as ..." />
-            <marker date="1502741986000" expanded="true" signature="64540:64754" placeholder="SELECT MONTH..." />
-            <marker date="1502741986000" expanded="true" signature="64783:65014" placeholder="SELECT MONTH..." />
-            <marker date="1502741986000" expanded="true" signature="65190:65331" placeholder="..." />
-            <marker date="1502741986000" expanded="true" signature="65325:65331" placeholder="..." />
-            <marker date="1502741986000" expanded="true" signature="65776:65782" placeholder="..." />
-            <marker date="1502741986000" expanded="true" signature="66585:66591" placeholder="..." />
-            <marker date="1502741986000" expanded="true" signature="66684:66919" placeholder="SELECT DISTI..." />
+            <marker date="1502741986000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1502741986000" expanded="true" signature="-1:-1" placeholder="SELECT YEAR(..." />
+            <marker date="1502741986000" expanded="true" signature="-1:-1" placeholder="SELECT YEAR(..." />
+            <marker date="1502741986000" expanded="true" signature="-1:-1" placeholder="SELECT YEAR(..." />
+            <marker date="1502741986000" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..." />
+            <marker date="1502741986000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1502741986000" expanded="true" signature="-1:-1" placeholder="SELECT 1 as ..." />
+            <marker date="1502741986000" expanded="true" signature="-1:-1" placeholder="SELECT MONTH..." />
+            <marker date="1502741986000" expanded="true" signature="-1:-1" placeholder="SELECT MONTH..." />
+            <marker date="1502741986000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1502741986000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1502741986000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1502741986000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1502741986000" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..." />
           </folding>
         </state>
       </provider>
@@ -1127,10 +1110,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/rydon/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2437" max-vertical-offset="29430">
+          <caret line="174" column="1" selection-start-line="174" selection-start-column="1" selection-end-line="174" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.086538464" vertical-offset="0" max-vertical-offset="520">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.34615386" vertical-offset="0" max-vertical-offset="520">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
       </provider>
