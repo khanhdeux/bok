@@ -26,6 +26,9 @@ class Bok extends Base {
      * Constructors
      */
     private function __construct() {
+        //init template
+        add_action( 'plugins_loaded', array( 'Bok\\Template', 'init' ));
+        // init scripts
         add_action('after_setup_theme', array(__CLASS__, 'init'));
     }
 

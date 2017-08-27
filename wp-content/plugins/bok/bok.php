@@ -25,9 +25,6 @@ include_once( 'template.php' );
 // Init restaurant post type
 \Bok\Controller\Restaurant::getInstance();
 
-//init template
-add_action( 'plugins_loaded', array( __NAMESPACE__  . '\\Template', 'init' ));
-
 //init the meta box slider
 /**@var \Bok\Controller\Metabox_Slider $metaboxSlider */
 $metaboxSlider = \Bok\Controller\Metabox_Slider::getInstance();
