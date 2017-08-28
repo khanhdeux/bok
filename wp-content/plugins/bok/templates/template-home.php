@@ -95,6 +95,7 @@ get_header(); ?>
         $(function(){
             $(window).hashchange( function(){
                 var hash = location.hash;
+                hide_all();
                 if(hash.replace( /^#/, '' )=="home") {
                     document.title = '<?php bloginfo( $show ); ?> - <?php bloginfo('description'); ?>';
                     back_menu();
@@ -245,6 +246,16 @@ get_header(); ?>
         $('#menu').animate({'top':-$(window).height()+'px'});
         $('#contacts').show();
         $('#contacts').css('top',$(window).height()+'px').animate({'top':'0'}).load("contact", function(){ initialize_google_map(); });
+    }
+
+    function hide_all() {
+        $('#aboutus').hide();
+        $('#ourworks').hide();
+        $('#service').hide();
+        $('#ourpricing').hide();
+        $('#blogs').hide();
+        $('#unsererestaurants').hide();
+        $('#contacts').hide();
     }
 
     function init_video_channel() {
