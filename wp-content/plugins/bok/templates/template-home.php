@@ -79,6 +79,7 @@ get_header(); ?>
 <div id="ourworks" class="f"><span class="default-loading-icon spin"></span></div>
 <div id="service" class="f"><span class="default-loading-icon spin"></span></div>
 <div id="ourpricing" class="f"><span class="default-loading-icon spin"></span></div>
+<div id="recipes" class="f"><span class="default-loading-icon spin"></span></div>
 <div id="blogs" class="f"><span class="default-loading-icon spin"></span></div>
 <!-- Step 1: To add a new animated page -->
 <!-- <div id="example" class="f"><span class="default-loading-icon spin"></span></div> -->
@@ -119,6 +120,10 @@ get_header(); ?>
                 if(hash.replace( /^#/, '' )=="blog") {
                     document.title = '<?php bloginfo( $show ); ?> - Blog';
                     go_blogs();
+                }
+                if(hash.replace( /^#/, '' )=="recipes") {
+                    document.title = '<?php bloginfo( $show ); ?> - Blog';
+                    go_recipes();
                 }
                 /* Step 2: To add a new animated page */
                 /*
@@ -179,6 +184,7 @@ get_header(); ?>
         if($('#service').css('display')=='block') { $('#service').animate({'left':$(window).width()+'px'}, function(){ $('#service').hide(); }); }
         if($('#ourpricing').css('display')=='block') { $('#ourpricing').animate({'top':-$(window).height()+'px'}, function(){ $('#ourpricing').hide(); }); }
         if($('#blogs').css('display')=='block') { $('#blogs').animate({'left':-$(window).width()+'px'}, function(){ $('#blogs').hide(); }); }
+        if($('#recipes').css('display')=='block') { $('#recipes').animate({'left':-$(window).width()+'px'}, function(){ $('#recipes').hide(); }); }
         /* Step 3: To add a new animated page */
         /* if($('#example').css('display')=='block') { $('#example').animate({'left':-$(window).width()+'px'}, function(){ $('#example').hide(); }); } */
 		if($('#unsererestaurants').css('display')=='block') { $('#unsererestaurants').animate({'left':-$(window).width()+'px'}, function(){ $('#unsererestaurants').hide(); }); }
@@ -226,6 +232,13 @@ get_header(); ?>
         $('#blogs').load("blog");
     }
 
+    function go_recipes() {
+        show_back();
+        $('#menu').animate({'top':$(window).height()+'px'});
+        $('#recipes').css('top',-$(window).height()+'px').css('display','block').animate({'top':'0'});
+        $('#recipes').load("recipe");
+    }
+
     /* Step 4: To add a new animated page */
     /* function go_example() {
         show_back();
@@ -253,6 +266,7 @@ get_header(); ?>
         $('#ourworks').hide();
         $('#service').hide();
         $('#ourpricing').hide();
+        $('#recipes').hide();
         $('#blogs').hide();
         $('#unsererestaurants').hide();
         $('#contacts').hide();

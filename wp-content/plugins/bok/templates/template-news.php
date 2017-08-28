@@ -9,7 +9,7 @@
  */
 ?>
 
-<div id="main-wp-content" class="f">
+<div id="main-wp-content" class="recipes f">
     <div class="container container-800">
         <div class="row text-center">
             <h2>Neuigkeiten</h2>
@@ -31,7 +31,7 @@
                                     <?php endif; ?>
                                 </a>
                             </div>
-                            <div class="news-body">
+                            <div class="text-justify">
                                 <h4 class="media-heading"><?php the_title() ?></h4>
                                 <?php the_content() ?>
                             </div>

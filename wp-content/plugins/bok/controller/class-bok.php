@@ -36,6 +36,8 @@ class Bok extends Base {
         \Bok\Controller\Restaurant::getInstance();
         // Init news post type
         \Bok\Controller\News::getInstance();
+        // Init recipe post type
+        \Bok\Controller\Recipe::getInstance();
     }
 
     /**
