@@ -11,7 +11,7 @@ namespace Bok\Controller;
 
 class Bok extends Base {
 
-    protected $overrideTemplates = array('template-home.php');
+    protected $overrideTemplates = array('template-home.php', 'template-contact.php');
 
     public static function getInstance() {
         $class = get_called_class();
