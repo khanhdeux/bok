@@ -258,7 +258,7 @@ get_header(); ?>
         show_back();
         $('#menu').animate({'top':-$(window).height()+'px'});
         $('#contacts').show();
-        $('#contacts').css('top',$(window).height()+'px').animate({'top':'0'}).load("contact", function(){ initialize_google_map(); });
+        $('#contacts').css('top',$(window).height()+'px').animate({'top':'0'}).load("contact", function(){ });
     }
 
     function hide_all() {

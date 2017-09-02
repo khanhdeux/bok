@@ -17,6 +17,7 @@ get_header(); ?>
                     </div>
                     <div class="row">
                         <?php the_content(); wp_link_pages(); ?>
+                        <a href="<?php echo get_site_url() . '/reservation?r=' . strtolower(get_the_title()); ?>" class="btn btn-primary btn-lg margin" role="button" aria-disabled="true">Tisch reservieren</a>
                     </div>
                     <div class="row slider">
                         <?php

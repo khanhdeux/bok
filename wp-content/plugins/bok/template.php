@@ -77,7 +77,8 @@ class Template {
         $this->templates = array(
             'template-restaurants.php'     => 'Bok Restaurants Template',
             'template-news.php'            => 'Bok News Template',
-            'template-recipes.php'           => 'Bok Recipe Template',
+            'template-recipes.php'         => 'Bok Recipe Template',
+            'template-reservation.php'     => 'Bok Reservation Template',
         );
 
     }
