@@ -7,23 +7,11 @@
  * @since 	1.0.0
  * @version	1.0.0
  */
-get_header(); ?>
-<a href="<?php echo get_site_url() ?>" class="back"><div id="a_back"><span><?php echo $rydon_option['text-back-menu']; ?></span><i class="fa fa-bars"></i></div></a>
+get_header('bok'); ?>
 
-<style>
-    #map_wrapper {
-        height: 400px;
-    }
-
-    #map_canvas {
-        width: 100%;
-        height: 100%;
-    }
-</style>
-
-<div id="main-wp-content" class="restaurant f">
-    <div class="container container-800">
-        <div class="row text-center">
+<div id="main-bok-content">
+    <div class="container container-800 text-center">
+        <div class="row">
             <h2>Unsere Restaurants</h2>
         </div>
         <div class="row">
@@ -31,11 +19,11 @@ get_header(); ?>
 
             <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
-                <div class="col-sm-4">
+                <div class="col-sm-12 col-md-4">
                     <p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title() ?></a></p>
                     <?php if ( has_post_thumbnail() ) : ?>
                         <a class="thumbnail" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-                            <?php the_post_thumbnail('medium'); ?>
+                            <?php the_post_thumbnail('full'); ?>
                         </a>
                     <?php endif; ?>
                     <?php the_content(); ?>
@@ -50,12 +38,13 @@ get_header(); ?>
                 </div>
             </div>
         </div>
+        <script type="application/javascript">
+            $(document).ready(function() {
+                $('#map_canvas').googlemap();
+            });
+        </script>
+
     </div>
-    <script type="application/javascript">
-        $(document).ready(function() {
-            $('#map_canvas').googlemap();
-        });
-    </script>
 </div>
 <?php wp_footer();?>
 

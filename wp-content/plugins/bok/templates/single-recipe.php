@@ -6,9 +6,8 @@
  * Author Profile: http://themeforest.net/user/abdoweb
  * Theme Name: Rydon 2.0
  */
-get_header(); ?>
-<a href="<?php echo get_site_url() . '#recipes' ?>" class="back"><div id="a_back"><span><?php echo $rydon_option['text-back-menu']; ?></span><i class="fa fa-bars"></i></div></a>
-  <div id="main-wp-content">
+get_header('bok'); ?>
+  <div id="main-bok-content">
       <?php while ( have_posts() ) : the_post(); ?>
             <div class="section" id="single-section">
                 <div class="container container-800">

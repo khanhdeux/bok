@@ -6,9 +6,8 @@
  * Author Profile: http://themeforest.net/user/abdoweb
  * Theme Name: Rydon 2.0
  */
-get_header(); ?>
-<a href="<?php echo get_site_url() . '#unsere-restaurants' ?>" class="back"><div id="a_back"><span><?php echo $rydon_option['text-back-menu']; ?></span><i class="fa fa-bars"></i></div></a>
-  <div id="main-wp-content">
+get_header('bok'); ?>
+  <div id="main-bok-content">
       <?php while ( have_posts() ) : the_post(); ?>
             <div class="section" id="single-section">
                 <div class="container container-800">
@@ -28,7 +27,7 @@ get_header(); ?>
                                 $image = get_post_meta( $post->ID, 'slider_image_' . $i, true);
                                 if(!empty($image)) {
                                     ?>
-                                    <div class="col-sm-2">
+                                    <div class="col-sm-12 col-md-2">
                                         <a href="<?php echo wp_get_attachment_image_src($image, 'full')[0]; ?>" class="slider-image thumbnail">
                                             <img src="<?php echo wp_get_attachment_image_src($image, 'thumbnail')[0]; ?>" alt="">
                                         </a>

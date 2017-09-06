@@ -14,10 +14,9 @@ get_header(); ?>
     <u><span class="default-loading-icon spin"></span></u>
     <i></i>
 </div>
-<a href="#home" class="back"><div id="a_back"><span><?php echo $rydon_option['text-back-menu']; ?></span><i class="fa fa-bars"></i></div></a>
 
 <div id="menu" class="f">
-    <div id="bloc_start" class="abcde">
+    <div id="bloc_start">
         <img src="<?php echo $rydon_option['logo']['url']; ?>" class="logo">
         <div class="texte" id="texte-page-home-top"><?php echo $rydon_option['text-home-top']; ?></div>
         <div class="texte"><?php echo $rydon_option['text-home-bottom']; ?></div>
