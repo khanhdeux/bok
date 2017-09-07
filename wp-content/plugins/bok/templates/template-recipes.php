@@ -40,11 +40,11 @@ get_header('bok'); ?>
             <div class="col-sm-6">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        <p class="text-center"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title() ?></a></p>
+                        <h2 class="text-center"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title() ?></a></h2>
                         <?php if ( has_post_thumbnail() ) : ?>
                             <div class="thumbnail-left">
                                 <a class="thumbnail" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-                                    <?php the_post_thumbnail('thumbnail'); ?>
+                                    <?php the_post_thumbnail('full'); ?>
                                 </a>
                             </div>
                         <?php endif; ?>

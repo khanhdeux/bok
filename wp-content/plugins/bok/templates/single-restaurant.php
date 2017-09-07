@@ -12,11 +12,15 @@ get_header('bok'); ?>
             <div class="section" id="single-section">
                 <div class="container container-800">
                     <div class="row">
-                        <h2><?php the_title(); ?></h2>
+                        <div class="col-sm-12">
+                            <h2><?php the_title(); ?></h2>
+                        </div>
                     </div>
                     <div class="row">
-                        <?php the_content(); wp_link_pages(); ?>
-                        <a href="<?php echo get_site_url() . '/reservation?r=' . strtolower(get_the_title()); ?>" class="btn btn-primary btn-lg margin" role="button" aria-disabled="true">Tisch reservieren</a>
+                        <div class="col-sm-12">
+                            <?php the_content(); wp_link_pages(); ?>
+                            <a href="<?php echo get_site_url() . '/reservation?r=' . strtolower(get_the_title()); ?>" class="btn btn-primary btn-lg margin" role="button" aria-disabled="true">Tisch reservieren</a>
+                         </div>
                     </div>
                     <div class="row slider">
                         <?php
@@ -27,7 +31,7 @@ get_header('bok'); ?>
                                 $image = get_post_meta( $post->ID, 'slider_image_' . $i, true);
                                 if(!empty($image)) {
                                     ?>
-                                    <div class="col-sm-12 col-md-2">
+                                    <div class="col-sm-4 col-md-2">
                                         <a href="<?php echo wp_get_attachment_image_src($image, 'full')[0]; ?>" class="slider-image thumbnail">
                                             <img src="<?php echo wp_get_attachment_image_src($image, 'thumbnail')[0]; ?>" alt="">
                                         </a>
@@ -40,18 +44,20 @@ get_header('bok'); ?>
                     </div>
 
                     <div class="row">
-                        <div id="accordion">
-                            <h3>Mittagtisch</h3>
-                            <div>
-                                <?php echo get_post_meta( $post->ID, 'restaurant_lunch_menu', true) ?>
-                            </div>
-                            <h3>Mittag</h3>
-                            <div>
-                                <?php echo get_post_meta( $post->ID, 'restaurant_day_menu', true) ?>
-                            </div>
-                            <h3>Abend</h3>
-                            <div>
-                                <?php echo get_post_meta( $post->ID, 'restaurant_evening_menu', true) ?>
+                        <div class="col-sm-12">
+                            <div id="accordion">
+                                <h3>Mittagtisch</h3>
+                                <div>
+                                    <?php echo get_post_meta( $post->ID, 'restaurant_lunch_menu', true) ?>
+                                </div>
+                                <h3>Mittag</h3>
+                                <div>
+                                    <?php echo get_post_meta( $post->ID, 'restaurant_day_menu', true) ?>
+                                </div>
+                                <h3>Abend</h3>
+                                <div>
+                                    <?php echo get_post_meta( $post->ID, 'restaurant_evening_menu', true) ?>
+                                </div>
                             </div>
                         </div>
                     </div>

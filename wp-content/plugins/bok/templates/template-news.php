@@ -27,7 +27,7 @@ get_header('bok'); ?>
                                 <div class="thumbnail-<?php echo ((($count % 2) == 0 ) ? "right" : "left"); ?> media-top">
                                     <a class="thumbnail" href="<?php the_permalink(); ?>">
                                         <?php if ( has_post_thumbnail() ) : ?>
-                                            <img class="media-object" src="<?php the_post_thumbnail_url('thumbnail'); ?>" alt="<?php the_title_attribute(); ?>">
+                                            <img class="media-object" src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php the_title_attribute(); ?>">
                                         <?php endif; ?>
                                     </a>
                                 </div>
