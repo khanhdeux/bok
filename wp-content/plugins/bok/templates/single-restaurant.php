@@ -31,7 +31,7 @@ get_header('bok'); ?>
                                 $image = get_post_meta( $post->ID, 'slider_image_' . $i, true);
                                 if(!empty($image)) {
                                     ?>
-                                    <div class="col-sm-4 col-md-2">
+                                    <div class="col-sm-4 col-md-2 mx150 pull-left">
                                         <a href="<?php echo wp_get_attachment_image_src($image, 'full')[0]; ?>" class="slider-image thumbnail">
                                             <img src="<?php echo wp_get_attachment_image_src($image, 'thumbnail')[0]; ?>" alt="">
                                         </a>

@@ -20,7 +20,7 @@ get_header('bok'); ?>
             <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
                 <div class="col-sm-12 col-md-4">
-                    <p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title() ?></a></p>
+                    <p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><h3><?php the_title() ?></h3></a></p>
                     <?php if ( has_post_thumbnail() ) : ?>
                         <a class="thumbnail" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
                             <?php the_post_thumbnail('full'); ?>
