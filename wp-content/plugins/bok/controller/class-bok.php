@@ -38,6 +38,8 @@ class Bok extends Base {
         \Bok\Controller\News::getInstance();
         // Init recipe post type
         \Bok\Controller\Recipe::getInstance();
+        // Init recipe post type
+        \Bok\Controller\Story::getInstance();
     }
 
     /**
