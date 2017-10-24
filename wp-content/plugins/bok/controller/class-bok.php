@@ -59,7 +59,7 @@ class Bok extends Base {
         wp_enqueue_script('bokInit', plugins_url( BOK__PLUGIN_NAME . '/js/bok.init.js'), array('jquery'), false, true);
         wp_enqueue_style( 'bootstrapCSS', plugins_url( BOK__PLUGIN_NAME . '/css/bootstrap.min.css'));
         wp_enqueue_style( 'jquery-uiCSS', plugins_url( BOK__PLUGIN_NAME . '/css/jquery-ui.css'));
-        wp_enqueue_style( 'main', plugins_url( BOK__PLUGIN_NAME . '/css/main.css'));
+        wp_enqueue_style( 'main', plugins_url( BOK__PLUGIN_NAME . '/stylesheets/main.css'));
     }
 
     /**
