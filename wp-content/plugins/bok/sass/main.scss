@@ -26,14 +26,35 @@ a {
 }
 
 #nav {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  text-align: right;
+
   a {
-    font-size: 30px;
+    font-size: 25px;
     color: white;
+    float:right;
+    opacity: 0.8;
+    height: auto;
     text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+    min-width: 246px;
+    text-decoration: underline;
+
+    &:hover {
+      background-color: #b5b1b1;
+      border: none !important;
+    }
+  }
+
+  ul {
+    li {
+      float:none;
+    }
   }
 }
 
