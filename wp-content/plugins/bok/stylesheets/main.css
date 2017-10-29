@@ -1,43 +1,45 @@
 /* line 1, ../sass/main.scss */
 body {
   overflow: auto;
+  font-family: "Gill Sans",Helvetica,Arial,sans-serif;
+  font-weight: 100;
 }
 
-/* line 5, ../sass/main.scss */
+/* line 7, ../sass/main.scss */
 a {
   font-size: inherit;
   color: #000000;
 }
 
-/* line 10, ../sass/main.scss */
+/* line 12, ../sass/main.scss */
 .row {
   margin: 0px;
   padding: 0px;
 }
-/* line 14, ../sass/main.scss */
+/* line 16, ../sass/main.scss */
 .row .news-body {
   text-align: justify;
 }
-/* line 18, ../sass/main.scss */
+/* line 20, ../sass/main.scss */
 .row .media-object {
   max-width: 300px;
   width: 100%;
 }
 
-/* line 23, ../sass/main.scss */
+/* line 25, ../sass/main.scss */
 .navbar {
   margin-left: 15px;
   margin-right: 15px;
 }
 
-/* line 28, ../sass/main.scss */
+/* line 30, ../sass/main.scss */
 #nav {
   position: absolute;
   top: 0px;
   right: 0px;
   text-align: right;
 }
-/* line 34, ../sass/main.scss */
+/* line 36, ../sass/main.scss */
 #nav a {
   font-size: 25px;
   color: white;
@@ -48,89 +50,182 @@ a {
   min-width: 246px;
   text-decoration: underline;
 }
-/* line 48, ../sass/main.scss */
+/* line 50, ../sass/main.scss */
 #nav a:hover {
   background-color: #b5b1b1;
   border: none !important;
 }
-/* line 55, ../sass/main.scss */
+/* line 57, ../sass/main.scss */
 #nav ul li {
   float: none;
 }
 
-/* line 61, ../sass/main.scss */
+/* line 63, ../sass/main.scss */
 #bloc_start {
   width: 100%;
   left: 0px;
   margin-left: 0px;
 }
 
-/* line 67, ../sass/main.scss */
+/* line 69, ../sass/main.scss */
 .imprint {
   position: absolute;
   right: 20px;
   bottom: 20px;
 }
-/* line 72, ../sass/main.scss */
+/* line 74, ../sass/main.scss */
 .imprint a {
   font-size: 20px;
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-/* line 83, ../sass/main.scss */
+/* line 85, ../sass/main.scss */
 .thumbnail-left {
   float: left;
   padding-right: 15px;
 }
 
-/* line 88, ../sass/main.scss */
+/* line 90, ../sass/main.scss */
 .thumbnail-right {
   float: right;
   padding-left: 15px;
 }
 
-/* line 93, ../sass/main.scss */
+/* line 95, ../sass/main.scss */
 .top20 {
   margin-top: 20px;
 }
 
-/* line 97, ../sass/main.scss */
-.current-menu-item {
-  background-color: #d3d3d3;
-}
-
-/* line 101, ../sass/main.scss */
+/* line 99, ../sass/main.scss */
 .mx150 {
   max-width: 150px;
 }
 
-/* line 105, ../sass/main.scss */
-.bok-row {
+/* line 103, ../sass/main.scss */
+.bok-video {
   position: relative;
   display: block;
   margin-left: 15px;
   margin-right: 15px;
 }
 
+/* line 111, ../sass/main.scss */
+.row .col-full {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 116, ../sass/main.scss */
+.row.equal {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* line 121, ../sass/main.scss */
+.row .col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/*==================================================
+=            HEADER                               =
+==================================================*/
+/* line 135, ../sass/main.scss */
+.navbar-default {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+  text-transform: uppercase;
+}
+/* line 146, ../sass/main.scss */
+.navbar-default .container-fluid {
+  margin-top: 28px;
+}
+/* line 151, ../sass/main.scss */
+.navbar-default .navbar-header button {
+  background-color: transparent !important;
+}
+/* line 158, ../sass/main.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+/* line 160, ../sass/main.scss */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ffffff;
+}
+/* line 165, ../sass/main.scss */
+.navbar-default .navbar-nav > li.current-menu-item {
+  background-color: #d3d3d3;
+}
+/* line 168, ../sass/main.scss */
+.navbar-default .navbar-nav > li.current-menu-item > a {
+  color: #000000;
+}
+/* line 174, ../sass/main.scss */
+.navbar-default .navbar-nav .menu-item {
+  margin-left: 20px;
+}
+
 /*==================================================
 =            Pages                               =
 ==================================================*/
-/* line 115, ../sass/main.scss */
+/* line 185, ../sass/main.scss */
 #map_wrapper {
   height: 400px;
 }
 
-/* line 119, ../sass/main.scss */
+/* line 189, ../sass/main.scss */
 #map_canvas {
   width: 100%;
   height: 100%;
 }
 
+/* line 194, ../sass/main.scss */
+#main-bok-content {
+  z-index: 1;
+}
+/* line 197, ../sass/main.scss */
+#main-bok-content .bok-restaurant-top {
+  position: relative;
+}
+/* line 202, ../sass/main.scss */
+#main-bok-content .bok-restaurant-row [class^='col-'] {
+  background-color: #000000;
+  min-height: 250px;
+}
+/* line 207, ../sass/main.scss */
+#main-bok-content .bok-restaurant-row h3 {
+  font-size: 40px;
+}
+/* line 211, ../sass/main.scss */
+#main-bok-content .bok-restaurant-row p {
+  font-size: 16px;
+}
+/* line 215, ../sass/main.scss */
+#main-bok-content .bok-restaurant-row a {
+  color: gray;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+}
+/* line 223, ../sass/main.scss */
+#main-bok-content .welcome-text {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  font-size: 60px;
+  color: gray;
+}
+
 /*==================================================
 =            Plugins                               =
 ==================================================*/
-/* line 129, ../sass/main.scss */
+/* line 237, ../sass/main.scss */
 .wpcf7 input, .wpcf7 textarea {
   display: block;
   width: 100%;
@@ -145,7 +240,7 @@ a {
   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-/* line 144, ../sass/main.scss */
+/* line 252, ../sass/main.scss */
 .wpcf7 input {
   height: 34px;
   padding: 6px 12px;
@@ -156,17 +251,17 @@ a {
 /*==================================================
 =            Bootstrap                             =
 ==================================================*/
-/* line 155, ../sass/main.scss */
+/* line 263, ../sass/main.scss */
 .btn-primary {
   background-color: #000;
 }
 
-/* line 159, ../sass/main.scss */
+/* line 267, ../sass/main.scss */
 .container {
   padding: 0px;
 }
 
-/* line 163, ../sass/main.scss */
+/* line 271, ../sass/main.scss */
 .margin {
   margin: 20px 0;
 }
@@ -185,9 +280,29 @@ a {
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /* line 212, ../sass/main.scss */
+  /* line 320, ../sass/main.scss */
   .navbar {
     margin: 0px;
+  }
+
+  /* line 324, ../sass/main.scss */
+  .navbar-default {
+    position: relative;
+    height: auto;
+    background-color: #000000;
+  }
+  /* line 329, ../sass/main.scss */
+  .navbar-default .container-fluid {
+    margin: 0px;
+  }
+  /* line 334, ../sass/main.scss */
+  .navbar-default .navbar-nav .menu-item {
+    margin-left: 0px;
+  }
+
+  /* line 341, ../sass/main.scss */
+  #main-bok-content .welcome-text {
+    font-size: 20px;
   }
 }
 /* Extra Small Devices, Phones */

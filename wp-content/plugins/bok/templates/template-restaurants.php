@@ -10,41 +10,46 @@
 get_header('bok'); ?>
 
 <div id="main-bok-content">
-    <div class="container container-800 text-center">
-        <div class="row">
-            <h2>Unsere Restaurants</h2>
-        </div>
-        <div class="row">
-            <?php $loop = new WP_Query( array( 'post_type' => 'restaurant', 'posts_per_page' => 10 ) ); ?>
+    <div class="row bok-restaurant-top">
+        <img src="<?php echo esc_url( plugins_url( BOK__PLUGIN_NAME . '/images/restaurant.png') ); ?>" width="100%" />
+        <div class="welcome-text">Willkommen <br/> bei Bok</div>
+    </div>
 
-            <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+    <?php $loop = new WP_Query( array( 'post_type' => 'restaurant', 'posts_per_page' => 10 ) ); $count = 0; ?>
 
-                <div class="col-sm-12 col-md-4">
-                    <p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><h3><?php the_title() ?></h3></a></p>
-                    <?php if ( has_post_thumbnail() ) : ?>
-                        <a class="thumbnail" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-                            <?php the_post_thumbnail('full'); ?>
-                        </a>
-                    <?php endif; ?>
-                    <?php the_content(); ?>
-                </div>
-
-            <?php endwhile; ?>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div id="map_wrapper">
-                    <div id="map_canvas" class="mapping"></div>
-                </div>
+    <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+        <?php $count++ ?>
+        <div class="row equal bok-restaurant-row">
+            <div class="col-sm-6 col-full col-center">
+                <?php if ( ($count % 2) != 0 ) : ?>
+                    <img width="100%" src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php the_title_attribute(); ?>">
+                <?php else: ?>
+                    <h3><?php the_title() ?></h3>
+                    <p><?php the_content(); ?></p>
+                    <div><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">See more</a></div>
+                <?php endif; ?>
+            </div>
+            <div class="col-sm-6 col-full col-center">
+                <?php if ( ($count % 2) == 0 ) : ?>
+                    <img width="100%" src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php the_title_attribute(); ?>">
+                <?php else: ?>
+                    <h3><?php the_title() ?></h3>
+                    <p><?php the_content(); ?></p>
+                    <div><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">See more</a></div>
+                <?php endif; ?>
             </div>
         </div>
-        <script type="application/javascript">
-            $(document).ready(function() {
-                $('#map_canvas').googlemap();
-            });
-        </script>
-
+    <?php endwhile; ?>
+    <div class="row">
+        <div id="map_wrapper">
+            <div id="map_canvas" class="mapping"></div>
+        </div>
     </div>
+    <script type="application/javascript">
+        $(document).ready(function() {
+            $('#map_canvas').googlemap();
+        });
+    </script>
 </div>
 <?php wp_footer();?>
 

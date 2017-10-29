@@ -15,7 +15,7 @@ get_header('bok'); ?>
                     <div class="row text-center">
                         <h2>Rezepte</h2>
                     </div>
-                    <div class="bok-row">
+                    <div class="bok-video">
                         <div style="min-height: 800px;">
                             <div id="page-our-works">
                                 <div class="wrapper" id="leplayer"></div>
