@@ -223,9 +223,24 @@ a {
 }
 
 /*==================================================
+=            FOOTER                               =
+==================================================*/
+/* line 236, ../sass/main.scss */
+#bok-footer {
+  background-color: #000000;
+  color: gray;
+  padding: 60px;
+}
+/* line 240, ../sass/main.scss */
+#bok-footer a {
+  color: gray;
+  text-decoration: none;
+}
+
+/*==================================================
 =            Plugins                               =
 ==================================================*/
-/* line 237, ../sass/main.scss */
+/* line 253, ../sass/main.scss */
 .wpcf7 input, .wpcf7 textarea {
   display: block;
   width: 100%;
@@ -240,7 +255,7 @@ a {
   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-/* line 252, ../sass/main.scss */
+/* line 268, ../sass/main.scss */
 .wpcf7 input {
   height: 34px;
   padding: 6px 12px;
@@ -251,17 +266,17 @@ a {
 /*==================================================
 =            Bootstrap                             =
 ==================================================*/
-/* line 263, ../sass/main.scss */
+/* line 279, ../sass/main.scss */
 .btn-primary {
   background-color: #000;
 }
 
-/* line 267, ../sass/main.scss */
+/* line 283, ../sass/main.scss */
 .container {
   padding: 0px;
 }
 
-/* line 271, ../sass/main.scss */
+/* line 287, ../sass/main.scss */
 .margin {
   margin: 20px 0;
 }
@@ -280,27 +295,27 @@ a {
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /* line 320, ../sass/main.scss */
+  /* line 336, ../sass/main.scss */
   .navbar {
     margin: 0px;
   }
 
-  /* line 324, ../sass/main.scss */
+  /* line 340, ../sass/main.scss */
   .navbar-default {
     position: relative;
     height: auto;
     background-color: #000000;
   }
-  /* line 329, ../sass/main.scss */
+  /* line 345, ../sass/main.scss */
   .navbar-default .container-fluid {
     margin: 0px;
   }
-  /* line 334, ../sass/main.scss */
+  /* line 350, ../sass/main.scss */
   .navbar-default .navbar-nav .menu-item {
     margin-left: 0px;
   }
 
-  /* line 341, ../sass/main.scss */
+  /* line 357, ../sass/main.scss */
   #main-bok-content .welcome-text {
     font-size: 20px;
   }
