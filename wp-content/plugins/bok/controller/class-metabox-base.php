@@ -6,7 +6,7 @@ namespace Bok\Controller;
 class Metabox_Base extends Base {
 
     protected $id;
-
+    
     protected $postTypes = array();
 
     protected $name = '';
