@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - usr_web29769452_2@localhost" uuid="5df3b2bf-e4de-4ef6-8e5a-142036f55bd2">
+      <secret-storage>memory</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>web29769452</user-name>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <proxy-host>alfa3068.ssh.alfahosting.de</proxy-host>
+        <proxy-port>22</proxy-port>
+        <secret-storage>master_key</secret-storage>
+        <user>web29769452@alfa3068</user>
+        <use-password>true</use-password>
+      </ssh-properties>
+    </data-source>
+  </component>
+</project>
