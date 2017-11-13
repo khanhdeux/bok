@@ -193,6 +193,8 @@ a {
 
 #main-bok-content {
   z-index: 1;
+  background-color: #000000;
+  color: gray;
 
   .bok-restaurant-top {
     position: relative;
@@ -230,6 +232,24 @@ a {
 }
 
 /*==================================================
+=            ABOUT US                             =
+==================================================*/
+#main-bok-content.about-us{
+  .welcome-text {
+    top: 42%;
+    right: 42%;
+    color: white;
+    font-weight: bold;
+  }
+
+  .about-us-description {
+    padding: 80px 40px;
+    font-size: 20px;
+  }
+}
+
+
+/*==================================================
 =            FOOTER                               =
 ==================================================*/
 
@@ -237,6 +257,9 @@ a {
   background-color: #000000;
   color:gray;
   padding: 60px;
+  a {
+    color: gray;
+  }
 }
 
 /*==================================================

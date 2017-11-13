@@ -188,32 +188,34 @@ a {
 /* line 194, ../sass/main.scss */
 #main-bok-content {
   z-index: 1;
+  background-color: #000000;
+  color: gray;
 }
-/* line 197, ../sass/main.scss */
+/* line 199, ../sass/main.scss */
 #main-bok-content .bok-restaurant-top {
   position: relative;
 }
-/* line 202, ../sass/main.scss */
+/* line 204, ../sass/main.scss */
 #main-bok-content .bok-restaurant-row [class^='col-'] {
   background-color: #000000;
   min-height: 250px;
 }
-/* line 207, ../sass/main.scss */
+/* line 209, ../sass/main.scss */
 #main-bok-content .bok-restaurant-row h3 {
   font-size: 40px;
 }
-/* line 211, ../sass/main.scss */
+/* line 213, ../sass/main.scss */
 #main-bok-content .bok-restaurant-row p {
   font-size: 16px;
 }
-/* line 215, ../sass/main.scss */
+/* line 217, ../sass/main.scss */
 #main-bok-content .bok-restaurant-row a {
   color: gray;
   border: 1px solid gray;
   padding: 10px;
   border-radius: 10px;
 }
-/* line 223, ../sass/main.scss */
+/* line 225, ../sass/main.scss */
 #main-bok-content .welcome-text {
   position: absolute;
   top: 20%;
@@ -223,24 +225,39 @@ a {
 }
 
 /*==================================================
+=            ABOUT US                             =
+==================================================*/
+/* line 238, ../sass/main.scss */
+#main-bok-content.about-us .welcome-text {
+  top: 42%;
+  right: 42%;
+  color: white;
+  font-weight: bold;
+}
+/* line 245, ../sass/main.scss */
+#main-bok-content.about-us .about-us-description {
+  padding: 80px 40px;
+  font-size: 20px;
+}
+
+/*==================================================
 =            FOOTER                               =
 ==================================================*/
-/* line 236, ../sass/main.scss */
+/* line 256, ../sass/main.scss */
 #bok-footer {
   background-color: #000000;
   color: gray;
   padding: 60px;
 }
-/* line 240, ../sass/main.scss */
+/* line 260, ../sass/main.scss */
 #bok-footer a {
   color: gray;
-  text-decoration: none;
 }
 
 /*==================================================
 =            Plugins                               =
 ==================================================*/
-/* line 253, ../sass/main.scss */
+/* line 270, ../sass/main.scss */
 .wpcf7 input, .wpcf7 textarea {
   display: block;
   width: 100%;
@@ -255,7 +272,7 @@ a {
   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-/* line 268, ../sass/main.scss */
+/* line 285, ../sass/main.scss */
 .wpcf7 input {
   height: 34px;
   padding: 6px 12px;
@@ -266,17 +283,17 @@ a {
 /*==================================================
 =            Bootstrap                             =
 ==================================================*/
-/* line 279, ../sass/main.scss */
+/* line 296, ../sass/main.scss */
 .btn-primary {
   background-color: #000;
 }
 
-/* line 283, ../sass/main.scss */
+/* line 300, ../sass/main.scss */
 .container {
   padding: 0px;
 }
 
-/* line 287, ../sass/main.scss */
+/* line 304, ../sass/main.scss */
 .margin {
   margin: 20px 0;
 }
@@ -295,27 +312,27 @@ a {
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /* line 336, ../sass/main.scss */
+  /* line 353, ../sass/main.scss */
   .navbar {
     margin: 0px;
   }
 
-  /* line 340, ../sass/main.scss */
+  /* line 357, ../sass/main.scss */
   .navbar-default {
     position: relative;
     height: auto;
     background-color: #000000;
   }
-  /* line 345, ../sass/main.scss */
+  /* line 362, ../sass/main.scss */
   .navbar-default .container-fluid {
     margin: 0px;
   }
-  /* line 350, ../sass/main.scss */
+  /* line 367, ../sass/main.scss */
   .navbar-default .navbar-nav .menu-item {
     margin-left: 0px;
   }
 
-  /* line 357, ../sass/main.scss */
+  /* line 374, ../sass/main.scss */
   #main-bok-content .welcome-text {
     font-size: 20px;
   }
