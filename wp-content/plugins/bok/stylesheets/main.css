@@ -8,7 +8,7 @@ body {
 /* line 7, ../sass/main.scss */
 a {
   font-size: inherit;
-  color: #000000;
+  color: gray;
 }
 
 /* line 12, ../sass/main.scss */
@@ -223,33 +223,34 @@ a {
   font-size: 60px;
   color: gray;
 }
-
-/*==================================================
-=            ABOUT US                             =
-==================================================*/
-/* line 238, ../sass/main.scss */
-#main-bok-content.about-us .welcome-text {
+/* line 233, ../sass/main.scss */
+#main-bok-content .top-header {
+  position: absolute;
   top: 42%;
   right: 42%;
   color: white;
+  font-size: 60px;
   font-weight: bold;
 }
-/* line 245, ../sass/main.scss */
-#main-bok-content.about-us .about-us-description {
+/* line 242, ../sass/main.scss */
+#main-bok-content .description {
   padding: 80px 40px;
   font-size: 20px;
 }
 
 /*==================================================
+=            ABOUT US                             =
+==================================================*/
+/*==================================================
 =            FOOTER                               =
 ==================================================*/
-/* line 256, ../sass/main.scss */
+/* line 260, ../sass/main.scss */
 #bok-footer {
   background-color: #000000;
   color: gray;
   padding: 60px;
 }
-/* line 260, ../sass/main.scss */
+/* line 264, ../sass/main.scss */
 #bok-footer a {
   color: gray;
 }
@@ -257,7 +258,7 @@ a {
 /*==================================================
 =            Plugins                               =
 ==================================================*/
-/* line 270, ../sass/main.scss */
+/* line 274, ../sass/main.scss */
 .wpcf7 input, .wpcf7 textarea {
   display: block;
   width: 100%;
@@ -272,7 +273,7 @@ a {
   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-/* line 285, ../sass/main.scss */
+/* line 289, ../sass/main.scss */
 .wpcf7 input {
   height: 34px;
   padding: 6px 12px;
@@ -283,19 +284,24 @@ a {
 /*==================================================
 =            Bootstrap                             =
 ==================================================*/
-/* line 296, ../sass/main.scss */
+/* line 300, ../sass/main.scss */
 .btn-primary {
   background-color: #000;
 }
 
-/* line 300, ../sass/main.scss */
+/* line 304, ../sass/main.scss */
 .container {
   padding: 0px;
 }
 
-/* line 304, ../sass/main.scss */
+/* line 308, ../sass/main.scss */
 .margin {
   margin: 20px 0;
+}
+
+/* line 312, ../sass/main.scss */
+.panel {
+  background-color: transparent;
 }
 
 /*==================================================
@@ -312,28 +318,28 @@ a {
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /* line 353, ../sass/main.scss */
+  /* line 361, ../sass/main.scss */
   .navbar {
     margin: 0px;
   }
 
-  /* line 357, ../sass/main.scss */
+  /* line 365, ../sass/main.scss */
   .navbar-default {
     position: relative;
     height: auto;
     background-color: #000000;
   }
-  /* line 362, ../sass/main.scss */
+  /* line 370, ../sass/main.scss */
   .navbar-default .container-fluid {
     margin: 0px;
   }
-  /* line 367, ../sass/main.scss */
+  /* line 375, ../sass/main.scss */
   .navbar-default .navbar-nav .menu-item {
     margin-left: 0px;
   }
 
-  /* line 374, ../sass/main.scss */
-  #main-bok-content .welcome-text {
+  /* line 382, ../sass/main.scss */
+  #main-bok-content .welcome-text, #main-bok-content .top-header {
     font-size: 20px;
   }
 }

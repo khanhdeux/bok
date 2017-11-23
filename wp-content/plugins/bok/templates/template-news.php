@@ -8,7 +8,17 @@
  * @version	1.0.0
  */
 get_header('bok'); ?>
-<div id="main-bok-content">
+<div id="main-bok-content" class="news">
+    <div class="row bok-restaurant-top">
+        <img src="<?php echo esc_url( plugins_url( BOK__PLUGIN_NAME . '/images/restaurant.png') ); ?>" width="100%" />
+        <div class="top-header">Nachrichten</div>
+    </div>
+    <div class="container container-800">
+        <div class="row description">
+            <p><strong>We'll keep you posted</strong></p>
+            <p>Follow us on the latest news, promotions and a few surprises along the way</p>
+        </div>
+    </div>
     <div class="container container-800">
         <div class="row text-center">
             <h2>Neuigkeiten</h2>

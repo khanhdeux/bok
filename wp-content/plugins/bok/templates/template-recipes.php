@@ -8,13 +8,20 @@
  */
 get_header('bok'); ?>
 <div id="main-bok-content">
+    <div class="row bok-restaurant-top">
+        <img src="<?php echo esc_url( plugins_url( BOK__PLUGIN_NAME . '/images/restaurant.png') ); ?>" width="100%" />
+        <div class="top-header">Rezepte</div>
+    </div>
+    <div class="container container-800">
+        <div class="row description">
+            <p><strong>We'll keep you posted</strong></p>
+            <p>Follow us on the latest news, promotions and a few surprises along the way</p>
+        </div>
+    </div>
     <?php while ( have_posts() ) : the_post(); ?>
         <div class="section single-post">
             <section>
                 <div class="container container-800">
-                    <div class="row text-center">
-                        <h2>Rezepte</h2>
-                    </div>
                     <div class="bok-video">
                         <div style="min-height: 800px;">
                             <div id="page-our-works">
@@ -68,7 +75,7 @@ get_header('bok'); ?>
                                     </ul>
                                     <script type="application/javascript">
                                         $(document).ready(function() {
-                                            $("#nav-videochannel").find('a').first().click();
+                                            // $("#nav-videochannel").find('a').first().click();
                                         });
                                     </script>
                                 </div>

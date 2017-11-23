@@ -6,7 +6,7 @@ body {
 
 a {
   font-size: inherit;
-  color: #000000;
+  color: gray;
 }
 
 .row {
@@ -229,23 +229,27 @@ a {
     font-size: 60px;
     color: gray;
   }
+
+  .top-header {
+    position: absolute;
+    top: 42%;
+    right: 42%;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+  .description {
+    padding: 80px 40px;
+    font-size: 20px;
+  }
 }
 
 /*==================================================
 =            ABOUT US                             =
 ==================================================*/
 #main-bok-content.about-us{
-  .welcome-text {
-    top: 42%;
-    right: 42%;
-    color: white;
-    font-weight: bold;
-  }
 
-  .about-us-description {
-    padding: 80px 40px;
-    font-size: 20px;
-  }
 }
 
 
@@ -303,6 +307,10 @@ a {
 
 .margin {
   margin: 20px 0;
+}
+
+.panel {
+  background-color: transparent;
 }
 
 /*==================================================
@@ -371,7 +379,7 @@ a {
   }
 
   #main-bok-content {
-    .welcome-text {
+    .welcome-text, .top-header {
       font-size: 20px;
     }
   }
