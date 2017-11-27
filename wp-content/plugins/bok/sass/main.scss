@@ -9,6 +9,10 @@ a {
   color: gray;
 }
 
+p {
+  font-size: 20px;
+}
+
 .row {
   margin:0px;
   padding:0px;
@@ -298,7 +302,13 @@ a {
 =            Bootstrap                             =
 ==================================================*/
 .btn-primary {
-  background-color: #000
+  background-color: #000;
+  border-color: #ffffff;
+
+
+  &:hover {
+    background-color: gray;
+  }
 }
 
 .container {
@@ -311,6 +321,26 @@ a {
 
 .panel {
   background-color: transparent;
+}
+
+.ui-widget-content {
+  background: inherit;
+}
+
+.ui-accordion {
+  .ui-accordion-header {
+    color: #ffffff;
+    background-color: #000000;
+  }
+}
+
+.ui-state-default {
+  color: #000000;
+  background: none;
+}
+
+.ui-widget-content {
+  color: gray;
 }
 
 /*==================================================
