@@ -344,6 +344,26 @@ p {
 }
 
 /*==================================================
+=            Slick lib                             =
+==================================================*/
+.slick-slide {
+
+  a {
+    &:hover {
+      display: block;
+      border: none;
+      background: url(../images/icon-play.png) 50% 50% no-repeat;
+
+    }
+  }
+  img {
+    &:hover {
+      opacity: 0.5 !important;
+    }
+  }
+}
+
+/*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
 

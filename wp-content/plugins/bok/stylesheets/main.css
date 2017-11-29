@@ -337,6 +337,20 @@ p {
 }
 
 /*==================================================
+=            Slick lib                             =
+==================================================*/
+/* line 352, ../sass/main.scss */
+.slick-slide a:hover {
+  display: block;
+  border: none;
+  background: url(../images/icon-play.png) 50% 50% no-repeat;
+}
+/* line 360, ../sass/main.scss */
+.slick-slide img:hover {
+  opacity: 0.5 !important;
+}
+
+/*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
 /*==========  Mobile First Method  ==========*/
@@ -350,27 +364,27 @@ p {
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /* line 391, ../sass/main.scss */
+  /* line 411, ../sass/main.scss */
   .navbar {
     margin: 0px;
   }
 
-  /* line 395, ../sass/main.scss */
+  /* line 415, ../sass/main.scss */
   .navbar-default {
     position: relative;
     height: auto;
     background-color: #000000;
   }
-  /* line 400, ../sass/main.scss */
+  /* line 420, ../sass/main.scss */
   .navbar-default .container-fluid {
     margin: 0px;
   }
-  /* line 405, ../sass/main.scss */
+  /* line 425, ../sass/main.scss */
   .navbar-default .navbar-nav .menu-item {
     margin-left: 0px;
   }
 
-  /* line 412, ../sass/main.scss */
+  /* line 432, ../sass/main.scss */
   #main-bok-content .welcome-text, #main-bok-content .top-header {
     font-size: 20px;
   }

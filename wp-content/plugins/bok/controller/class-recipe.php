@@ -20,6 +20,35 @@ class Recipe extends Post_Type {
     }
 
     /**
+     * Initializes the plugin by setting filters and administration functions.
+     */
+    protected function __construct() {
+        parent::__construct();
+
+        /* Include js/css scripts*/
+        add_action('after_setup_theme', array($this, 'initScripts'));
+
+        //init metabox
+        /**@var \Bok\Controller\Metabox_Wysiwyg $metaboxEditor */
+        \Bok\Controller\Metabox_Text::getInstance('recipe_video_id', 'Youtube ID',['recipe']);
+    }
+
+    public function initScripts() {
+        add_action('wp_enqueue_scripts', array($this, 'customRecipeScripts'));
+    }
+
+    /**
+     * Includes js scripts
+     */
+    public function customRecipeScripts() {
+        wp_enqueue_script('youtubeModal', plugins_url( BOK__PLUGIN_NAME . '/js/youtubeModal.jquery.js'), array('jquery'), false, false);
+        wp_enqueue_script('slickJS', plugins_url( BOK__PLUGIN_NAME . '/js/slick.js'), array('jquery'), false, false);
+        wp_enqueue_style( 'youtubeModalCSS', plugins_url( BOK__PLUGIN_NAME . '/css/youtubeModal.css'));
+        wp_enqueue_style( 'slickCSS', plugins_url( BOK__PLUGIN_NAME . '/css/slick.css'));
+        wp_enqueue_style( 'slickThemeCSS', plugins_url( BOK__PLUGIN_NAME . '/css/slick-theme.css'));
+    }
+
+    /**
      * Create custom post type
      */
     public function create() {
