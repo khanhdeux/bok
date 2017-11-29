@@ -347,18 +347,21 @@ p {
 =            Slick lib                             =
 ==================================================*/
 .slick-slide {
-
-  a {
-    &:hover {
-      display: block;
-      border: none;
-      background: url(../images/icon-play.png) 50% 50% no-repeat;
-
-    }
-  }
   img {
     &:hover {
       opacity: 0.5 !important;
+    }
+  }
+
+  .youtubeModal {
+    position: relative;
+
+    .play-icon {
+      position: absolute;
+      top: 42%;
+      left: 47%;
+      width: 20px;
+      height: 20px;
     }
   }
 }

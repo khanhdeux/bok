@@ -339,15 +339,21 @@ p {
 /*==================================================
 =            Slick lib                             =
 ==================================================*/
-/* line 352, ../sass/main.scss */
-.slick-slide a:hover {
-  display: block;
-  border: none;
-  background: url(../images/icon-play.png) 50% 50% no-repeat;
-}
-/* line 360, ../sass/main.scss */
+/* line 351, ../sass/main.scss */
 .slick-slide img:hover {
   opacity: 0.5 !important;
+}
+/* line 356, ../sass/main.scss */
+.slick-slide .youtubeModal {
+  position: relative;
+}
+/* line 359, ../sass/main.scss */
+.slick-slide .youtubeModal .play-icon {
+  position: absolute;
+  top: 42%;
+  left: 47%;
+  width: 20px;
+  height: 20px;
 }
 
 /*==================================================
@@ -364,27 +370,27 @@ p {
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /* line 411, ../sass/main.scss */
+  /* line 414, ../sass/main.scss */
   .navbar {
     margin: 0px;
   }
 
-  /* line 415, ../sass/main.scss */
+  /* line 418, ../sass/main.scss */
   .navbar-default {
     position: relative;
     height: auto;
     background-color: #000000;
   }
-  /* line 420, ../sass/main.scss */
+  /* line 423, ../sass/main.scss */
   .navbar-default .container-fluid {
     margin: 0px;
   }
-  /* line 425, ../sass/main.scss */
+  /* line 428, ../sass/main.scss */
   .navbar-default .navbar-nav .menu-item {
     margin-left: 0px;
   }
 
-  /* line 432, ../sass/main.scss */
+  /* line 435, ../sass/main.scss */
   #main-bok-content .welcome-text, #main-bok-content .top-header {
     font-size: 20px;
   }

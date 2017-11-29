@@ -25,6 +25,7 @@ get_header('bok'); ?>
                 <div class="">
                     <a href="#" id='video<?php echo $count; ?>' class='youtubeModal thumbnail' data-id="<?php echo get_post_meta( $post->ID, 'recipe_video_id', true) ;?>">
                         <img data-lazy="<?php the_post_thumbnail_url('full'); ?>" data-srcset="<?php the_post_thumbnail_url('full'); ?>" data-sizes="100vw">
+                        <img class="play-icon" src="<?php echo esc_url( plugins_url( BOK__PLUGIN_NAME . '/images/icon-play.png') ); ?>"  />
                     </a>
                 </div>
             <?php endwhile; ?>
