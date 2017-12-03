@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     $('.youtubeModal').click(function(e) {
         e.preventDefault();
-    }).youtubeModal({});
+    }).youtubePopup({});
 
     $('.videoSlider').slick({
         dots: true,

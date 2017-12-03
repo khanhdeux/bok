@@ -41,9 +41,9 @@ class Recipe extends Post_Type {
      * Includes js scripts
      */
     public function customRecipeScripts() {
-        wp_enqueue_script('youtubeModal', plugins_url( BOK__PLUGIN_NAME . '/js/youtubeModal.jquery.js'), array('jquery'), false, false);
+        wp_enqueue_script('youtubePopup', plugins_url( BOK__PLUGIN_NAME . '/js/youtubePopup.jquery.js'), array('jquery'), false, false);
         wp_enqueue_script('slickJS', plugins_url( BOK__PLUGIN_NAME . '/js/slick.js'), array('jquery'), false, false);
-        wp_enqueue_style( 'youtubeModalCSS', plugins_url( BOK__PLUGIN_NAME . '/css/youtubeModal.css'));
+//        wp_enqueue_style( 'youtubeModalCSS', plugins_url( BOK__PLUGIN_NAME . '/css/youtubeModal.css'));
         wp_enqueue_style( 'slickCSS', plugins_url( BOK__PLUGIN_NAME . '/css/slick.css'));
         wp_enqueue_style( 'slickThemeCSS', plugins_url( BOK__PLUGIN_NAME . '/css/slick-theme.css'));
     }

@@ -13,19 +13,22 @@ get_header('bok'); ?>
         <div class="top-header">Rezepte</div>
     </div>
     <div class="container container-800">
-        <div class="row description">
-            <p><strong>We'll keep you posted</strong></p>
-            <p>Follow us on the latest news, promotions and a few surprises along the way</p>
+        <div class="row description text-center">
+            <p><strong><span class="videoTitle">We'll keep you posted</span></strong></p>
+            <p class="videoDescription">Follow us on the latest news, promotions and a few surprises along the way</p>
         </div>
+
+        <div id="mainVideo" class="row"></div>
 
         <section class="videoSlider slider" data-sizes="50vw">
             <?php $loop = new WP_Query( array( 'post_type' => 'recipe', 'posts_per_page' => 10 ) );  $count = 0; ?>
 
             <?php while ( $loop->have_posts() ) : $loop->the_post(); $count++; ?>
                 <div class="">
-                    <a href="#" id='video<?php echo $count; ?>' class='youtubeModal thumbnail' data-id="<?php echo get_post_meta( $post->ID, 'recipe_video_id', true) ;?>">
+                    <a href="#" id='video<?php echo $count; ?>' class='youtubeModal thumbnail' data-id="<?php echo get_post_meta( $post->ID, 'recipe_video_id', true) ;?>" data-title="<?php echo get_the_title() ?>" data-description="<?php echo get_the_content() ?>">
                         <img data-lazy="<?php the_post_thumbnail_url('full'); ?>" data-srcset="<?php the_post_thumbnail_url('full'); ?>" data-sizes="100vw">
                         <img class="play-icon" src="<?php echo esc_url( plugins_url( BOK__PLUGIN_NAME . '/images/icon-play.png') ); ?>"  />
+                        <span><?php echo get_the_title() ?></span>
                     </a>
                 </div>
             <?php endwhile; ?>
