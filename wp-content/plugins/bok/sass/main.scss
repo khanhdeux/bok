@@ -382,6 +382,16 @@ p {
   }
 }
 
+.slick-prev {
+  left: -56px !important;
+  height: 38px !important;
+}
+
+.slick-next {
+  right: -56px !important;
+  height: 38px !important;
+}
+
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/

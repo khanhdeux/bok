@@ -373,6 +373,18 @@ p {
   bottom: 10px;
 }
 
+/* line 385, ../sass/main.scss */
+.slick-prev {
+  left: -56px !important;
+  height: 38px !important;
+}
+
+/* line 390, ../sass/main.scss */
+.slick-next {
+  right: -56px !important;
+  height: 38px !important;
+}
+
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
@@ -387,27 +399,27 @@ p {
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /* line 430, ../sass/main.scss */
+  /* line 440, ../sass/main.scss */
   .navbar {
     margin: 0px;
   }
 
-  /* line 434, ../sass/main.scss */
+  /* line 444, ../sass/main.scss */
   .navbar-default {
     position: relative;
     height: auto;
     background-color: #000000;
   }
-  /* line 439, ../sass/main.scss */
+  /* line 449, ../sass/main.scss */
   .navbar-default .container-fluid {
     margin: 0px;
   }
-  /* line 444, ../sass/main.scss */
+  /* line 454, ../sass/main.scss */
   .navbar-default .navbar-nav .menu-item {
     margin-left: 0px;
   }
 
-  /* line 451, ../sass/main.scss */
+  /* line 461, ../sass/main.scss */
   #main-bok-content .welcome-text, #main-bok-content .top-header {
     font-size: 20px;
   }
