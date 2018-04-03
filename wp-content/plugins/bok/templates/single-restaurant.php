@@ -20,10 +20,18 @@ get_header('bok'); ?>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-12">
-                            <p><?php the_content(); wp_link_pages(); ?></p>
-                            <a href="<?php echo get_site_url() . '/reservation?r=' . strtolower(get_the_title()); ?>" class="btn btn-primary btn-lg margin" role="button" aria-disabled="true">Tisch reservieren</a>
+                        <p><?php the_content(); wp_link_pages(); ?></p>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <a href="<?php echo get_site_url() . '/reservation?r=' . strtolower(get_the_title()); ?>">Tisch reservieren</a>
                          </div>
+                        <div class="col-sm-4">
+                            <p>Anruf: +971.888.6666</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="<?php echo get_site_url() . '/reservation?r=' . strtolower(get_the_title()); ?>">Restaurants ansehen ></a>
+                        </div>
                     </div>
                     <div class="row slider">
                         <?php

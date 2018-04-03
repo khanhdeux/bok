@@ -5,8 +5,13 @@ body {
 }
 
 a {
-  font-size: inherit;
-  color: gray;
+  font-size: 20px;
+  color: #ffffff;
+
+  &:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
 }
 
 p {
@@ -137,7 +142,7 @@ p {
 ==================================================*/
 
 .navbar-default {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #534741;
   z-index: 2;
 
   position:absolute;
@@ -197,8 +202,12 @@ p {
 
 #main-bok-content {
   z-index: 1;
-  background-color: #000000;
-  color: gray;
+  background-color: #534741;
+  color: #ffffff;
+
+  p {
+    color: #ffffff;
+  }
 
   .bok-restaurant-top {
     position: relative;
@@ -219,7 +228,7 @@ p {
     }
 
     a {
-      color: gray;
+      color: #ffffff;
       border: 1px solid gray;
       padding: 10px;
       border-radius: 10px;
@@ -343,7 +352,7 @@ p {
 .ui-accordion {
   .ui-accordion-header {
     color: #ffffff;
-    background-color: #000000;
+    background-color: #534741;
   }
 }
 
@@ -353,7 +362,7 @@ p {
 }
 
 .ui-widget-content {
-  color: gray;
+  color: #ffffff;
 }
 
 /*==================================================
@@ -444,7 +453,7 @@ p {
   .navbar-default {
     position:relative;
     height: auto;
-    background-color: #000000;
+    background-color: #534741;
 
     .container-fluid {
       margin:0px;
