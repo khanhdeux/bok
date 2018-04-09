@@ -20,7 +20,6 @@ get_header(); ?>
         <img src="<?php echo $rydon_option['logo']['url']; ?>" class="logo">
         <div class="texte" id="texte-page-home-top"><?php echo $rydon_option['text-home-top']; ?></div>
         <div class="texte"><?php echo $rydon_option['text-home-bottom']; ?></div>
-        <div class="texte-page-home"></div>
         <?php if ( has_nav_menu( 'primary' ) ) : ?>
         <nav id="nav" aria-label="<?php esc_attr_e( 'Primary Menu', 'rydon' ); ?>">
             <?php wp_nav_menu( array('theme_location' => 'primary',) );?>
