@@ -57,10 +57,6 @@ get_header('bok'); ?>
                     <div class="row">
                         <div class="col-sm-12">
                             <div id="accordion">
-                                <h3>Mittagtisch</h3>
-                                <div>
-                                    <?php echo get_post_meta( $post->ID, 'restaurant_lunch_menu', true) ?>
-                                </div>
                                 <h3>Mittag</h3>
                                 <div>
                                     <?php echo get_post_meta( $post->ID, 'restaurant_day_menu', true) ?>

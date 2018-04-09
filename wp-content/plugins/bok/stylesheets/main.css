@@ -340,19 +340,30 @@ p {
   background: inherit;
 }
 
-/* line 353, ../sass/main.scss */
+/* line 352, ../sass/main.scss */
+#accordion {
+  padding-bottom: 40px;
+}
+
+/* line 357, ../sass/main.scss */
 .ui-accordion .ui-accordion-header {
   color: #ffffff;
   background-color: #534741;
 }
+/* line 362, ../sass/main.scss */
+.ui-accordion .ui-accordion-content {
+  padding: 0px;
+  border-left: none;
+  border-right: none;
+}
 
-/* line 359, ../sass/main.scss */
+/* line 369, ../sass/main.scss */
 .ui-state-default {
   color: #000000;
   background: none;
 }
 
-/* line 364, ../sass/main.scss */
+/* line 374, ../sass/main.scss */
 .ui-widget-content {
   color: #ffffff;
 }
@@ -360,11 +371,11 @@ p {
 /*==================================================
 =            Slick lib                             =
 ==================================================*/
-/* line 372, ../sass/main.scss */
+/* line 382, ../sass/main.scss */
 .slick-slide .youtubeModal {
   position: relative;
 }
-/* line 375, ../sass/main.scss */
+/* line 385, ../sass/main.scss */
 .slick-slide .youtubeModal .play-icon {
   position: absolute;
   top: 42%;
@@ -372,7 +383,7 @@ p {
   width: 20px;
   height: 20px;
 }
-/* line 383, ../sass/main.scss */
+/* line 393, ../sass/main.scss */
 .slick-slide .youtubeModal span {
   position: absolute;
   left: 50%;
@@ -382,13 +393,13 @@ p {
   bottom: 10px;
 }
 
-/* line 394, ../sass/main.scss */
+/* line 404, ../sass/main.scss */
 .slick-prev {
   left: -56px !important;
   height: 38px !important;
 }
 
-/* line 399, ../sass/main.scss */
+/* line 409, ../sass/main.scss */
 .slick-next {
   right: -56px !important;
   height: 38px !important;
@@ -408,27 +419,27 @@ p {
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /* line 449, ../sass/main.scss */
+  /* line 459, ../sass/main.scss */
   .navbar {
     margin: 0px;
   }
 
-  /* line 453, ../sass/main.scss */
+  /* line 463, ../sass/main.scss */
   .navbar-default {
     position: relative;
     height: auto;
     background-color: #534741;
   }
-  /* line 458, ../sass/main.scss */
+  /* line 468, ../sass/main.scss */
   .navbar-default .container-fluid {
     margin: 0px;
   }
-  /* line 463, ../sass/main.scss */
+  /* line 473, ../sass/main.scss */
   .navbar-default .navbar-nav .menu-item {
     margin-left: 0px;
   }
 
-  /* line 470, ../sass/main.scss */
+  /* line 480, ../sass/main.scss */
   #main-bok-content .welcome-text, #main-bok-content .top-header {
     font-size: 20px;
   }

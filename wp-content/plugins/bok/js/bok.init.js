@@ -1,6 +1,11 @@
 $(document).ready(function() {
     $('.slider-image').viewbox();
-    $("#accordion").accordion();
+
+    $("#accordion").accordion({
+        heightStyle: "content",
+        collapsible: true,
+        active : 'none'
+    });
 
     $('.youtubeModal').click(function(e) {
         e.preventDefault();

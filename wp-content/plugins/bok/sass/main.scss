@@ -349,10 +349,20 @@ p {
   background: inherit;
 }
 
+#accordion {
+  padding-bottom: 40px;
+}
+
 .ui-accordion {
   .ui-accordion-header {
     color: #ffffff;
     background-color: #534741;
+  }
+
+  .ui-accordion-content {
+    padding : 0px;
+    border-left: none;
+    border-right: none;
   }
 }
 
