@@ -188,48 +188,52 @@ p {
 #map_wrapper {
   height: 400px;
 }
+/* line 197, ../sass/main.scss */
+#map_wrapper p, #map_wrapper h3 {
+  color: #534741 !important;
+}
 
-/* line 198, ../sass/main.scss */
+/* line 202, ../sass/main.scss */
 #map_canvas {
   width: 100%;
   height: 100%;
 }
 
-/* line 203, ../sass/main.scss */
+/* line 207, ../sass/main.scss */
 #main-bok-content {
   z-index: 1;
   background-color: #534741;
   color: #ffffff;
 }
-/* line 208, ../sass/main.scss */
+/* line 212, ../sass/main.scss */
 #main-bok-content p {
   color: #ffffff;
 }
-/* line 212, ../sass/main.scss */
+/* line 216, ../sass/main.scss */
 #main-bok-content .bok-restaurant-top {
   position: relative;
 }
-/* line 217, ../sass/main.scss */
+/* line 221, ../sass/main.scss */
 #main-bok-content .bok-restaurant-row [class^='col-'] {
   background-color: #000000;
   min-height: 250px;
 }
-/* line 222, ../sass/main.scss */
+/* line 226, ../sass/main.scss */
 #main-bok-content .bok-restaurant-row h3 {
   font-size: 40px;
 }
-/* line 226, ../sass/main.scss */
+/* line 230, ../sass/main.scss */
 #main-bok-content .bok-restaurant-row p {
   font-size: 16px;
 }
-/* line 230, ../sass/main.scss */
+/* line 234, ../sass/main.scss */
 #main-bok-content .bok-restaurant-row a {
   color: #ffffff;
   border: 1px solid gray;
   padding: 10px;
   border-radius: 10px;
 }
-/* line 238, ../sass/main.scss */
+/* line 242, ../sass/main.scss */
 #main-bok-content .welcome-text {
   position: absolute;
   top: 20%;
@@ -237,7 +241,7 @@ p {
   font-size: 60px;
   color: gray;
 }
-/* line 246, ../sass/main.scss */
+/* line 250, ../sass/main.scss */
 #main-bok-content .top-header {
   position: absolute;
   top: 42%;
@@ -246,19 +250,19 @@ p {
   font-size: 60px;
   font-weight: bold;
 }
-/* line 255, ../sass/main.scss */
+/* line 259, ../sass/main.scss */
 #main-bok-content .description {
   padding: 80px 40px;
   font-size: 20px;
 }
-/* line 261, ../sass/main.scss */
+/* line 265, ../sass/main.scss */
 #main-bok-content #mainVideo {
   border: 1px solid white;
   width: 100%;
   height: 400px;
   display: none;
 }
-/* line 267, ../sass/main.scss */
+/* line 271, ../sass/main.scss */
 #main-bok-content #mainVideo iframe {
   width: 100%;
   height: 100%;
@@ -270,13 +274,13 @@ p {
 /*==================================================
 =            FOOTER                               =
 ==================================================*/
-/* line 286, ../sass/main.scss */
+/* line 290, ../sass/main.scss */
 #bok-footer {
   background-color: #000000;
   color: gray;
   padding: 60px;
 }
-/* line 290, ../sass/main.scss */
+/* line 294, ../sass/main.scss */
 #bok-footer a {
   color: gray;
 }
@@ -284,7 +288,7 @@ p {
 /*==================================================
 =            Plugins                               =
 ==================================================*/
-/* line 300, ../sass/main.scss */
+/* line 304, ../sass/main.scss */
 .wpcf7 input, .wpcf7 textarea {
   display: block;
   width: 100%;
@@ -299,7 +303,7 @@ p {
   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-/* line 315, ../sass/main.scss */
+/* line 319, ../sass/main.scss */
 .wpcf7 input {
   height: 34px;
   padding: 6px 12px;
@@ -310,60 +314,60 @@ p {
 /*==================================================
 =            Bootstrap                             =
 ==================================================*/
-/* line 326, ../sass/main.scss */
+/* line 330, ../sass/main.scss */
 .btn-primary {
   background-color: #000;
   border-color: #ffffff;
 }
-/* line 331, ../sass/main.scss */
+/* line 335, ../sass/main.scss */
 .btn-primary:hover {
   background-color: gray;
 }
 
-/* line 336, ../sass/main.scss */
+/* line 340, ../sass/main.scss */
 .container {
   padding: 0px;
 }
 
-/* line 340, ../sass/main.scss */
+/* line 344, ../sass/main.scss */
 .margin {
   margin: 20px 0;
 }
 
-/* line 344, ../sass/main.scss */
+/* line 348, ../sass/main.scss */
 .panel {
   background-color: transparent;
 }
 
-/* line 348, ../sass/main.scss */
+/* line 352, ../sass/main.scss */
 .ui-widget-content {
   background: inherit;
 }
 
-/* line 352, ../sass/main.scss */
+/* line 356, ../sass/main.scss */
 #accordion {
   padding-bottom: 40px;
 }
 
-/* line 357, ../sass/main.scss */
+/* line 361, ../sass/main.scss */
 .ui-accordion .ui-accordion-header {
   color: #ffffff;
   background-color: #534741;
 }
-/* line 362, ../sass/main.scss */
+/* line 366, ../sass/main.scss */
 .ui-accordion .ui-accordion-content {
   padding: 0px;
   border-left: none;
   border-right: none;
 }
 
-/* line 369, ../sass/main.scss */
+/* line 373, ../sass/main.scss */
 .ui-state-default {
   color: #000000;
   background: none;
 }
 
-/* line 374, ../sass/main.scss */
+/* line 378, ../sass/main.scss */
 .ui-widget-content {
   color: #ffffff;
 }
@@ -371,11 +375,11 @@ p {
 /*==================================================
 =            Slick lib                             =
 ==================================================*/
-/* line 382, ../sass/main.scss */
+/* line 386, ../sass/main.scss */
 .slick-slide .youtubeModal {
   position: relative;
 }
-/* line 385, ../sass/main.scss */
+/* line 389, ../sass/main.scss */
 .slick-slide .youtubeModal .play-icon {
   position: absolute;
   top: 42%;
@@ -383,7 +387,7 @@ p {
   width: 20px;
   height: 20px;
 }
-/* line 393, ../sass/main.scss */
+/* line 397, ../sass/main.scss */
 .slick-slide .youtubeModal span {
   position: absolute;
   left: 50%;
@@ -393,13 +397,13 @@ p {
   bottom: 10px;
 }
 
-/* line 404, ../sass/main.scss */
+/* line 408, ../sass/main.scss */
 .slick-prev {
   left: -56px !important;
   height: 38px !important;
 }
 
-/* line 409, ../sass/main.scss */
+/* line 413, ../sass/main.scss */
 .slick-next {
   right: -56px !important;
   height: 38px !important;
@@ -419,27 +423,27 @@ p {
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /* line 459, ../sass/main.scss */
+  /* line 463, ../sass/main.scss */
   .navbar {
     margin: 0px;
   }
 
-  /* line 463, ../sass/main.scss */
+  /* line 467, ../sass/main.scss */
   .navbar-default {
     position: relative;
     height: auto;
     background-color: #534741;
   }
-  /* line 468, ../sass/main.scss */
+  /* line 472, ../sass/main.scss */
   .navbar-default .container-fluid {
     margin: 0px;
   }
-  /* line 473, ../sass/main.scss */
+  /* line 477, ../sass/main.scss */
   .navbar-default .navbar-nav .menu-item {
     margin-left: 0px;
   }
 
-  /* line 480, ../sass/main.scss */
+  /* line 484, ../sass/main.scss */
   #main-bok-content .welcome-text, #main-bok-content .top-header {
     font-size: 20px;
   }

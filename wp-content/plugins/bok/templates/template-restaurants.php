@@ -15,7 +15,7 @@ get_header('bok'); ?>
         <div class="welcome-text">Willkommen <br/> bei Bok</div>
     </div>
 
-    <?php $loop = new WP_Query( array( 'post_type' => 'restaurant', 'posts_per_page' => 10 ) ); $count = 0; ?>
+    <?php $loop = new WP_Query( array( 'post_type' => 'restaurant', 'posts_per_page' => 10, 'order' => 'ASC') ); $count = 0; ?>
 
     <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
         <?php $count++ ?>
@@ -26,7 +26,7 @@ get_header('bok'); ?>
                 <?php else: ?>
                     <h3><?php the_title() ?></h3>
                     <p><?php the_content(); ?></p>
-                    <div><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">See more</a></div>
+                    <div><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">Mehr</a></div>
                 <?php endif; ?>
             </div>
             <div class="col-sm-6 col-full col-center">
@@ -35,7 +35,7 @@ get_header('bok'); ?>
                 <?php else: ?>
                     <h3><?php the_title() ?></h3>
                     <p><?php the_content(); ?></p>
-                    <div><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">See more</a></div>
+                    <div><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">Mehr</a></div>
                 <?php endif; ?>
             </div>
         </div>

@@ -193,6 +193,10 @@ p {
 ==================================================*/
 #map_wrapper {
   height: 400px;
+
+  p, h3 {
+    color: #534741 !important;
+  }
 }
 
 #map_canvas {
