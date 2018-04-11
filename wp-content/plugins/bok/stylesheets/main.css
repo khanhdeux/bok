@@ -143,18 +143,18 @@ p {
 ==================================================*/
 /* line 144, ../sass/main.scss */
 .navbar-default {
-  background-color: #534741;
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
   position: absolute;
   top: 0px;
   left: 0px;
   width: 100%;
-  height: 100px;
+  height: 80px;
   text-transform: uppercase;
 }
 /* line 155, ../sass/main.scss */
 .navbar-default .container-fluid {
-  margin-top: 28px;
+  margin-top: 14px;
 }
 /* line 160, ../sass/main.scss */
 .navbar-default .navbar-header button {
@@ -446,6 +446,11 @@ p {
   /* line 484, ../sass/main.scss */
   #main-bok-content .welcome-text, #main-bok-content .top-header {
     font-size: 20px;
+  }
+
+  /* line 490, ../sass/main.scss */
+  .row.equal {
+    display: inherit;
   }
 }
 /* Extra Small Devices, Phones */
