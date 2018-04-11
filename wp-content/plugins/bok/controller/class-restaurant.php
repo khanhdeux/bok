@@ -28,6 +28,9 @@ class Restaurant extends Post_Type {
         /* Include js/css scripts*/
         add_action('after_setup_theme', array($this, 'initScripts'));
 
+        // init text telephone
+        \Bok\Controller\Metabox_Text::getInstance('telephone', 'Telefon',['restaurant']);
+
         //init the meta box slider
         /**@var \Bok\Controller\Metabox_Slider $metaboxSlider */
         \Bok\Controller\Metabox_Slider::getInstance('slider_image', 'Slider',['restaurant'] );

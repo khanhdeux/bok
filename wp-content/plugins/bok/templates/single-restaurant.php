@@ -27,7 +27,9 @@ get_header('bok'); ?>
                             <a href="<?php echo get_site_url() . '/reservation?r=' . strtolower(get_the_title()); ?>">Tisch reservieren</a>
                          </div>
                         <div class="col-sm-4">
-                            <p>Anruf: +971.888.6666</p>
+                            <?php if ( get_post_meta( $post->ID, 'telephone', true) ) : ?>
+                            <p>Anruf: <?php echo get_post_meta( $post->ID, 'telephone', true) ?></p>
+                            <?php endif; ?>
                         </div>
                         <div class="col-sm-4">
                             <a href="<?php echo get_site_url() . '/reservation?r=' . strtolower(get_the_title()); ?>">Restaurants ansehen ></a>
