@@ -59,14 +59,24 @@ get_header('bok'); ?>
                     <div class="row">
                         <div class="col-sm-12">
                             <div id="accordion">
-                                <h3>Mittag</h3>
-                                <div>
-                                    <?php echo get_post_meta( $post->ID, 'restaurant_day_menu', true) ?>
-                                </div>
-                                <h3>Abend</h3>
-                                <div>
-                                    <?php echo get_post_meta( $post->ID, 'restaurant_evening_menu', true) ?>
-                                </div>
+                                <?php if ( get_post_meta( $post->ID, 'restaurant_day_menu', true)  ) : ?>
+                                    <?php if (!get_post_meta( $post->ID, 'restaurant_day_menu', true) &&  !get_post_meta( $post->ID, 'restaurant_evening_menu', true)) : ?>
+                                        <?php echo get_post_meta( $post->ID, 'restaurant_day_menu', true) ?>
+                                    <?php else: ?>
+                                        <h3>Mittag</h3>
+                                        <div>
+                                            <?php echo get_post_meta( $post->ID, 'restaurant_day_menu', true) ?>
+                                        </div>
+                                        <h3>Abend</h3>
+                                        <div>
+                                            <?php echo get_post_meta( $post->ID, 'restaurant_evening_menu', true) ?>
+                                        </div>
+                                        <h3>Getränke</h3>
+                                        <div>
+                                            <?php echo get_post_meta( $post->ID, 'restaurant_lunch_menu', true) ?>
+                                        </div>
+                                    <?php endif; ?>
+                                <?php endif; ?>
                             </div>
                         </div>
                     </div>

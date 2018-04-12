@@ -37,7 +37,7 @@ class Restaurant extends Post_Type {
 
         //init metabox wysiwug
         /**@var \Bok\Controller\Metabox_Wysiwyg $metaboxEditor */
-        \Bok\Controller\Metabox_Wysiwyg::getInstance('restaurant_lunch_menu', 'Mittagtisch',['restaurant']);
+        \Bok\Controller\Metabox_Wysiwyg::getInstance('restaurant_lunch_menu', 'Getränke',['restaurant']);
 
         //init metabox wysiwug
         /**@var \Bok\Controller\Metabox_Wysiwyg $metaboxEditor */
