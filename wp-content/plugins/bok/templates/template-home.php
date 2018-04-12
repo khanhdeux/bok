@@ -78,7 +78,7 @@ get_header(); ?>
     var n = 0;
     var video_enCours = 0;
 
-    $(window).load(function(){
+    $(document).ready(function(){
         if(navigator.userAgent.match(/(android|iphone|ipad|blackberry|symbian|symbianos|symbos|netfront|model-orange|javaplatform|iemobile|windows phone|samsung|htc|opera mobile|opera mobi|opera mini|presto|huawei|blazer|bolt|doris|fennec|gobrowser|iris|maemo browser|mib|cldc|minimo|semc-browser|skyfire|teashark|teleca|uzard|uzardweb|meego|nokia|bb10|playbook)/gi)) mobile = true;
         $('#intro i').animate({'width':'50px'}, 1500, function(){ $(this).fadeOut('fast'); $('#intro u').fadeOut('fast'); setTimeout(function(){ $('#bloc_start').fadeIn(); }, 1000); $('#intro').delay(500).fadeOut(2000); } );
         mon_resize();
