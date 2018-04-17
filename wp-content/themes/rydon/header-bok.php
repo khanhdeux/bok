@@ -25,7 +25,7 @@
 
 <div id="bok-nav">
     <nav class="navbar-default">
-        <div class="container-fluid">
+        <div class="container-fluid container container-800">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bok-navbar-collapse" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>

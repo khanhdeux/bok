@@ -73,6 +73,12 @@ p {
   width:100%;
   left: 0px;
   margin-left: 0px;
+
+  .menu-item {
+    .sub-menu {
+      display: none !important;
+    }
+  }
 }
 
 .imprint {
@@ -166,6 +172,8 @@ p {
     & > li {
       & > a {
         color: #ffffff;
+        font-size: 14px;
+
         &:hover {
           color: #ffffff;
         }
@@ -181,8 +189,6 @@ p {
     }
 
     .menu-item {
-      margin-left: 20px;
-
       .sub-menu {
         display: none;
         li {
@@ -211,7 +217,8 @@ p {
                 text-decoration: none;
                 text-shadow: 1px 1px 1px #110000;
                 margin: 0;
-                padding: 0 30px 0 0;
+                padding: 0px 14px;
+                font-size: 14px;
               }
             }
           }
@@ -264,8 +271,8 @@ p {
 
   .bok-restaurant-row {
     [class^='col-'] {
-      background-color: #000000;
-      min-height: 250px;
+      // background-color: #000000;
+      // min-height: 250px;
     }
 
     h3 {
