@@ -48,4 +48,44 @@ $(document).ready(function() {
             // instead of a settings object
         ]
     });
+
+    $('.restaurantSlider').slick({
+        dots: true,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        speed: 5000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow: "<img class='a-left control-c prev slick-prev' src='/wp-content/plugins/bok/images/arrow-left.png'>",
+        nextArrow: "<img class='a-right control-c next slick-next' src='/wp-content/plugins/bok/images/arrow-right.png'>",
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+    });
 });

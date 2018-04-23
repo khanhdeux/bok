@@ -9,7 +9,26 @@
 get_header('bok'); ?>
   <div id="main-bok-content">
       <div class="row bok-restaurant-top">
-          <img src="<?php echo esc_url( plugins_url( BOK__PLUGIN_NAME . '/images/restaurant.png') ); ?>" width="100%" />
+          <section class="restaurantSlider slider" data-sizes="50vw">
+              <?php
+              $numOfImage = get_post_meta( $post->ID, 'slider_image_count', true);
+
+              if($numOfImage) {
+                  for ($i = 0; $i < $numOfImage; $i++) {
+                      $image = get_post_meta( $post->ID, 'slider_image_' . $i, true);
+                      if(!empty($image)) {
+                          ?>
+                          <div class="">
+                              <a href="<?php echo wp_get_attachment_image_src($image, 'full')[0]; ?>" class="slider-image thumbnail">
+                                  <img src="<?php echo wp_get_attachment_image_src($image, 'full')[0]; ?>" alt="">
+                              </a>
+                          </div>
+                      <?php
+                      }
+                  }
+              }
+              ?>
+          </section>
       </div>
       <?php while ( have_posts() ) : the_post(); ?>
             <div class="section" id="single-section">
@@ -34,26 +53,6 @@ get_header('bok'); ?>
                         <div class="col-sm-4">
                             <a href="<?php echo get_site_url() . '/reservation?r=' . strtolower(get_the_title()); ?>">Restaurants ansehen ></a>
                         </div>
-                    </div>
-                    <div class="row slider">
-                        <?php
-                        $numOfImage = get_post_meta( $post->ID, 'slider_image_count', true);
-
-                        if($numOfImage) {
-                            for ($i = 0; $i < $numOfImage; $i++) {
-                                $image = get_post_meta( $post->ID, 'slider_image_' . $i, true);
-                                if(!empty($image)) {
-                                    ?>
-                                    <div class="col-sm-4 col-md-2 mx150 pull-left">
-                                        <a href="<?php echo wp_get_attachment_image_src($image, 'full')[0]; ?>" class="slider-image thumbnail">
-                                            <img src="<?php echo wp_get_attachment_image_src($image, 'thumbnail')[0]; ?>" alt="">
-                                        </a>
-                                    </div>
-                                <?php
-                                }
-                            }
-                        }
-                        ?>
                     </div>
 
                     <div class="row">
