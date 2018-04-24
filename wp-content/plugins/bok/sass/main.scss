@@ -335,10 +335,24 @@ p {
     }
 
     .slick-dots {
+      bottom: 10px;
+
       li {
+        margin: 0px 2px;
+        border: 1px solid #fff;
+        border-radius: 10px;
         width: 10px;
         height: 10px;
-        margin: 0px;
+
+        button {
+          &:before {
+            content: '';
+          }
+        }
+
+        &.slick-active {
+          background-color: #fff;
+        }
       }
     }
   }

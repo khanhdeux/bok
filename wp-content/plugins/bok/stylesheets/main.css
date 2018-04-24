@@ -303,11 +303,25 @@ p {
   max-height: 500px;
   overflow: hidden;
 }
-/* line 338, ../sass/main.scss */
+/* line 337, ../sass/main.scss */
+#main-bok-content .restaurantSlider .slick-dots {
+  bottom: 10px;
+}
+/* line 340, ../sass/main.scss */
 #main-bok-content .restaurantSlider .slick-dots li {
+  margin: 0px 2px;
+  border: 1px solid #fff;
+  border-radius: 10px;
   width: 10px;
   height: 10px;
-  margin: 0px;
+}
+/* line 348, ../sass/main.scss */
+#main-bok-content .restaurantSlider .slick-dots li button:before {
+  content: '';
+}
+/* line 353, ../sass/main.scss */
+#main-bok-content .restaurantSlider .slick-dots li.slick-active {
+  background-color: #fff;
 }
 
 /*==================================================
@@ -316,13 +330,13 @@ p {
 /*==================================================
 =            FOOTER                               =
 ==================================================*/
-/* line 359, ../sass/main.scss */
+/* line 373, ../sass/main.scss */
 #bok-footer {
   background-color: #000000;
   color: gray;
   padding: 60px;
 }
-/* line 363, ../sass/main.scss */
+/* line 377, ../sass/main.scss */
 #bok-footer a {
   color: gray;
 }
@@ -330,7 +344,7 @@ p {
 /*==================================================
 =            Plugins                               =
 ==================================================*/
-/* line 373, ../sass/main.scss */
+/* line 387, ../sass/main.scss */
 .wpcf7 input, .wpcf7 textarea {
   display: block;
   width: 100%;
@@ -345,7 +359,7 @@ p {
   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-/* line 388, ../sass/main.scss */
+/* line 402, ../sass/main.scss */
 .wpcf7 input {
   height: 34px;
   padding: 6px 12px;
@@ -356,60 +370,60 @@ p {
 /*==================================================
 =            Bootstrap                             =
 ==================================================*/
-/* line 399, ../sass/main.scss */
+/* line 413, ../sass/main.scss */
 .btn-primary {
   background-color: #000;
   border-color: #ffffff;
 }
-/* line 404, ../sass/main.scss */
+/* line 418, ../sass/main.scss */
 .btn-primary:hover {
   background-color: gray;
 }
 
-/* line 409, ../sass/main.scss */
+/* line 423, ../sass/main.scss */
 .container {
   padding: 0px;
 }
 
-/* line 413, ../sass/main.scss */
+/* line 427, ../sass/main.scss */
 .margin {
   margin: 20px 0;
 }
 
-/* line 417, ../sass/main.scss */
+/* line 431, ../sass/main.scss */
 .panel {
   background-color: transparent;
 }
 
-/* line 421, ../sass/main.scss */
+/* line 435, ../sass/main.scss */
 .ui-widget-content {
   background: inherit;
 }
 
-/* line 425, ../sass/main.scss */
+/* line 439, ../sass/main.scss */
 #accordion {
   padding-bottom: 40px;
 }
 
-/* line 430, ../sass/main.scss */
+/* line 444, ../sass/main.scss */
 .ui-accordion .ui-accordion-header {
   color: #ffffff;
   background-color: #534741;
 }
-/* line 435, ../sass/main.scss */
+/* line 449, ../sass/main.scss */
 .ui-accordion .ui-accordion-content {
   padding: 0px;
   border-left: none;
   border-right: none;
 }
 
-/* line 442, ../sass/main.scss */
+/* line 456, ../sass/main.scss */
 .ui-state-default {
   color: #000000;
   background: none;
 }
 
-/* line 447, ../sass/main.scss */
+/* line 461, ../sass/main.scss */
 .ui-widget-content {
   color: #ffffff;
 }
@@ -417,11 +431,11 @@ p {
 /*==================================================
 =            Slick lib                             =
 ==================================================*/
-/* line 455, ../sass/main.scss */
+/* line 469, ../sass/main.scss */
 .slick-slide .youtubeModal {
   position: relative;
 }
-/* line 458, ../sass/main.scss */
+/* line 472, ../sass/main.scss */
 .slick-slide .youtubeModal .play-icon {
   position: absolute;
   top: 42%;
@@ -429,7 +443,7 @@ p {
   width: 20px;
   height: 20px;
 }
-/* line 466, ../sass/main.scss */
+/* line 480, ../sass/main.scss */
 .slick-slide .youtubeModal span {
   position: absolute;
   left: 50%;
@@ -439,13 +453,13 @@ p {
   bottom: 10px;
 }
 
-/* line 477, ../sass/main.scss */
+/* line 491, ../sass/main.scss */
 .slick-prev {
   left: -56px !important;
   height: 38px !important;
 }
 
-/* line 482, ../sass/main.scss */
+/* line 496, ../sass/main.scss */
 .slick-next {
   right: -56px !important;
   height: 38px !important;
@@ -465,36 +479,36 @@ p {
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /* line 532, ../sass/main.scss */
+  /* line 546, ../sass/main.scss */
   .navbar {
     margin: 0px;
   }
 
-  /* line 536, ../sass/main.scss */
+  /* line 550, ../sass/main.scss */
   .navbar-default {
     position: relative;
     height: auto;
     background-color: #534741;
   }
-  /* line 541, ../sass/main.scss */
+  /* line 555, ../sass/main.scss */
   .navbar-default .container-fluid {
     margin: 0px;
   }
-  /* line 546, ../sass/main.scss */
+  /* line 560, ../sass/main.scss */
   .navbar-default .navbar-nav .menu-item {
     margin-left: 0px;
   }
-  /* line 551, ../sass/main.scss */
+  /* line 565, ../sass/main.scss */
   .navbar-default .navbar-nav .menu-item:hover ul.sub-menu {
     display: none !important;
   }
 
-  /* line 561, ../sass/main.scss */
+  /* line 575, ../sass/main.scss */
   #main-bok-content .welcome-text, #main-bok-content .top-header {
     font-size: 20px;
   }
 
-  /* line 567, ../sass/main.scss */
+  /* line 581, ../sass/main.scss */
   .row.equal {
     display: inherit;
   }

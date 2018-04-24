@@ -19,7 +19,7 @@ get_header('bok'); ?>
                       if(!empty($image)) {
                           ?>
                           <div class="">
-                              <a href="<?php echo wp_get_attachment_image_src($image, 'full')[0]; ?>" class="slider-image thumbnail">
+                              <a href="<?php echo wp_get_attachment_image_src($image, 'full')[0]; ?>" class="slider-image _thumbnail">
                                   <img src="<?php echo wp_get_attachment_image_src($image, 'full')[0]; ?>" alt="">
                               </a>
                           </div>
