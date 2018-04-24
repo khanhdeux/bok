@@ -140,12 +140,13 @@ p {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  min-height: 200px;
 }
 
 /*==================================================
 =            HEADER                               =
 ==================================================*/
-/* line 150, ../sass/main.scss */
+/* line 151, ../sass/main.scss */
 .navbar-default {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
@@ -156,40 +157,40 @@ p {
   height: 80px;
   text-transform: uppercase;
 }
-/* line 161, ../sass/main.scss */
+/* line 162, ../sass/main.scss */
 .navbar-default .container-fluid {
   margin-top: 14px;
 }
-/* line 166, ../sass/main.scss */
+/* line 167, ../sass/main.scss */
 .navbar-default .navbar-header button {
   background-color: transparent !important;
 }
-/* line 173, ../sass/main.scss */
+/* line 174, ../sass/main.scss */
 .navbar-default .navbar-nav > li > a {
   color: #ffffff;
   font-size: 14px;
 }
-/* line 177, ../sass/main.scss */
+/* line 178, ../sass/main.scss */
 .navbar-default .navbar-nav > li > a:hover {
   color: #ffffff;
 }
-/* line 182, ../sass/main.scss */
+/* line 183, ../sass/main.scss */
 .navbar-default .navbar-nav > li.current-menu-item, .navbar-default .navbar-nav > li.current-menu-parent {
   background-color: #d3d3d3;
 }
-/* line 185, ../sass/main.scss */
+/* line 186, ../sass/main.scss */
 .navbar-default .navbar-nav > li.current-menu-item > a, .navbar-default .navbar-nav > li.current-menu-parent > a {
   color: #000000;
 }
-/* line 192, ../sass/main.scss */
+/* line 193, ../sass/main.scss */
 .navbar-default .navbar-nav .menu-item .sub-menu {
   display: none;
 }
-/* line 194, ../sass/main.scss */
+/* line 195, ../sass/main.scss */
 .navbar-default .navbar-nav .menu-item .sub-menu li {
   display: inline;
 }
-/* line 201, ../sass/main.scss */
+/* line 202, ../sass/main.scss */
 .navbar-default .navbar-nav .menu-item:hover ul.sub-menu {
   width: 800px;
   height: 60px;
@@ -200,7 +201,7 @@ p {
   top: 50px;
   padding: 10px 0px 0px 0px;
 }
-/* line 212, ../sass/main.scss */
+/* line 213, ../sass/main.scss */
 .navbar-default .navbar-nav .menu-item:hover ul.sub-menu li a {
   float: left;
   line-height: 45px;
@@ -211,7 +212,7 @@ p {
   padding: 0px 14px;
   font-size: 14px;
 }
-/* line 233, ../sass/main.scss */
+/* line 234, ../sass/main.scss */
 .navbar-default:hover .menu-item:hover ul.sub-menu {
   display: block;
 }
@@ -219,51 +220,51 @@ p {
 /*==================================================
 =            Pages                               =
 ==================================================*/
-/* line 245, ../sass/main.scss */
+/* line 246, ../sass/main.scss */
 #map_wrapper {
   height: 400px;
 }
-/* line 248, ../sass/main.scss */
+/* line 249, ../sass/main.scss */
 #map_wrapper p, #map_wrapper h3 {
   color: #534741 !important;
 }
 
-/* line 253, ../sass/main.scss */
+/* line 254, ../sass/main.scss */
 #map_canvas {
   width: 100%;
   height: 100%;
 }
 
-/* line 258, ../sass/main.scss */
+/* line 259, ../sass/main.scss */
 #main-bok-content {
   z-index: 1;
   background-color: #534741;
   color: #ffffff;
 }
-/* line 263, ../sass/main.scss */
+/* line 264, ../sass/main.scss */
 #main-bok-content p {
   color: #ffffff;
 }
-/* line 267, ../sass/main.scss */
+/* line 268, ../sass/main.scss */
 #main-bok-content .bok-restaurant-top {
   position: relative;
 }
-/* line 277, ../sass/main.scss */
+/* line 278, ../sass/main.scss */
 #main-bok-content .bok-restaurant-row h3 {
   font-size: 40px;
 }
-/* line 281, ../sass/main.scss */
+/* line 282, ../sass/main.scss */
 #main-bok-content .bok-restaurant-row p {
   font-size: 16px;
 }
-/* line 285, ../sass/main.scss */
+/* line 286, ../sass/main.scss */
 #main-bok-content .bok-restaurant-row a {
   color: #ffffff;
   border: 1px solid gray;
   padding: 10px;
   border-radius: 10px;
 }
-/* line 293, ../sass/main.scss */
+/* line 294, ../sass/main.scss */
 #main-bok-content .welcome-text {
   position: absolute;
   top: 20%;
@@ -271,7 +272,7 @@ p {
   font-size: 60px;
   color: gray;
 }
-/* line 301, ../sass/main.scss */
+/* line 302, ../sass/main.scss */
 #main-bok-content .top-header {
   position: absolute;
   top: 42%;
@@ -280,34 +281,34 @@ p {
   font-size: 60px;
   font-weight: bold;
 }
-/* line 310, ../sass/main.scss */
+/* line 311, ../sass/main.scss */
 #main-bok-content .description {
   padding: 80px 40px;
   font-size: 20px;
 }
-/* line 316, ../sass/main.scss */
+/* line 317, ../sass/main.scss */
 #main-bok-content #mainVideo {
   border: 1px solid white;
   width: 100%;
   height: 400px;
   display: none;
 }
-/* line 322, ../sass/main.scss */
+/* line 323, ../sass/main.scss */
 #main-bok-content #mainVideo iframe {
   width: 100%;
   height: 100%;
 }
-/* line 330, ../sass/main.scss */
+/* line 331, ../sass/main.scss */
 #main-bok-content .restaurantSlider .slick-slide img {
   width: 100%;
   max-height: 500px;
   overflow: hidden;
 }
-/* line 337, ../sass/main.scss */
+/* line 338, ../sass/main.scss */
 #main-bok-content .restaurantSlider .slick-dots {
   bottom: 10px;
 }
-/* line 340, ../sass/main.scss */
+/* line 341, ../sass/main.scss */
 #main-bok-content .restaurantSlider .slick-dots li {
   margin: 0px 2px;
   border: 1px solid #fff;
@@ -315,11 +316,11 @@ p {
   width: 10px;
   height: 10px;
 }
-/* line 348, ../sass/main.scss */
+/* line 349, ../sass/main.scss */
 #main-bok-content .restaurantSlider .slick-dots li button:before {
   content: '';
 }
-/* line 353, ../sass/main.scss */
+/* line 354, ../sass/main.scss */
 #main-bok-content .restaurantSlider .slick-dots li.slick-active {
   background-color: #fff;
 }
@@ -330,13 +331,13 @@ p {
 /*==================================================
 =            FOOTER                               =
 ==================================================*/
-/* line 373, ../sass/main.scss */
+/* line 374, ../sass/main.scss */
 #bok-footer {
   background-color: #000000;
   color: gray;
   padding: 60px;
 }
-/* line 377, ../sass/main.scss */
+/* line 378, ../sass/main.scss */
 #bok-footer a {
   color: gray;
 }
@@ -344,7 +345,7 @@ p {
 /*==================================================
 =            Plugins                               =
 ==================================================*/
-/* line 387, ../sass/main.scss */
+/* line 388, ../sass/main.scss */
 .wpcf7 input, .wpcf7 textarea {
   display: block;
   width: 100%;
@@ -359,7 +360,7 @@ p {
   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-/* line 402, ../sass/main.scss */
+/* line 403, ../sass/main.scss */
 .wpcf7 input {
   height: 34px;
   padding: 6px 12px;
@@ -370,60 +371,60 @@ p {
 /*==================================================
 =            Bootstrap                             =
 ==================================================*/
-/* line 413, ../sass/main.scss */
+/* line 414, ../sass/main.scss */
 .btn-primary {
   background-color: #000;
   border-color: #ffffff;
 }
-/* line 418, ../sass/main.scss */
+/* line 419, ../sass/main.scss */
 .btn-primary:hover {
   background-color: gray;
 }
 
-/* line 423, ../sass/main.scss */
+/* line 424, ../sass/main.scss */
 .container {
   padding: 0px;
 }
 
-/* line 427, ../sass/main.scss */
+/* line 428, ../sass/main.scss */
 .margin {
   margin: 20px 0;
 }
 
-/* line 431, ../sass/main.scss */
+/* line 432, ../sass/main.scss */
 .panel {
   background-color: transparent;
 }
 
-/* line 435, ../sass/main.scss */
+/* line 436, ../sass/main.scss */
 .ui-widget-content {
   background: inherit;
 }
 
-/* line 439, ../sass/main.scss */
+/* line 440, ../sass/main.scss */
 #accordion {
   padding-bottom: 40px;
 }
 
-/* line 444, ../sass/main.scss */
+/* line 445, ../sass/main.scss */
 .ui-accordion .ui-accordion-header {
   color: #ffffff;
   background-color: #534741;
 }
-/* line 449, ../sass/main.scss */
+/* line 450, ../sass/main.scss */
 .ui-accordion .ui-accordion-content {
   padding: 0px;
   border-left: none;
   border-right: none;
 }
 
-/* line 456, ../sass/main.scss */
+/* line 457, ../sass/main.scss */
 .ui-state-default {
   color: #000000;
   background: none;
 }
 
-/* line 461, ../sass/main.scss */
+/* line 462, ../sass/main.scss */
 .ui-widget-content {
   color: #ffffff;
 }
@@ -431,11 +432,11 @@ p {
 /*==================================================
 =            Slick lib                             =
 ==================================================*/
-/* line 469, ../sass/main.scss */
+/* line 470, ../sass/main.scss */
 .slick-slide .youtubeModal {
   position: relative;
 }
-/* line 472, ../sass/main.scss */
+/* line 473, ../sass/main.scss */
 .slick-slide .youtubeModal .play-icon {
   position: absolute;
   top: 42%;
@@ -443,7 +444,7 @@ p {
   width: 20px;
   height: 20px;
 }
-/* line 480, ../sass/main.scss */
+/* line 481, ../sass/main.scss */
 .slick-slide .youtubeModal span {
   position: absolute;
   left: 50%;
@@ -453,13 +454,13 @@ p {
   bottom: 10px;
 }
 
-/* line 491, ../sass/main.scss */
+/* line 492, ../sass/main.scss */
 .slick-prev {
   left: -56px !important;
   height: 38px !important;
 }
 
-/* line 496, ../sass/main.scss */
+/* line 497, ../sass/main.scss */
 .slick-next {
   right: -56px !important;
   height: 38px !important;
@@ -479,36 +480,36 @@ p {
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /* line 546, ../sass/main.scss */
+  /* line 547, ../sass/main.scss */
   .navbar {
     margin: 0px;
   }
 
-  /* line 550, ../sass/main.scss */
+  /* line 551, ../sass/main.scss */
   .navbar-default {
     position: relative;
     height: auto;
     background-color: #534741;
   }
-  /* line 555, ../sass/main.scss */
+  /* line 556, ../sass/main.scss */
   .navbar-default .container-fluid {
     margin: 0px;
   }
-  /* line 560, ../sass/main.scss */
+  /* line 561, ../sass/main.scss */
   .navbar-default .navbar-nav .menu-item {
     margin-left: 0px;
   }
-  /* line 565, ../sass/main.scss */
+  /* line 566, ../sass/main.scss */
   .navbar-default .navbar-nav .menu-item:hover ul.sub-menu {
     display: none !important;
   }
 
-  /* line 575, ../sass/main.scss */
+  /* line 576, ../sass/main.scss */
   #main-bok-content .welcome-text, #main-bok-content .top-header {
     font-size: 20px;
   }
 
-  /* line 581, ../sass/main.scss */
+  /* line 582, ../sass/main.scss */
   .row.equal {
     display: inherit;
   }
