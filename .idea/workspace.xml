@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d36b1a2a-34a6-4c03-800e-75c6f61631c3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/.sass-cache/c0978b77adc527f4cab75c3cd635eef5458b705a/main.scssc" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/.sass-cache/c0978b77adc527f4cab75c3cd635eef5458b705a/main.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/stylesheets/main.css" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/stylesheets/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/sass/main.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/sass/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="box.iws" />
@@ -493,12 +490,6 @@
       <option name="number" value="Default" />
       <updated>1502740651947</updated>
     </task>
-    <task id="LOCAL-00010" summary="twitter bootstrap included">
-      <created>1503787872595</created>
-      <option name="number" value="00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1503787872595</updated>
-    </task>
     <task id="LOCAL-00011" summary="jquery-ui + accordion">
       <created>1503795708509</created>
       <option name="number" value="00011" />
@@ -787,7 +778,13 @@
       <option name="project" value="LOCAL" />
       <updated>1524594491416</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="mobile restaurants padding">
+      <created>1524605570356</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1524605570356</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -855,7 +852,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="recepts new video list" />
     <MESSAGE value="move style to work with scss" />
     <MESSAGE value="homepage nav menu" />
     <MESSAGE value="optimize homepage speed" />
@@ -880,7 +876,8 @@
     <MESSAGE value="Style restaurants to 800" />
     <MESSAGE value="Top Slider on single restaurant" />
     <MESSAGE value="Top Slider fade changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Top Slider fade changed" />
+    <MESSAGE value="mobile restaurants padding" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile restaurants padding" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
