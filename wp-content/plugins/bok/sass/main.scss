@@ -331,7 +331,7 @@ p {
       img {
         width: 100%;
         max-height:500px;
-        overflow:hidden;
+        object-fit: cover;
       }
     }
 

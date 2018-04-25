@@ -302,7 +302,7 @@ p {
 #main-bok-content .restaurantSlider .slick-slide img {
   width: 100%;
   max-height: 500px;
-  overflow: hidden;
+  object-fit: cover;
 }
 /* line 338, ../sass/main.scss */
 #main-bok-content .restaurantSlider .slick-dots {
