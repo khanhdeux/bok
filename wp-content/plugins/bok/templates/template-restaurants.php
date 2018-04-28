@@ -20,24 +20,42 @@ get_header('bok'); ?>
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
             <?php $count++ ?>
             <div class="row equal bok-restaurant-row">
-                <div class="col-sm-6 col-full col-center">
-                    <?php if ( ($count % 2) != 0 ) : ?>
+                <?php if ( ($count % 2) != 0 ) : ?>
+                    <div class="col-sm-6 col-full col-center">
                         <img width="100%" src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php the_title_attribute(); ?>">
-                    <?php else: ?>
+                    </div>
+                    <div class="col-sm-6 col-full col-center">
                         <h3><?php the_title() ?></h3>
                         <p><?php the_content(); ?></p>
                         <div><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">Mehr</a></div>
-                    <?php endif; ?>
-                </div>
-                <div class="col-sm-6 col-full col-center">
-                    <?php if ( ($count % 2) == 0 ) : ?>
-                        <img width="100%" src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php the_title_attribute(); ?>">
-                    <?php else: ?>
-                        <h3><?php the_title() ?></h3>
-                        <p><?php the_content(); ?></p>
-                        <div><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">Mehr</a></div>
-                    <?php endif; ?>
-                </div>
+                    </div>
+                <?php else: ?>
+                    <?php for($i=0; $i<2; $i++) { ?>
+                        <?php if ( ($i % 2) != 0 ) : ?>
+                            <div class="desktop">
+                                <div class="col-sm-6 col-full col-center">
+                                    <h3><?php the_title() ?></h3>
+                                    <p><?php the_content(); ?></p>
+                                    <div><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">Mehr</a></div>
+                                </div>
+                                <div class="col-sm-6 col-full col-center">
+                                    <img width="100%" src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php the_title_attribute(); ?>">
+                                </div>
+                            </div>
+                        <?php else: ?>
+                            <div class="mobile">
+                                <div class="col-sm-6 col-full col-center">
+                                    <img width="100%" src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php the_title_attribute(); ?>">
+                                </div>
+                                <div class="col-sm-6 col-full col-center">
+                                    <h3><?php the_title() ?></h3>
+                                    <p><?php the_content(); ?></p>
+                                    <div><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">Mehr</a></div>
+                                </div>
+                            </div>
+                        <?php endif; ?>
+                    <?php } ?>
+                <?php endif; ?>
             </div>
         <?php endwhile; ?>
     </div>

@@ -289,14 +289,23 @@ p {
       padding: 10px;
       border-radius: 10px;
     }
+
+    .mobile {
+      display: none;
+    }
+
+    .desktop {
+      display: block;
+    }
   }
 
   .welcome-text {
     position: absolute;
-    top: 20%;
-    right: 10%;
+    top: 40%;
+    left: 40%;
     font-size: 60px;
-    color: gray;
+    color: #ffffff;
+    text-align: center;
   }
 
   .top-header {
@@ -581,6 +590,15 @@ p {
   .row {
     &.equal {
       display: inherit;
+    }
+  }
+
+  .bok-restaurant-row {
+    .mobile {
+      display: block !important;
+    }
+    .desktop {
+      display: none !important;
     }
   }
 }
