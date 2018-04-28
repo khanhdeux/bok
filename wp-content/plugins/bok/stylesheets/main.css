@@ -168,7 +168,7 @@ p {
 }
 /* line 173, ../sass/main.scss */
 .navbar-default .navbar-header, .navbar-default .navbar-collapse {
-  margin: auto -5px auto -10px !important;
+  margin: auto 0px;
 }
 /* line 179, ../sass/main.scss */
 .navbar-default .navbar-nav > li > a {

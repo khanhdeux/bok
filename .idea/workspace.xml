@@ -65,8 +65,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.3529413" vertical-offset="0" max-vertical-offset="9375">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state vertical-scroll-proportion="-3.3137255" vertical-offset="2426" max-vertical-offset="9375">
+              <caret line="173" column="21" selection-start-line="173" selection-start-column="21" selection-end-line="173" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -463,12 +463,6 @@
       <option name="number" value="Default" />
       <updated>1502740651947</updated>
     </task>
-    <task id="LOCAL-00016" summary="align slider">
-      <created>1503841252284</created>
-      <option name="number" value="00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1503841252284</updated>
-    </task>
     <task id="LOCAL-00017" summary="homepage text font changed">
       <created>1503845771407</created>
       <option name="number" value="00017" />
@@ -757,7 +751,13 @@
       <option name="project" value="LOCAL" />
       <updated>1524939338723</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="overflow-x hidden">
+      <created>1524940411435</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1524940411435</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -825,7 +825,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="create header + restaurants for both website and mobile" />
     <MESSAGE value="Get data from server" />
     <MESSAGE value="Create about-us page" />
     <MESSAGE value="add header images to aboutus, news recipes" />
@@ -850,7 +849,8 @@
     <MESSAGE value="Style for googlemaps" />
     <MESSAGE value="new restaurant main photo" />
     <MESSAGE value="welcome text + mobile version restaurants" />
-    <option name="LAST_COMMIT_MESSAGE" value="welcome text + mobile version restaurants" />
+    <MESSAGE value="overflow-x hidden" />
+    <option name="LAST_COMMIT_MESSAGE" value="overflow-x hidden" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1200,8 +1200,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3529413" vertical-offset="0" max-vertical-offset="9375">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state vertical-scroll-proportion="-3.3137255" vertical-offset="2426" max-vertical-offset="9375">
+          <caret line="173" column="21" selection-start-line="173" selection-start-column="21" selection-end-line="173" selection-end-column="21" />
           <folding />
         </state>
       </provider>
