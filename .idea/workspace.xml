@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d36b1a2a-34a6-4c03-800e-75c6f61631c3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/.sass-cache/c0978b77adc527f4cab75c3cd635eef5458b705a/main.scssc" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/.sass-cache/c0978b77adc527f4cab75c3cd635eef5458b705a/main.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/stylesheets/main.css" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/stylesheets/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/sass/main.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/sass/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="box.iws" />
@@ -463,12 +460,6 @@
       <option name="number" value="Default" />
       <updated>1502740651947</updated>
     </task>
-    <task id="LOCAL-00017" summary="homepage text font changed">
-      <created>1503845771407</created>
-      <option name="number" value="00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1503845771407</updated>
-    </task>
     <task id="LOCAL-00018" summary="Override template home">
       <created>1503848891616</created>
       <option name="number" value="00018" />
@@ -757,7 +748,13 @@
       <option name="project" value="LOCAL" />
       <updated>1524940411435</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Bug horizontal scroll">
+      <created>1524941185630</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1524941185630</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -825,7 +822,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Get data from server" />
     <MESSAGE value="Create about-us page" />
     <MESSAGE value="add header images to aboutus, news recipes" />
     <MESSAGE value="style single restaurant" />
@@ -850,7 +846,8 @@
     <MESSAGE value="new restaurant main photo" />
     <MESSAGE value="welcome text + mobile version restaurants" />
     <MESSAGE value="overflow-x hidden" />
-    <option name="LAST_COMMIT_MESSAGE" value="overflow-x hidden" />
+    <MESSAGE value="Bug horizontal scroll" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug horizontal scroll" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
