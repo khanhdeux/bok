@@ -14,7 +14,7 @@ get_header('bok'); ?>
         <img src="<?php echo esc_url( plugins_url( BOK__PLUGIN_NAME . '/images/restaurant-main.png') ); ?>" width="100%" />
         <div class="welcome-text">Willkommen <br/> bei Bok</div>
     </div>
-    <div class="container container-800">
+    <div class="row">
         <?php $loop = new WP_Query( array( 'post_type' => 'restaurant', 'posts_per_page' => 10, 'order' => 'ASC') ); $count = 0; ?>
 
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>

@@ -560,17 +560,22 @@ p {
   #main-bok-content .welcome-text, #main-bok-content .top-header {
     font-size: 30px;
   }
+  /* line 636, ../sass/main.scss */
+  #main-bok-content .welcome-text {
+    top: 30%;
+    left: 30%;
+  }
 
-  /* line 638, ../sass/main.scss */
+  /* line 643, ../sass/main.scss */
   .row.equal {
     display: inherit;
   }
 
-  /* line 644, ../sass/main.scss */
+  /* line 649, ../sass/main.scss */
   .bok-restaurant-row .mobile {
     display: block !important;
   }
-  /* line 647, ../sass/main.scss */
+  /* line 652, ../sass/main.scss */
   .bok-restaurant-row .desktop {
     display: none !important;
   }
