@@ -31,7 +31,7 @@ get_header('bok'); ?>
           </section>
       </div>
       <?php while ( have_posts() ) : the_post(); ?>
-            <div class="section" id="single-section">
+            <div id="single-section">
                 <div class="container container-800 text-center">
                     <div class="row">
                         <div class="col-sm-12">
@@ -39,19 +39,17 @@ get_header('bok'); ?>
                         </div>
                     </div>
                     <div class="row">
-                        <p><?php the_content(); wp_link_pages(); ?></p>
+                        <p><?php echo get_post_meta( $post->ID, 'restaurant_description', true) ?></p>
                     </div>
+                    <hr>
                     <div class="row">
-                        <div class="col-sm-4">
-                            <a href="<?php echo get_site_url() . '/reservation?r=' . strtolower(get_the_title()); ?>">Tisch reservieren</a>
+                        <div class="col-sm-6">
+                            <p><?php echo get_post_meta( $post->ID, 'restaurant_address', true) ?></p>
                          </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-6">
                             <?php if ( get_post_meta( $post->ID, 'telephone', true) ) : ?>
                             <p>Anruf: <?php echo get_post_meta( $post->ID, 'telephone', true) ?></p>
                             <?php endif; ?>
-                        </div>
-                        <div class="col-sm-4">
-                            <a href="<?php echo get_site_url() . '/reservation?r=' . strtolower(get_the_title()); ?>">Restaurants ansehen ></a>
                         </div>
                     </div>
 

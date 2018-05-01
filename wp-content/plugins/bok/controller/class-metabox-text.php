@@ -7,12 +7,7 @@ class Metabox_Text extends Metabox_Base {
 
     public static function getInstance() {
         $class = get_called_class();
-
-        if (!self::$instance[$class]) {
-            self::$instance[$class] = new $class(func_get_args());
-        }
-
-        return self::$instance[$class];
+        return new $class(func_get_args());
     }
 
     /**

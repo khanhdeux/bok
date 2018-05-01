@@ -31,6 +31,9 @@ class Restaurant extends Post_Type {
         // init text telephone
         \Bok\Controller\Metabox_Text::getInstance('telephone', 'Telefon',['restaurant']);
 
+        // init text address
+        \Bok\Controller\Metabox_Text::getInstance('restaurant_address', 'Adresse',['restaurant']);
+
         //init the meta box slider
         /**@var \Bok\Controller\Metabox_Slider $metaboxSlider */
         \Bok\Controller\Metabox_Slider::getInstance('slider_image', 'Slider',['restaurant'] );
@@ -46,6 +49,10 @@ class Restaurant extends Post_Type {
         //init metabox wysiwug
         /**@var \Bok\Controller\Metabox_Wysiwyg $metaboxEditor */
         \Bok\Controller\Metabox_Wysiwyg::getInstance('restaurant_evening_menu', 'Abend',['restaurant']);
+
+        //init metabox wysiwug
+        /**@var \Bok\Controller\Metabox_Wysiwyg $metaboxEditor */
+        \Bok\Controller\Metabox_Wysiwyg::getInstance('restaurant_description', 'Beschreibung',['restaurant']);
     }
 
     public function initScripts() {
