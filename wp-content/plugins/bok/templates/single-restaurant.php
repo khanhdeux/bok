@@ -31,7 +31,7 @@ get_header('bok'); ?>
           </section>
       </div>
       <?php while ( have_posts() ) : the_post(); ?>
-            <div id="single-section">
+            <div id="single-restaurant">
                 <div class="container container-800 text-center">
                     <div class="row">
                         <div class="col-sm-12">
@@ -50,7 +50,7 @@ get_header('bok'); ?>
                         <div class="col-sm-6 text-left">
                             <p><?php echo get_post_meta( $post->ID, 'restaurant_address', true) ?></p>
                          </div>
-                        <div class="col-sm-6 text-right">
+                        <div class="col-sm-6 text-right telephone">
                             <?php if ( get_post_meta( $post->ID, 'telephone', true) ) : ?>
                             <p>Anruf: <?php echo get_post_meta( $post->ID, 'telephone', true) ?></p>
                             <?php endif; ?>

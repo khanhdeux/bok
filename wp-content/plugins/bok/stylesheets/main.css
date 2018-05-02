@@ -565,17 +565,21 @@ p {
     top: 30%;
     left: 30%;
   }
+  /* line 642, ../sass/main.scss */
+  #main-bok-content #single-restaurant .telephone {
+    text-align: left !important;
+  }
 
-  /* line 643, ../sass/main.scss */
+  /* line 649, ../sass/main.scss */
   .row.equal {
     display: inherit;
   }
 
-  /* line 649, ../sass/main.scss */
+  /* line 655, ../sass/main.scss */
   .bok-restaurant-row .mobile {
     display: block !important;
   }
-  /* line 652, ../sass/main.scss */
+  /* line 658, ../sass/main.scss */
   .bok-restaurant-row .desktop {
     display: none !important;
   }

@@ -637,6 +637,12 @@ p {
       top: 30%;
       left: 30%;
     }
+
+    #single-restaurant {
+      .telephone {
+        text-align: left !important;
+      }
+    }
   }
 
   .row {
