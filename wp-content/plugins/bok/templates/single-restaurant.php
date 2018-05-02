@@ -41,12 +41,16 @@ get_header('bok'); ?>
                     <div class="row">
                         <p><?php echo get_post_meta( $post->ID, 'restaurant_description', true) ?></p>
                     </div>
-                    <hr>
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-sm-12">
+                            <hr />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 text-left">
                             <p><?php echo get_post_meta( $post->ID, 'restaurant_address', true) ?></p>
                          </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 text-right">
                             <?php if ( get_post_meta( $post->ID, 'telephone', true) ) : ?>
                             <p>Anruf: <?php echo get_post_meta( $post->ID, 'telephone', true) ?></p>
                             <?php endif; ?>
