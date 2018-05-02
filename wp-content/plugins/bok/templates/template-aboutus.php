@@ -9,11 +9,19 @@
 get_header('bok'); ?>
 <div id="main-bok-content" class="about-us">
     <div class="row bok-restaurant-top">
-        <img src="<?php echo esc_url( plugins_url( BOK__PLUGIN_NAME . '/images/restaurant.png') ); ?>" width="100%" />
+        <img src="<?php echo esc_url( plugins_url( BOK__PLUGIN_NAME . '/images/aboutus-cover.png') ); ?>" width="100%" />
         <div class="top-header">Über uns</div>
     </div>
-    <div class="row description"">
-        Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen. Es hat nicht nur 5 Jahrhunderte überlebt, sondern auch in Spruch in die elektronische Schriftbearbeitung geschafft (bemerke, nahezu unverändert). Bekannt wurde es 1960, mit dem erscheinen von "Letraset", welches Passagen von Lorem Ipsum enhielt, so wie Desktop Software wie "Aldus PageMaker" - ebenfalls mit Lorem Ipsum.
+    <div class="row description">
+        <p>
+            Unser Name bok - Glück auf koreanisch - ist unser Leitfaden. Sowohl die Speisen, als auch der Service und das Ambiente sind für uns gleichermaßen wichtig um euch besondere Momente zu schenken. Frische Küche aus verschiedenen asiatischen Kulturen werden bei bok zusammengebracht. Vietnamesisch, thailändisch, koreanisch und japanisch - alles an einem Ort. Unsere traditionellen Speisen werden modern interpretiert und zeichnen sich durch ihre Frische, Qualität und Authentizität aus - eine Vielfalt an Neuem und Traditionellem. Wir verwenden bei der Zubereitung täglich ausgewählte Zutaten, traditionelle Gewürze und frische Kräuter.
+            <br /><br />
+            In unseren Restaurants sorgt unser freundliches und herzliches Team täglich für ein familiäres Erlebnis, was uns besonders am Herzen liegt - vorgelebt von der Gründerin „Mama Kang“, die vor 30 Jahren anfing für ihre Gäste mit Liebe ihre Speisen zuzubereiten. Mit einem Mix aus modernen Einflüssen, Tradition und unserem hohen Anspruch an Qualität und Leidenschaft, sind wir Tag für Tag inspiriert euch immer wieder aufs Neue zu begeistern und mit bok zu erfüllen.
+            <br /><br />
+            Unkonventionell, einfach, gemütlich - wir verzichten gänzlich auf unnötiges Chichi, weil bei uns das Produkt zählt.
+            <br /><br />
+            Wir freuen uns auf euren Besuch.
+        </p>
     </div>
     <?php while ( have_posts() ) : the_post(); ?>
         <div class="section single-post" style="display: none">

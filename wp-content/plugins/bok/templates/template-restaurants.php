@@ -11,7 +11,7 @@ get_header('bok'); ?>
 
 <div id="main-bok-content">
     <div class="row bok-restaurant-top">
-        <img src="<?php echo esc_url( plugins_url( BOK__PLUGIN_NAME . '/images/restaurant-main.png') ); ?>" width="100%" />
+        <img src="<?php echo esc_url( plugins_url( BOK__PLUGIN_NAME . '/images/restaurant-cover.png') ); ?>" width="100%" />
         <div class="welcome-text">Willkommen <br/> bei Bok</div>
     </div>
     <div class="row">

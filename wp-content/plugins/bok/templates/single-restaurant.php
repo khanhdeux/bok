@@ -7,7 +7,7 @@
  * Theme Name: Rydon 2.0
  */
 get_header('bok'); ?>
-  <div id="main-bok-content">
+  <div id="main-bok-content" class="single-restaurant">
       <div class="row bok-restaurant-top">
           <section class="restaurantSlider slider" data-sizes="50vw">
               <?php

@@ -419,7 +419,12 @@ p {
 =            ABOUT US                             =
 ==================================================*/
 #main-bok-content.about-us{
-
+  .description {
+    background-color: #000000;
+    p {
+      color:#808080;
+    }
+  }
 }
 
 
@@ -638,7 +643,7 @@ p {
       left: 30%;
     }
 
-    #single-restaurant {
+    &.single-restaurant {
       .telephone {
         text-align: left !important;
       }
