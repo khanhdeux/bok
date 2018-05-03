@@ -9,13 +9,19 @@
 get_header('bok'); ?>
 <div id="main-bok-content">
     <div class="row bok-restaurant-top">
-        <img src="<?php echo esc_url( plugins_url( BOK__PLUGIN_NAME . '/images/restaurant.png') ); ?>" width="100%" />
+        <img src="<?php echo esc_url( plugins_url( BOK__PLUGIN_NAME . '/images/recipe-cover.png') ); ?>" width="100%" />
         <div class="top-header">Rezepte</div>
     </div>
     <div class="container container-800">
         <div class="row description text-center">
             <p><strong><span class="videoTitle">We'll keep you posted</span></strong></p>
             <p class="videoDescription">Follow us on the latest news, promotions and a few surprises along the way</p>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <hr />
+            </div>
         </div>
 
         <div id="mainVideo" class="row"></div>
