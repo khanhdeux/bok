@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d36b1a2a-34a6-4c03-800e-75c6f61631c3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/images/aboutus-cover.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/images/restaurant-main.png" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/images/restaurant-cover.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/.sass-cache/c0978b77adc527f4cab75c3cd635eef5458b705a/main.scssc" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/.sass-cache/c0978b77adc527f4cab75c3cd635eef5458b705a/main.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/stylesheets/main.css" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/stylesheets/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/sass/main.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/sass/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/templates/single-restaurant.php" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/templates/single-restaurant.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-aboutus.php" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-aboutus.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-restaurants.php" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-restaurants.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="box.iws" />
@@ -50,7 +45,7 @@
       <file leaf-file-name="single-restaurant.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/single-restaurant.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.882353" vertical-offset="435" max-vertical-offset="1455">
+            <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1455">
               <caret line="9" column="53" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="53" />
               <folding />
             </state>
@@ -60,7 +55,7 @@
       <file leaf-file-name="template-aboutus.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/template-aboutus.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1125">
+            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1125">
               <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="42" />
               <folding />
             </state>
@@ -70,7 +65,7 @@
       <file leaf-file-name="template-restaurants.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/template-restaurants.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="1230">
+            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1230">
               <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
@@ -80,8 +75,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.1960783" vertical-offset="6146" max-vertical-offset="10245">
-              <caret line="424" column="20" selection-start-line="424" selection-start-column="20" selection-end-line="424" selection-end-column="20" />
+            <state vertical-scroll-proportion="-3.0196078" vertical-offset="491" max-vertical-offset="10245">
+              <caret line="43" column="50" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -488,17 +483,20 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="com.intellij.database.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
       <option name="VM_PARAMETERS" value="" />
       <option name="USER_CFG_CLASS" />
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
       <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="e9148835-8b8d-4ad1-a953-c6386acd6dd2" server_name="BOX restaurant">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -508,9 +506,6 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="e9148835-8b8d-4ad1-a953-c6386acd6dd2" server_name="BOX restaurant">
       <method />
     </configuration>
     <list size="0" />
@@ -525,12 +520,6 @@
       <created>1502740651947</created>
       <option name="number" value="Default" />
       <updated>1502740651947</updated>
-    </task>
-    <task id="LOCAL-00024" summary="breadcrum single page">
-      <created>1504115172159</created>
-      <option name="number" value="00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1504115172159</updated>
     </task>
     <task id="LOCAL-00025" summary="new contact page overriden">
       <created>1504116651446</created>
@@ -820,7 +809,13 @@
       <option name="project" value="LOCAL" />
       <updated>1525298709180</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="about us">
+      <created>1525300175118</created>
+      <option name="number" value="00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1525300175119</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -847,19 +842,18 @@
     <frame x="47" y="23" width="1393" height="877" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2859025" sideWeight="0.4996299" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2859025" sideWeight="0.4996299" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28722003" sideWeight="0.4996299" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28722003" sideWeight="0.4996299" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35672083" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2938564" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28722003" sideWeight="0.5003701" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2859025" sideWeight="0.5003701" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42028984" sideWeight="0.4996299" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20059216" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20355292" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -867,10 +861,11 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2859025" sideWeight="0.6217617" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.89069426" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -888,7 +883,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="display youtube video icon" />
     <MESSAGE value="logic + display recept youtube videos" />
     <MESSAGE value="recepts: slider icons" />
     <MESSAGE value="Style for single restaurant" />
@@ -913,7 +907,8 @@
     <MESSAGE value="restaurants style: full image + main cover image" />
     <MESSAGE value="single restaurant - change style" />
     <MESSAGE value="single restaurant" />
-    <option name="LAST_COMMIT_MESSAGE" value="single restaurant" />
+    <MESSAGE value="about us" />
+    <option name="LAST_COMMIT_MESSAGE" value="about us" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1173,7 +1168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="512">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1181,7 +1175,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="705">
           <caret line="27" column="102" selection-start-line="27" selection-start-column="95" selection-end-line="27" selection-end-column="102" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1189,7 +1182,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="386" max-vertical-offset="1725">
           <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1218,19 +1210,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1530">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="43" />
-          <folding>
-            <marker date="1510004239000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1510004239000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1510004239000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1510004239000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1510004239000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1510004239000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1510004239000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1510004239000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1510004239000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1510004239000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1510004239000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1238,7 +1217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1275">
           <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1246,7 +1224,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5955">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1257,7 +1234,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/template-restaurants.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="1230">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1230">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
@@ -1265,7 +1242,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/single-restaurant.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.882353" vertical-offset="435" max-vertical-offset="1455">
+        <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1455">
           <caret line="9" column="53" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="53" />
           <folding />
         </state>
@@ -1273,7 +1250,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/template-aboutus.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1125">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1125">
           <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="42" />
           <folding />
         </state>
@@ -1281,8 +1258,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.1960783" vertical-offset="6146" max-vertical-offset="10245">
-          <caret line="424" column="20" selection-start-line="424" selection-start-column="20" selection-end-line="424" selection-end-column="20" />
+        <state vertical-scroll-proportion="-3.0196078" vertical-offset="491" max-vertical-offset="10245">
+          <caret line="43" column="50" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="50" />
           <folding />
         </state>
       </provider>
