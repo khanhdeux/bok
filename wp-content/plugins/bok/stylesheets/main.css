@@ -378,13 +378,21 @@ p {
 }
 
 /*==================================================
+=            NEWS                                  =
+==================================================*/
+/* line 423, ../sass/main.scss */
+#main-bok-content.news .top-header {
+  right: 30%;
+}
+
+/*==================================================
 =            ABOUT US                             =
 ==================================================*/
-/* line 422, ../sass/main.scss */
+/* line 432, ../sass/main.scss */
 #main-bok-content.about-us .description {
   background-color: #000000;
 }
-/* line 424, ../sass/main.scss */
+/* line 434, ../sass/main.scss */
 #main-bok-content.about-us .description p {
   color: #808080;
 }
@@ -392,13 +400,13 @@ p {
 /*==================================================
 =            FOOTER                               =
 ==================================================*/
-/* line 435, ../sass/main.scss */
+/* line 445, ../sass/main.scss */
 #bok-footer {
   background-color: #000000;
   color: gray;
   padding: 60px;
 }
-/* line 439, ../sass/main.scss */
+/* line 449, ../sass/main.scss */
 #bok-footer a {
   color: gray;
 }
@@ -406,7 +414,7 @@ p {
 /*==================================================
 =            Plugins                               =
 ==================================================*/
-/* line 449, ../sass/main.scss */
+/* line 459, ../sass/main.scss */
 .wpcf7 input, .wpcf7 textarea {
   display: block;
   width: 100%;
@@ -421,7 +429,7 @@ p {
   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-/* line 464, ../sass/main.scss */
+/* line 474, ../sass/main.scss */
 .wpcf7 input {
   height: 34px;
   padding: 6px 12px;
@@ -432,60 +440,60 @@ p {
 /*==================================================
 =            Bootstrap                             =
 ==================================================*/
-/* line 475, ../sass/main.scss */
+/* line 485, ../sass/main.scss */
 .btn-primary {
   background-color: #000;
   border-color: #ffffff;
 }
-/* line 480, ../sass/main.scss */
+/* line 490, ../sass/main.scss */
 .btn-primary:hover {
   background-color: gray;
 }
 
-/* line 485, ../sass/main.scss */
+/* line 495, ../sass/main.scss */
 .container {
   padding: 0px;
 }
 
-/* line 489, ../sass/main.scss */
+/* line 499, ../sass/main.scss */
 .margin {
   margin: 20px 0;
 }
 
-/* line 493, ../sass/main.scss */
+/* line 503, ../sass/main.scss */
 .panel {
   background-color: transparent;
 }
 
-/* line 497, ../sass/main.scss */
+/* line 507, ../sass/main.scss */
 .ui-widget-content {
   background: inherit;
 }
 
-/* line 501, ../sass/main.scss */
+/* line 511, ../sass/main.scss */
 #accordion {
   padding-bottom: 40px;
 }
 
-/* line 506, ../sass/main.scss */
+/* line 516, ../sass/main.scss */
 .ui-accordion .ui-accordion-header {
   color: #ffffff;
   background-color: #534741;
 }
-/* line 511, ../sass/main.scss */
+/* line 521, ../sass/main.scss */
 .ui-accordion .ui-accordion-content {
   padding: 0px;
   border-left: none;
   border-right: none;
 }
 
-/* line 518, ../sass/main.scss */
+/* line 528, ../sass/main.scss */
 .ui-state-default {
   color: #000000;
   background: none;
 }
 
-/* line 523, ../sass/main.scss */
+/* line 533, ../sass/main.scss */
 .ui-widget-content {
   color: #ffffff;
 }
@@ -493,11 +501,11 @@ p {
 /*==================================================
 =            Slick lib                             =
 ==================================================*/
-/* line 531, ../sass/main.scss */
+/* line 541, ../sass/main.scss */
 .slick-slide .youtubeModal {
   position: relative;
 }
-/* line 534, ../sass/main.scss */
+/* line 544, ../sass/main.scss */
 .slick-slide .youtubeModal .play-icon {
   position: absolute;
   top: 42%;
@@ -505,7 +513,7 @@ p {
   width: 20px;
   height: 20px;
 }
-/* line 542, ../sass/main.scss */
+/* line 552, ../sass/main.scss */
 .slick-slide .youtubeModal span {
   position: absolute;
   left: 50%;
@@ -515,13 +523,13 @@ p {
   bottom: 10px;
 }
 
-/* line 553, ../sass/main.scss */
+/* line 563, ../sass/main.scss */
 .slick-prev {
   left: -56px !important;
   height: 38px !important;
 }
 
-/* line 558, ../sass/main.scss */
+/* line 568, ../sass/main.scss */
 .slick-next {
   right: -56px !important;
   height: 38px !important;
@@ -541,54 +549,58 @@ p {
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /* line 608, ../sass/main.scss */
+  /* line 618, ../sass/main.scss */
   .navbar {
     margin: 0px;
   }
 
-  /* line 612, ../sass/main.scss */
+  /* line 622, ../sass/main.scss */
   .navbar-default {
     position: relative;
     height: auto;
     background-color: #534741;
   }
-  /* line 617, ../sass/main.scss */
+  /* line 627, ../sass/main.scss */
   .navbar-default .container-fluid {
     margin: 0px;
   }
-  /* line 622, ../sass/main.scss */
+  /* line 632, ../sass/main.scss */
   .navbar-default .navbar-nav .menu-item {
     margin-left: 0px;
   }
-  /* line 627, ../sass/main.scss */
+  /* line 637, ../sass/main.scss */
   .navbar-default .navbar-nav .menu-item:hover ul.sub-menu {
     display: none !important;
   }
 
-  /* line 637, ../sass/main.scss */
+  /* line 647, ../sass/main.scss */
   #main-bok-content .welcome-text, #main-bok-content .top-header {
     font-size: 30px;
   }
-  /* line 641, ../sass/main.scss */
+  /* line 651, ../sass/main.scss */
   #main-bok-content .welcome-text {
     top: 30%;
     left: 30%;
   }
-  /* line 647, ../sass/main.scss */
+  /* line 657, ../sass/main.scss */
   #main-bok-content.single-restaurant .telephone {
     text-align: left !important;
   }
+  /* line 663, ../sass/main.scss */
+  #main-bok-content.news .top-header {
+    right: 15%;
+  }
 
-  /* line 654, ../sass/main.scss */
+  /* line 670, ../sass/main.scss */
   .row.equal {
     display: inherit;
   }
 
-  /* line 660, ../sass/main.scss */
+  /* line 676, ../sass/main.scss */
   .bok-restaurant-row .mobile {
     display: block !important;
   }
-  /* line 663, ../sass/main.scss */
+  /* line 679, ../sass/main.scss */
   .bok-restaurant-row .desktop {
     display: none !important;
   }
