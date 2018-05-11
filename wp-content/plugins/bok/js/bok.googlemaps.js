@@ -207,7 +207,7 @@
         var markers = [
             ['Schulterblatt', 53.559349, 9.963758],
             ['Ottensen', 53.552047, 9.933102],
-            ['Sternschanzen', 53.560810, 9.965407]
+            ['Europa Passage', 53.551368, 9.996944]
         ];
 
         // Info Window Content
@@ -220,8 +220,8 @@
             '<p>Ottensener Hauptstraße 1. 22765 Hamburg</p>' +
             '</div>'],
             ['<div class="info_content">' +
-            '<h3>Sternschanzen</h3>' +
-            '<p>Schanzenstraße 36. 20357 Hamburg</p>' +
+            '<h3>Europa Passage</h3>' +
+            '<p>Ballindamm 40, 20095 Hamburg</p>' +
             '</div>']
         ];
 
