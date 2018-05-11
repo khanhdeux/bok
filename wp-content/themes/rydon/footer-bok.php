@@ -22,7 +22,6 @@
                 <?php $loop = new WP_Query( array( 'post_type' => 'news', 'posts_per_page' => 10, 'order' => 'DESC' ) ); ?>
                 <?php while ( $loop->have_posts() ) : $loop->the_post();?>
                     <p><a href="<?php the_permalink(); ?>"><b><?php the_title() ?></b></a></p>
-                    <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '...');?></p>
                 <?php endwhile; ?>
 
             </div>
