@@ -32,26 +32,22 @@ get_header('bok'); ?>
                 <?php else: ?>
                     <?php for($i=0; $i<2; $i++) { ?>
                         <?php if ( ($i % 2) != 0 ) : ?>
-                            <div class="desktop">
-                                <div class="col-sm-6 col-full col-center">
-                                    <h3><?php the_title() ?></h3>
-                                    <p><?php the_content(); ?></p>
-                                    <div><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">Mehr</a></div>
-                                </div>
-                                <div class="col-sm-6 col-full col-center">
-                                    <img width="100%" src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php the_title_attribute(); ?>">
-                                </div>
+                            <div class="col-sm-6 col-full col-center desktop">
+                                <h3><?php the_title() ?></h3>
+                                <p><?php the_content(); ?></p>
+                                <div><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">Mehr</a></div>
+                            </div>
+                            <div class="col-sm-6 col-full col-center desktop">
+                                <img width="100%" src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php the_title_attribute(); ?>">
                             </div>
                         <?php else: ?>
-                            <div class="mobile">
-                                <div class="col-sm-6 col-full col-center">
-                                    <img width="100%" src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php the_title_attribute(); ?>">
-                                </div>
-                                <div class="col-sm-6 col-full col-center">
-                                    <h3><?php the_title() ?></h3>
-                                    <p><?php the_content(); ?></p>
-                                    <div><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">Mehr</a></div>
-                                </div>
+                            <div class="col-sm-6 col-full col-center mobile">
+                                <img width="100%" src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php the_title_attribute(); ?>">
+                            </div>
+                            <div class="col-sm-6 col-full col-center mobile">
+                                <h3><?php the_title() ?></h3>
+                                <p><?php the_content(); ?></p>
+                                <div><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">Mehr</a></div>
                             </div>
                         <?php endif; ?>
                     <?php } ?>

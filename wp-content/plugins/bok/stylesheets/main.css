@@ -313,7 +313,7 @@ p {
 }
 /* line 344, ../sass/main.scss */
 #main-bok-content .bok-restaurant-row .desktop {
-  display: block;
+  display: flex;
 }
 /* line 349, ../sass/main.scss */
 #main-bok-content .welcome-text {
@@ -598,7 +598,7 @@ p {
 
   /* line 676, ../sass/main.scss */
   .bok-restaurant-row .mobile {
-    display: block !important;
+    display: flex !important;
   }
   /* line 679, ../sass/main.scss */
   .bok-restaurant-row .desktop {
