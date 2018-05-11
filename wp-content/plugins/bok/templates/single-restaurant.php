@@ -39,7 +39,7 @@ get_header('bok'); ?>
                         </div>
                     </div>
                     <div class="row">
-                        <p><?php echo get_post_meta( $post->ID, 'restaurant_description', true) ?></p>
+                        <?php echo get_post_meta( $post->ID, 'restaurant_description', true) ?>
                     </div>
                     <div class="row">
                         <div class="col-sm-12">
@@ -56,31 +56,32 @@ get_header('bok'); ?>
                             <?php endif; ?>
                         </div>
                     </div>
-
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div id="accordion">
-                                <?php if ( get_post_meta( $post->ID, 'restaurant_day_menu', true)  ) : ?>
-                                    <?php if (!get_post_meta( $post->ID, 'restaurant_day_menu', true) &&  !get_post_meta( $post->ID, 'restaurant_evening_menu', true)) : ?>
-                                        <?php echo get_post_meta( $post->ID, 'restaurant_day_menu', true) ?>
-                                    <?php else: ?>
-                                        <h3>Mittag</h3>
-                                        <div>
+                    <?php if (get_post_meta( $post->ID, 'restaurant_day_menu', true) ||  get_post_meta( $post->ID, 'restaurant_evening_menu', true) || get_post_meta( $post->ID, 'restaurant_lunch_menu', true))  : ?>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div id="accordion">
+                                    <?php if ( get_post_meta( $post->ID, 'restaurant_day_menu', true)  ) : ?>
+                                        <?php if (!get_post_meta( $post->ID, 'restaurant_day_menu', true) &&  !get_post_meta( $post->ID, 'restaurant_evening_menu', true)) : ?>
                                             <?php echo get_post_meta( $post->ID, 'restaurant_day_menu', true) ?>
-                                        </div>
-                                        <h3>Abend</h3>
-                                        <div>
-                                            <?php echo get_post_meta( $post->ID, 'restaurant_evening_menu', true) ?>
-                                        </div>
-                                        <h3>Getränke</h3>
-                                        <div>
-                                            <?php echo get_post_meta( $post->ID, 'restaurant_lunch_menu', true) ?>
-                                        </div>
+                                        <?php else: ?>
+                                            <h3>Mittag</h3>
+                                            <div>
+                                                <?php echo get_post_meta( $post->ID, 'restaurant_day_menu', true) ?>
+                                            </div>
+                                            <h3>Abend</h3>
+                                            <div>
+                                                <?php echo get_post_meta( $post->ID, 'restaurant_evening_menu', true) ?>
+                                            </div>
+                                            <h3>Getränke</h3>
+                                            <div>
+                                                <?php echo get_post_meta( $post->ID, 'restaurant_lunch_menu', true) ?>
+                                            </div>
+                                        <?php endif; ?>
                                     <?php endif; ?>
-                                <?php endif; ?>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    <?php endif; ?>
                 </div>
             </div>
       <?php endwhile; ?>

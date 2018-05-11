@@ -5,7 +5,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/.sass-cache/c0978b77adc527f4cab75c3cd635eef5458b705a/main.scssc" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/.sass-cache/c0978b77adc527f4cab75c3cd635eef5458b705a/main.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/stylesheets/main.css" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/stylesheets/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/sass/main.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/sass/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-restaurants.php" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-restaurants.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/templates/single-restaurant.php" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/templates/single-restaurant.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-aboutus.php" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-aboutus.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="box.iws" />
@@ -43,6 +44,102 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="single-restaurant.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/single-restaurant.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.7058825" vertical-offset="270" max-vertical-offset="1470">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template-aboutus.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/template-aboutus.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.0196078" vertical-offset="71" max-vertical-offset="1155">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.4166665" vertical-offset="26057" max-vertical-offset="93405">
+              <caret line="1754" column="19" selection-start-line="1754" selection-start-column="19" selection-end-line="1754" selection-end-column="19" />
+              <folding>
+                <marker date="1510005360000" expanded="true" signature="57523:57539" placeholder="Insert into ..." />
+                <marker date="1510005360000" expanded="true" signature="57549:57565" placeholder="Insert into ..." />
+                <marker date="1510005360000" expanded="true" signature="83341:83425" placeholder="SELECT post_..." />
+                <marker date="1510005360000" expanded="true" signature="85361:85512" placeholder="SELECT post_..." />
+                <marker date="1510005360000" expanded="true" signature="85682:85775" placeholder="SELECT COUNT..." />
+                <marker date="1510005360000" expanded="true" signature="91503:91543" placeholder="SELECT * FRO..." />
+                <marker date="1510005360000" expanded="true" signature="92950:93018" placeholder="SELECT * FRO..." />
+                <marker date="1510005360000" expanded="true" signature="93343:93420" placeholder="SELECT ID FR..." />
+                <marker date="1510005360000" expanded="true" signature="93872:93937" placeholder="SELECT comme..." />
+                <marker date="1510005360000" expanded="true" signature="94130:94184" placeholder="SELECT meta_..." />
+                <marker date="1510005360000" expanded="true" signature="98772:98855" placeholder="SELECT comme..." />
+                <marker date="1510005360000" expanded="true" signature="121241:121282" placeholder="SELECT ID FR..." />
+                <marker date="1510005360000" expanded="true" signature="132781:132857" placeholder="SELECT post_..." />
+                <marker date="1510005360000" expanded="true" signature="133930:134065" placeholder="SELECT post_..." />
+                <marker date="1510005360000" expanded="true" signature="135183:135278" placeholder="SELECT post_..." />
+                <marker date="1510005360000" expanded="true" signature="149433:149485" placeholder="SELECT ID FR..." />
+                <marker date="1510005360000" expanded="true" signature="152085:152225" placeholder="SELECT ID, p..." />
+                <marker date="1510005360000" expanded="true" signature="154042:154140" placeholder="SELECT ID FR..." />
+                <marker date="1510005360000" expanded="true" signature="154201:154278" placeholder="SELECT ID FR..." />
+                <marker date="1510005360000" expanded="true" signature="166369:166427" placeholder="SELECT * FRO..." />
+                <marker date="1510005360000" expanded="true" signature="170837:170877" placeholder="SELECT * FRO..." />
+                <marker date="1510005360000" expanded="true" signature="171995:172060" placeholder="SELECT comme..." />
+                <marker date="1510005360000" expanded="true" signature="172254:172308" placeholder="SELECT meta_..." />
+                <marker date="1510005360000" expanded="true" signature="172879:172998" placeholder="SELECT meta_..." />
+                <marker date="1510005360000" expanded="true" signature="195157:195302" placeholder="SELECT post_..." />
+                <marker date="1510005360000" expanded="true" signature="195358:195499" placeholder="SELECT post_..." />
+                <marker date="1510005360000" expanded="true" signature="195595:195789" placeholder="SELECT DATE_..." />
+                <marker date="1510005360000" expanded="true" signature="206563:206673" placeholder="SELECT ID FR..." />
+                <marker date="1510005360000" expanded="true" signature="209194:209250" placeholder="SELECT ${$wp..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="meta.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/meta.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.0196078" vertical-offset="6806" max-vertical-offset="18135">
+              <caret line="473" column="20" selection-start-line="473" selection-start-column="19" selection-end-line="473" selection-end-column="20" />
+              <folding>
+                <marker date="1510005334000" expanded="true" signature="2605:2669" placeholder="SELECT COUNT..." />
+                <marker date="1510005334000" expanded="true" signature="6711:6777" placeholder="SELECT ${$id..." />
+                <marker date="1510005334000" expanded="true" signature="12138:12187" placeholder="SELECT ${$id..." />
+                <marker date="1510005334000" expanded="true" signature="12771:12823" placeholder="SELECT ${$ty..." />
+                <marker date="1510005334000" expanded="true" signature="13650:13725" placeholder="DELETE FROM ..." />
+                <marker date="1510005334000" expanded="true" signature="18832:18874" placeholder="SELECT * FRO..." />
+                <marker date="1510005334000" expanded="true" signature="25615:25715" placeholder="SELECT ${$co..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.125" vertical-offset="56529" max-vertical-offset="84690">
+              <caret line="3784" column="9" selection-start-line="3784" selection-start-column="9" selection-end-line="3784" selection-end-column="9" />
+              <folding>
+                <marker date="1510005329000" expanded="true" signature="17236:17340" placeholder="SELECT meta_..." />
+                <marker date="1510005329000" expanded="true" signature="18399:18503" placeholder="SELECT post_..." />
+                <marker date="1510005329000" expanded="true" signature="38380:38449" placeholder="SELECT optio..." />
+                <marker date="1510005329000" expanded="true" signature="147101:147197" placeholder="SELECT post_..." />
+                <marker date="1510005329000" expanded="true" signature="147660:147762" placeholder="SELECT comme..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="bok.googlemaps.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/js/bok.googlemaps.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,8 +163,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.0196078" vertical-offset="10016" max-vertical-offset="10485">
-              <caret line="678" column="9" selection-start-line="678" selection-start-column="5" selection-end-line="678" selection-end-column="9" />
+            <state vertical-scroll-proportion="-3.9019608" vertical-offset="6356" max-vertical-offset="10755">
+              <caret line="437" column="28" selection-start-line="437" selection-start-column="28" selection-end-line="437" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -76,8 +173,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.29239765" vertical-offset="360" max-vertical-offset="9225">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9420">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -133,15 +230,15 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/css/wp-google-maps-full-screen-map.css" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/controller/class-restaurant.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/controller/class-metabox-text.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-aboutus.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/bok/templates/single-restaurant.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-recipes.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-news.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/bok/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/rydon/footer-bok.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/js/bok.googlemaps.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-restaurants.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/bok/templates/single-restaurant.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-aboutus.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/sass/main.scss" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/bok/stylesheets/main.css" />
       </list>
     </option>
   </component>
@@ -512,12 +609,6 @@
       <option name="number" value="Default" />
       <updated>1502740651947</updated>
     </task>
-    <task id="LOCAL-00031" summary="Aboutus list as news">
-      <created>1507367447755</created>
-      <option name="number" value="00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1507367447755</updated>
-    </task>
     <task id="LOCAL-00032" summary="recepts new video list">
       <created>1507368924247</created>
       <option name="number" value="00032" />
@@ -806,7 +897,13 @@
       <option name="project" value="LOCAL" />
       <updated>1526074872621</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Bug display template restaurants">
+      <created>1526077309142</created>
+      <option name="number" value="00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1526077309142</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -874,7 +971,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Restaurant order" />
     <MESSAGE value="Restaurant new telephone field" />
     <MESSAGE value="logo + menu transparent" />
     <MESSAGE value="speed up mobile" />
@@ -899,7 +995,8 @@
     <MESSAGE value="recipes page" />
     <MESSAGE value="footer" />
     <MESSAGE value="change googlemaps euro" />
-    <option name="LAST_COMMIT_MESSAGE" value="change googlemaps euro" />
+    <MESSAGE value="Bug display template restaurants" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug display template restaurants" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -914,27 +1011,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-admin/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34388185" vertical-offset="182" max-vertical-offset="4365">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/js/youtubeModal.jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1320">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/single-recipe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="116" max-vertical-offset="630">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/js/youtubePopup.jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="533" max-vertical-offset="1065">
@@ -1227,22 +1303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/template-aboutus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39387757" vertical-offset="272" max-vertical-offset="1125">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="33" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/single-restaurant.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25306123" vertical-offset="521" max-vertical-offset="1455">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="47" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/js/bok.googlemaps.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.0" vertical-offset="3234" max-vertical-offset="4035">
@@ -1259,18 +1319,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.125" vertical-offset="56529" max-vertical-offset="84690">
+          <caret line="3784" column="9" selection-start-line="3784" selection-start-column="9" selection-end-line="3784" selection-end-column="9" />
+          <folding>
+            <marker date="1510005329000" expanded="true" signature="17236:17340" placeholder="SELECT meta_..." />
+            <marker date="1510005329000" expanded="true" signature="18399:18503" placeholder="SELECT post_..." />
+            <marker date="1510005329000" expanded="true" signature="38380:38449" placeholder="SELECT optio..." />
+            <marker date="1510005329000" expanded="true" signature="147101:147197" placeholder="SELECT post_..." />
+            <marker date="1510005329000" expanded="true" signature="147660:147762" placeholder="SELECT comme..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/meta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0196078" vertical-offset="6806" max-vertical-offset="18135">
+          <caret line="473" column="20" selection-start-line="473" selection-start-column="19" selection-end-line="473" selection-end-column="20" />
+          <folding>
+            <marker date="1510005334000" expanded="true" signature="2605:2669" placeholder="SELECT COUNT..." />
+            <marker date="1510005334000" expanded="true" signature="6711:6777" placeholder="SELECT ${$id..." />
+            <marker date="1510005334000" expanded="true" signature="12138:12187" placeholder="SELECT ${$id..." />
+            <marker date="1510005334000" expanded="true" signature="12771:12823" placeholder="SELECT ${$ty..." />
+            <marker date="1510005334000" expanded="true" signature="13650:13725" placeholder="DELETE FROM ..." />
+            <marker date="1510005334000" expanded="true" signature="18832:18874" placeholder="SELECT * FRO..." />
+            <marker date="1510005334000" expanded="true" signature="25615:25715" placeholder="SELECT ${$co..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.4166665" vertical-offset="26057" max-vertical-offset="93405">
+          <caret line="1754" column="19" selection-start-line="1754" selection-start-column="19" selection-end-line="1754" selection-end-column="19" />
+          <folding>
+            <marker date="1510005360000" expanded="true" signature="57523:57539" placeholder="Insert into ..." />
+            <marker date="1510005360000" expanded="true" signature="57549:57565" placeholder="Insert into ..." />
+            <marker date="1510005360000" expanded="true" signature="83341:83425" placeholder="SELECT post_..." />
+            <marker date="1510005360000" expanded="true" signature="85361:85512" placeholder="SELECT post_..." />
+            <marker date="1510005360000" expanded="true" signature="85682:85775" placeholder="SELECT COUNT..." />
+            <marker date="1510005360000" expanded="true" signature="91503:91543" placeholder="SELECT * FRO..." />
+            <marker date="1510005360000" expanded="true" signature="92950:93018" placeholder="SELECT * FRO..." />
+            <marker date="1510005360000" expanded="true" signature="93343:93420" placeholder="SELECT ID FR..." />
+            <marker date="1510005360000" expanded="true" signature="93872:93937" placeholder="SELECT comme..." />
+            <marker date="1510005360000" expanded="true" signature="94130:94184" placeholder="SELECT meta_..." />
+            <marker date="1510005360000" expanded="true" signature="98772:98855" placeholder="SELECT comme..." />
+            <marker date="1510005360000" expanded="true" signature="121241:121282" placeholder="SELECT ID FR..." />
+            <marker date="1510005360000" expanded="true" signature="132781:132857" placeholder="SELECT post_..." />
+            <marker date="1510005360000" expanded="true" signature="133930:134065" placeholder="SELECT post_..." />
+            <marker date="1510005360000" expanded="true" signature="135183:135278" placeholder="SELECT post_..." />
+            <marker date="1510005360000" expanded="true" signature="149433:149485" placeholder="SELECT ID FR..." />
+            <marker date="1510005360000" expanded="true" signature="152085:152225" placeholder="SELECT ID, p..." />
+            <marker date="1510005360000" expanded="true" signature="154042:154140" placeholder="SELECT ID FR..." />
+            <marker date="1510005360000" expanded="true" signature="154201:154278" placeholder="SELECT ID FR..." />
+            <marker date="1510005360000" expanded="true" signature="166369:166427" placeholder="SELECT * FRO..." />
+            <marker date="1510005360000" expanded="true" signature="170837:170877" placeholder="SELECT * FRO..." />
+            <marker date="1510005360000" expanded="true" signature="171995:172060" placeholder="SELECT comme..." />
+            <marker date="1510005360000" expanded="true" signature="172254:172308" placeholder="SELECT meta_..." />
+            <marker date="1510005360000" expanded="true" signature="172879:172998" placeholder="SELECT meta_..." />
+            <marker date="1510005360000" expanded="true" signature="195157:195302" placeholder="SELECT post_..." />
+            <marker date="1510005360000" expanded="true" signature="195358:195499" placeholder="SELECT post_..." />
+            <marker date="1510005360000" expanded="true" signature="195595:195789" placeholder="SELECT DATE_..." />
+            <marker date="1510005360000" expanded="true" signature="206563:206673" placeholder="SELECT ID FR..." />
+            <marker date="1510005360000" expanded="true" signature="209194:209250" placeholder="SELECT ${$wp..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/single-restaurant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.7058825" vertical-offset="270" max-vertical-offset="1470">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/template-aboutus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0196078" vertical-offset="71" max-vertical-offset="1155">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0196078" vertical-offset="10016" max-vertical-offset="10485">
-          <caret line="678" column="9" selection-start-line="678" selection-start-column="5" selection-end-line="678" selection-end-column="9" />
+        <state vertical-scroll-proportion="-3.9019608" vertical-offset="6356" max-vertical-offset="10755">
+          <caret line="437" column="28" selection-start-line="437" selection-start-column="28" selection-end-line="437" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.29239765" vertical-offset="360" max-vertical-offset="9225">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9435">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
