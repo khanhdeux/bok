@@ -488,25 +488,31 @@ p {
   padding-bottom: 20px;
 }
 
-/* line 534, ../sass/main.scss */
+/* line 533, ../sass/main.scss */
+.restaurant-menu {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 539, ../sass/main.scss */
 .ui-accordion .ui-accordion-header {
   color: #ffffff;
   background-color: #534741;
 }
-/* line 539, ../sass/main.scss */
+/* line 544, ../sass/main.scss */
 .ui-accordion .ui-accordion-content {
   padding: 0px;
   border-left: none;
   border-right: none;
 }
 
-/* line 546, ../sass/main.scss */
+/* line 551, ../sass/main.scss */
 .ui-state-default {
   color: #000000;
   background: none;
 }
 
-/* line 551, ../sass/main.scss */
+/* line 556, ../sass/main.scss */
 .ui-widget-content {
   color: #ffffff;
 }
@@ -514,11 +520,11 @@ p {
 /*==================================================
 =            Slick lib                             =
 ==================================================*/
-/* line 559, ../sass/main.scss */
+/* line 564, ../sass/main.scss */
 .slick-slide .youtubeModal {
   position: relative;
 }
-/* line 562, ../sass/main.scss */
+/* line 567, ../sass/main.scss */
 .slick-slide .youtubeModal .play-icon {
   position: absolute;
   top: 42%;
@@ -526,7 +532,7 @@ p {
   width: 20px;
   height: 20px;
 }
-/* line 570, ../sass/main.scss */
+/* line 575, ../sass/main.scss */
 .slick-slide .youtubeModal span {
   position: absolute;
   left: 50%;
@@ -536,13 +542,13 @@ p {
   bottom: 10px;
 }
 
-/* line 581, ../sass/main.scss */
+/* line 586, ../sass/main.scss */
 .slick-prev {
   left: -56px !important;
   height: 38px !important;
 }
 
-/* line 586, ../sass/main.scss */
+/* line 591, ../sass/main.scss */
 .slick-next {
   right: -56px !important;
   height: 38px !important;
@@ -562,58 +568,58 @@ p {
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /* line 636, ../sass/main.scss */
+  /* line 641, ../sass/main.scss */
   .navbar {
     margin: 0px;
   }
 
-  /* line 640, ../sass/main.scss */
+  /* line 645, ../sass/main.scss */
   .navbar-default {
     position: relative;
     height: auto;
     background-color: #534741;
   }
-  /* line 645, ../sass/main.scss */
+  /* line 650, ../sass/main.scss */
   .navbar-default .container-fluid {
     margin: 0px;
   }
-  /* line 650, ../sass/main.scss */
+  /* line 655, ../sass/main.scss */
   .navbar-default .navbar-nav .menu-item {
     margin-left: 0px;
   }
-  /* line 655, ../sass/main.scss */
+  /* line 660, ../sass/main.scss */
   .navbar-default .navbar-nav .menu-item:hover ul.sub-menu {
     display: none !important;
   }
 
-  /* line 665, ../sass/main.scss */
+  /* line 670, ../sass/main.scss */
   #main-bok-content .welcome-text, #main-bok-content .top-header {
     font-size: 30px;
   }
-  /* line 669, ../sass/main.scss */
+  /* line 674, ../sass/main.scss */
   #main-bok-content .welcome-text {
     top: 30%;
     left: 30%;
   }
-  /* line 675, ../sass/main.scss */
+  /* line 680, ../sass/main.scss */
   #main-bok-content.single-restaurant .telephone {
     text-align: left !important;
   }
-  /* line 681, ../sass/main.scss */
+  /* line 686, ../sass/main.scss */
   #main-bok-content.news .top-header {
     right: 15%;
   }
 
-  /* line 688, ../sass/main.scss */
+  /* line 693, ../sass/main.scss */
   .row.equal {
     display: inherit;
   }
 
-  /* line 694, ../sass/main.scss */
+  /* line 699, ../sass/main.scss */
   .bok-restaurant-row .mobile {
     display: flex !important;
   }
-  /* line 697, ../sass/main.scss */
+  /* line 702, ../sass/main.scss */
   .bok-restaurant-row .desktop {
     display: none !important;
   }

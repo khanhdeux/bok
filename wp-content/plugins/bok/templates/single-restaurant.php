@@ -56,29 +56,47 @@ get_header('bok'); ?>
                             <?php endif; ?>
                         </div>
                     </div>
-                    <?php if (get_post_meta( $post->ID, 'restaurant_day_menu', true) ||  get_post_meta( $post->ID, 'restaurant_evening_menu', true) || get_post_meta( $post->ID, 'restaurant_lunch_menu', true))  : ?>
+
+                    <?php
+                        $dayMenu =  get_post_meta( $post->ID, 'restaurant_day_menu', true);
+                        $eveningMenu =  get_post_meta( $post->ID, 'restaurant_evening_menu', true);
+                        $lunchMenu =  get_post_meta( $post->ID, 'restaurant_lunch_menu', true);
+
+                        $count = 0;
+                        $count += ($dayMenu) ? 1 : 0;
+                        $count += ($eveningMenu) ? 1 : 0;
+                        $count += ($lunchMenu) ? 1 : 0;
+                    ?>
+
+                    <?php if ($count) : ?>
                         <div class="row">
                             <div class="col-sm-12">
-                                <div id="accordion">
-                                    <?php if ( get_post_meta( $post->ID, 'restaurant_day_menu', true)  ) : ?>
-                                        <?php if (!get_post_meta( $post->ID, 'restaurant_day_menu', true) &&  !get_post_meta( $post->ID, 'restaurant_evening_menu', true)) : ?>
-                                            <?php echo get_post_meta( $post->ID, 'restaurant_day_menu', true) ?>
-                                        <?php else: ?>
-                                            <h3>Mittag</h3>
-                                            <div>
-                                                <?php echo get_post_meta( $post->ID, 'restaurant_day_menu', true) ?>
-                                            </div>
-                                            <h3>Abend</h3>
-                                            <div>
-                                                <?php echo get_post_meta( $post->ID, 'restaurant_evening_menu', true) ?>
-                                            </div>
-                                            <h3>Getränke</h3>
-                                            <div>
-                                                <?php echo get_post_meta( $post->ID, 'restaurant_lunch_menu', true) ?>
-                                            </div>
+                                <?php if ($count > 1) : ?>
+                                    <div id="accordion">
+                                        <?php if ( $dayMenu ) : ?>
+                                            <?php if (!$dayMenu &&  !$eveningMenu) : ?>
+                                                <?php echo $dayMenu; ?>
+                                            <?php else: ?>
+                                                <h3>Mittag</h3>
+                                                <div>
+                                                    <?php echo $dayMenu; ?>
+                                                </div>
+                                                <h3>Abend</h3>
+                                                <div>
+                                                    <?php echo $eveningMenu; ?>
+                                                </div>
+                                                <h3>Getränke</h3>
+                                                <div>
+                                                    <?php echo $lunchMenu; ?>
+                                                </div>
+                                            <?php endif; ?>
                                         <?php endif; ?>
-                                    <?php endif; ?>
-                                </div>
+                                    </div>
+                                <?php else: ?>
+                                    <div class="restaurant-menu">
+                                        <?php echo $dayMenu ?: ($eveningMenu ? ($lunchMenu ?: '') : ''); ?>
+                                    </div>
+                                <?php endif; ?>
                             </div>
                         </div>
                     <?php endif; ?>
