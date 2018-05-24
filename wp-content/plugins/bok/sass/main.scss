@@ -702,6 +702,20 @@ p {
     .desktop {
       display: none !important;
     }
+
+    .col-center {
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      a {
+        display: inline-block;
+      }
+
+      p {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    }
   }
 }
 

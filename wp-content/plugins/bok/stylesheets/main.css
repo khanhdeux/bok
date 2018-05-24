@@ -623,6 +623,20 @@ p {
   .bok-restaurant-row .desktop {
     display: none !important;
   }
+  /* line 706, ../sass/main.scss */
+  .bok-restaurant-row .col-center {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  /* line 710, ../sass/main.scss */
+  .bok-restaurant-row .col-center a {
+    display: inline-block;
+  }
+  /* line 714, ../sass/main.scss */
+  .bok-restaurant-row .col-center p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
