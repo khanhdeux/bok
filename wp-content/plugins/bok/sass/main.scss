@@ -429,6 +429,36 @@ p {
   .top-header {
     right: 30%;
   }
+
+  .bok-news-row {
+    .bok-news-col {
+      padding-left: 0px;
+      padding-right: 0px;
+
+      a, img {
+        width: 100%;
+      }
+
+      h4 {
+        font-size: 40px;
+        margin: 10px auto;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      a.link {
+        display: inline-block;
+        color: #ffffff;
+        border: 1px solid gray;
+        padding: 10px;
+        border-radius: 10px;
+        width: 100px;
+        margin: 10px auto 20px auto;
+      }
+    }
+  }
 }
 
 /*==================================================
