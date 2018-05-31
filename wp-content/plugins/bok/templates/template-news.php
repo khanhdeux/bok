@@ -34,6 +34,9 @@ get_header('bok'); ?>
                         </a>
                         <div class="text-center">
                             <h4><?php the_title() ?></h4>
+                            <div>
+                                <?php echo get_the_date(); ?> <?php echo get_the_time(); ?>
+                            </div>
                             <div><a class="link" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">Mehr</a></div>
                         </div>
                     </div>

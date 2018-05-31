@@ -14,12 +14,8 @@ get_header('bok'); ?>
                     <div class="row">
                         <div class="news col-sm-12">
                             <h2><?php the_title(); ?></h2>
-                            <div class="thumbnail-left media-top">
-                                <a class="thumbnail" href="<?php the_permalink(); ?>">
-                                    <?php if ( has_post_thumbnail() ) : ?>
-                                        <img class="media-object" src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php the_title_attribute(); ?>">
-                                    <?php endif; ?>
-                                </a>
+                            <div class="thumbnail media-top">
+                                <img src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php the_title_attribute(); ?>">
                             </div>
                             <div class="news-body">
                                 <?php the_content() ?>
