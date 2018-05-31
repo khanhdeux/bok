@@ -33,15 +33,24 @@
   src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.eot?#iefix) format("embedded-opentype"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2) format("woff2"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff) format("woff"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.ttf) format("truetype"), url("fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.svg#San Francisco Display Bold") format("svg")
 }
 
+@font-face {font-family: "Gill Sans MT";
+  src: url("//db.onlinewebfonts.com/t/1959c187b6c1d759956245419a6673a5.eot");
+  src: url("//db.onlinewebfonts.com/t/1959c187b6c1d759956245419a6673a5.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/1959c187b6c1d759956245419a6673a5.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/1959c187b6c1d759956245419a6673a5.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/1959c187b6c1d759956245419a6673a5.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/1959c187b6c1d759956245419a6673a5.svg#Gill Sans MT") format("svg");
+}
+
 body {
   overflow-x: hidden;
   overflow-y: auto;
-  font-family: "Gill Sans", Helvetica, Arial, sans-serif;
+  font-family: "Gill Sans MT", Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
 
 h1, h2, h3, h4 {
-  font-family: "Gill Sans", Helvetica, Arial, sans-serif;
+  font-family: "Gill Sans MT", Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
 
@@ -309,7 +318,7 @@ p {
 
   p {
     color: #ffffff;
-    font-family: "Gill Sans", Helvetica, Arial, sans-serif;
+    font-family: "Gill Sans MT", Helvetica, Arial, sans-serif;
   }
 
   .bok-restaurant-top {
