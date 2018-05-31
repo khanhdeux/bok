@@ -427,8 +427,15 @@ p {
       padding-left: 0px;
       padding-right: 0px;
 
-      a, img {
+      img {
         width: 100%;
+      }
+
+      a {
+        width: 100%;
+        display: inline-block;
+        max-height: 350px;
+        overflow: hidden;
       }
 
       h4 {
