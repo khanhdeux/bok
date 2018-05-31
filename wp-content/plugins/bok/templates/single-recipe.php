@@ -31,7 +31,7 @@ get_header('bok'); ?>
       <?php endwhile; ?>
   </div>
 
-<?php wp_footer();?>
-      
-  </body>
+<?php get_footer('bok'); ?>
+
+    </body>
 </html>
