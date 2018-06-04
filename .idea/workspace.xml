@@ -5,6 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/.sass-cache/c0978b77adc527f4cab75c3cd635eef5458b705a/main.scssc" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/.sass-cache/c0978b77adc527f4cab75c3cd635eef5458b705a/main.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/stylesheets/main.css" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/stylesheets/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/sass/main.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/sass/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bok/templates/single-news.php" afterPath="$PROJECT_DIR$/wp-content/plugins/bok/templates/single-news.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="box.iws" />
@@ -42,44 +43,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="template-news.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/template-news.php">
+      <file leaf-file-name="single-news.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/single-news.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.125" vertical-offset="270" max-vertical-offset="870">
-              <caret line="31" column="76" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
+            <state vertical-scroll-proportion="0.6565875" vertical-offset="341" max-vertical-offset="885">
+              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post-thumbnail-template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-includes/post-thumbnail-template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.490196" vertical-offset="2561" max-vertical-offset="3765">
-              <caret line="194" column="29" selection-start-line="194" selection-start-column="29" selection-end-line="194" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="media.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-includes/media.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.72549" vertical-offset="47381" max-vertical-offset="59295">
-              <caret line="3173" column="18" selection-start-line="3173" selection-start-column="13" selection-end-line="3173" selection-end-column="18" />
-              <folding>
-                <marker date="1510005145000" expanded="true" signature="64535:64893" placeholder="..." />
-                <marker date="1510005145000" expanded="true" signature="64553:64577" placeholder="{...}" />
-                <marker date="1510005145000" expanded="true" signature="64608:64707" placeholder="{...}" />
-                <marker date="1510005145000" expanded="true" signature="64728:64765" placeholder="{...}" />
-                <marker date="1510005145000" expanded="true" signature="64799:64825" placeholder="{...}" />
-                <marker date="1510005145000" expanded="true" signature="66718:66729" placeholder="..." />
-                <marker date="1510005145000" expanded="false" signature="66831:66842" placeholder="..." />
-                <marker date="1510005145000" expanded="true" signature="117717:117828" placeholder="SELECT ID FR..." />
-                <marker date="1510005145000" expanded="true" signature="118756:118867" placeholder="SELECT ID FR..." />
-                <marker date="1510005145000" expanded="true" signature="119642:119784" placeholder="SELECT DISTI..." />
-                <marker date="1510005145000" expanded="true" signature="137186:137278" placeholder="SELECT post_..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -87,18 +56,18 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.54902" vertical-offset="6221" max-vertical-offset="11490">
-              <caret line="437" column="26" selection-start-line="437" selection-start-column="26" selection-end-line="437" selection-end-column="26" />
+            <state vertical-scroll-proportion="-4.7843137" vertical-offset="6206" max-vertical-offset="11475">
+              <caret line="430" column="20" selection-start-line="430" selection-start-column="20" selection-end-line="430" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10035">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="9506" max-vertical-offset="10020">
+              <caret line="662" column="0" selection-start-line="662" selection-start-column="0" selection-end-line="662" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,7 +94,6 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-contact.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-reservation.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/rydon/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/bok/templates/single-recipe.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/controller/class-story.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/sass/_main.scss" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/sass/test.scss" />
@@ -157,10 +125,11 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/js/bok.googlemaps.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-restaurants.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-aboutus.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/rydon/footer-bok.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/templates/single-restaurant.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/bok/templates/single-news.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/templates/template-news.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/bok/templates/single-recipe.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/rydon/footer-bok.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/bok/templates/single-news.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/sass/main.scss" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bok/stylesheets/main.css" />
       </list>
@@ -382,180 +351,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="type" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="akismet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -594,9 +389,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/plugins" />
       <recent name="$PROJECT_DIR$/wp-content/uploads/2017/04" />
       <recent name="$PROJECT_DIR$/wp-content/plugins/bok/images" />
-      <recent name="$PROJECT_DIR$/wp-content/plugins" />
       <recent name="$PROJECT_DIR$/wp-content/plugins/bok/css" />
       <recent name="$PROJECT_DIR$/wp-content/plugins/bok/js" />
     </key>
@@ -650,30 +445,6 @@
       <created>1502740651947</created>
       <option name="number" value="Default" />
       <updated>1502740651947</updated>
-    </task>
-    <task id="LOCAL-00044" summary="logic + display recept youtube videos">
-      <created>1512329447892</created>
-      <option name="number" value="00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1512329447892</updated>
-    </task>
-    <task id="LOCAL-00045" summary="recepts: slider icons">
-      <created>1515954699575</created>
-      <option name="number" value="00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1515954699575</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Style for single restaurant">
-      <created>1522781749869</created>
-      <option name="number" value="00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1522781749869</updated>
-    </task>
-    <task id="LOCAL-00047" summary="remove mittagtisch">
-      <created>1523302092160</created>
-      <option name="number" value="00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1523302092160</updated>
     </task>
     <task id="LOCAL-00048" summary="New big video background">
       <created>1523308173985</created>
@@ -945,7 +716,31 @@
       <option name="project" value="LOCAL" />
       <updated>1527780368024</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="news image size 350px fixed">
+      <created>1527781028244</created>
+      <option name="number" value="00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1527781028244</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Bug footer">
+      <created>1527781403611</created>
+      <option name="number" value="00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1527781403611</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Bug footer&#10;">
+      <created>1527872389412</created>
+      <option name="number" value="00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1527872389412</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Permission by roles plugin&#10;">
+      <created>1527876137243</created>
+      <option name="number" value="00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1527876137243</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -974,11 +769,11 @@
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3188406" sideWeight="0.4996299" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2859025" sideWeight="0.4996299" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2859025" sideWeight="0.74907476" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2859025" sideWeight="0.4996299" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2859025" sideWeight="0.74907476" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35672083" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38638046" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2859025" sideWeight="0.25092524" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2859025" sideWeight="0.5003701" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42028984" sideWeight="0.4996299" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.4996299" order="14" side_tool="false" content_ui="tabs" />
@@ -1013,10 +808,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="welcome text + mobile version restaurants" />
-    <MESSAGE value="overflow-x hidden" />
-    <MESSAGE value="Bug horizontal scroll" />
-    <MESSAGE value="finish googlemaps" />
     <MESSAGE value="restaurants style: full image + main cover image" />
     <MESSAGE value="single restaurant - change style" />
     <MESSAGE value="single restaurant" />
@@ -1038,7 +829,11 @@
     <MESSAGE value="news + single news pages" />
     <MESSAGE value="Gill Sans MT" />
     <MESSAGE value="news bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="news bug" />
+    <MESSAGE value="news image size 350px fixed" />
+    <MESSAGE value="Bug footer" />
+    <MESSAGE value="Bug footer&#10;" />
+    <MESSAGE value="Permission by roles plugin&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Permission by roles plugin&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1053,23 +848,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/css/ajax-loader.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/controller/class-base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="375">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/images/arrow-left.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/js/jquery-ui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="101139" max-vertical-offset="280620">
@@ -1213,13 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/template-recipe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="512">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/controller/class-restaurant.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="386" max-vertical-offset="1725">
@@ -1269,25 +1040,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/template-recipes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="795">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/rydon/header-bok.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="215" max-vertical-offset="705">
           <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-query.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31428573" vertical-offset="23561" max-vertical-offset="61770">
-          <caret line="1587" column="65" selection-start-line="1587" selection-start-column="61" selection-end-line="1587" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -1326,13 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/rydon/footer-bok.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="630">
-          <caret line="23" column="94" selection-start-line="23" selection-start-column="94" selection-end-line="23" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/template-restaurants.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33742332" vertical-offset="150" max-vertical-offset="1170">
@@ -1344,22 +1094,6 @@
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/images/restaurant-cover.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/single-restaurant.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.291667" vertical-offset="1178" max-vertical-offset="1740">
-          <caret line="95" column="63" selection-start-line="95" selection-start-column="63" selection-end-line="95" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/single-news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6078432" vertical-offset="107" max-vertical-offset="570">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/images/aboutus-cover.png">
@@ -1380,41 +1114,105 @@
         <state vertical-scroll-proportion="-2.72549" vertical-offset="47381" max-vertical-offset="59295">
           <caret line="3173" column="18" selection-start-line="3173" selection-start-column="13" selection-end-line="3173" selection-end-column="18" />
           <folding>
-            <marker date="1510005145000" expanded="true" signature="64535:64893" placeholder="..." />
-            <marker date="1510005145000" expanded="true" signature="64553:64577" placeholder="{...}" />
-            <marker date="1510005145000" expanded="true" signature="64608:64707" placeholder="{...}" />
-            <marker date="1510005145000" expanded="true" signature="64728:64765" placeholder="{...}" />
-            <marker date="1510005145000" expanded="true" signature="64799:64825" placeholder="{...}" />
-            <marker date="1510005145000" expanded="true" signature="66718:66729" placeholder="..." />
-            <marker date="1510005145000" expanded="false" signature="66831:66842" placeholder="..." />
-            <marker date="1510005145000" expanded="true" signature="117717:117828" placeholder="SELECT ID FR..." />
-            <marker date="1510005145000" expanded="true" signature="118756:118867" placeholder="SELECT ID FR..." />
-            <marker date="1510005145000" expanded="true" signature="119642:119784" placeholder="SELECT DISTI..." />
-            <marker date="1510005145000" expanded="true" signature="137186:137278" placeholder="SELECT post_..." />
+            <marker date="1510005145000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1510005145000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1510005145000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1510005145000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1510005145000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1510005145000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1510005145000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1510005145000" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1510005145000" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1510005145000" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..." />
+            <marker date="1510005145000" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/template-recipe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/template-recipes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="795">
+          <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/single-recipe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.041666" vertical-offset="140" max-vertical-offset="630">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/rydon/footer-bok.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1764708" vertical-offset="27" max-vertical-offset="630">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/single-restaurant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6078432" vertical-offset="431" max-vertical-offset="1740">
+          <caret line="41" column="84" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/adminimize/js/tb_window.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/template-news.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125" vertical-offset="270" max-vertical-offset="870">
-          <caret line="31" column="76" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
+        <state vertical-scroll-proportion="-2.2916667" vertical-offset="275" max-vertical-offset="870">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="46" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.064794816" vertical-offset="0" max-vertical-offset="61860">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.54902" vertical-offset="6221" max-vertical-offset="11490">
-          <caret line="437" column="26" selection-start-line="437" selection-start-column="26" selection-end-line="437" selection-end-column="26" />
+        <state vertical-scroll-proportion="-4.7843137" vertical-offset="6206" max-vertical-offset="11475">
+          <caret line="430" column="20" selection-start-line="430" selection-start-column="20" selection-end-line="430" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9915">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="9506" max-vertical-offset="10020">
+          <caret line="662" column="0" selection-start-line="662" selection-start-column="0" selection-end-line="662" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bok/templates/single-news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6565875" vertical-offset="341" max-vertical-offset="885">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
           <folding />
         </state>
       </provider>
