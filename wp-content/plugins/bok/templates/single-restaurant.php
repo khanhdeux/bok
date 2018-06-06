@@ -39,7 +39,9 @@ get_header('bok'); ?>
                         </div>
                     </div>
                     <div class="row">
-                        <?php echo get_post_meta( $post->ID, 'restaurant_description', true) ?>
+                        <div class="col-sm-12">
+                            <?php echo get_post_meta( $post->ID, 'restaurant_description', true) ?>
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12">

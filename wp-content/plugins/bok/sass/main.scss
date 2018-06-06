@@ -25,6 +25,10 @@
   url("//db.onlinewebfonts.com/t/6d2d97a16113677d087f210f8700347a.svg#Gill Sans MT") format("svg");
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   overflow-x: hidden;
   overflow-y: auto;
@@ -48,7 +52,7 @@ a {
 }
 
 p {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .row {
@@ -439,7 +443,7 @@ p {
       }
 
       h4 {
-        font-size: 40px;
+        font-size: 24px;
         margin: 10px auto;
       }
 
@@ -454,7 +458,7 @@ p {
         padding: 10px;
         border-radius: 10px;
         width: 64px;
-        margin: 10px auto 20px auto;
+        margin: 30px auto 20px auto;
       }
     }
   }
@@ -480,6 +484,7 @@ p {
 #main-bok-content.single-restaurant{
   p {
     margin:0;
+    font-size: 16px;
   }
 }
 
@@ -745,6 +750,10 @@ p {
         margin-right: 20px;
       }
     }
+  }
+
+  #bok-footer {
+    padding: 60px 0px 60px 0px;
   }
 }
 

@@ -14,7 +14,7 @@ get_header('bok'); ?>
         <div class="top-header">Unsere Neuigkeiten</div>
     </div>
     <div class="container container-800">
-        <div class="row description">
+        <div class="row description text-center">
             <p><strong>We'll keep you posted</strong></p>
             <p>Follow us on the latest news, promotions and a few surprises along the way</p>
         </div>
