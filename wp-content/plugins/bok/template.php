@@ -80,6 +80,7 @@ class Template {
             'template-recipes.php'         => 'Bok Recipe Template',
             'template-reservation.php'     => 'Bok Reservation Template',
             'template-aboutus.php'         => 'Bok About us Template',
+            'template-default.php'         => 'Bok Default Template',
         );
 
     }
