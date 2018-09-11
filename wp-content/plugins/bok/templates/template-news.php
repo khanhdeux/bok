@@ -11,7 +11,7 @@ get_header('bok'); ?>
 <div id="main-bok-content" class="news">
     <div class="row bok-restaurant-top">
         <img src="<?php echo esc_url( plugins_url( BOK__PLUGIN_NAME . '/images/news-cover.png') ); ?>" width="100%" />
-        <div class="top-header">Unsere Neuigkeiten</div>
+        <div class="top-header">unsere neuigkeiten</div>
     </div>
     <div class="container container-800">
         <div class="row description text-center">
@@ -37,7 +37,7 @@ get_header('bok'); ?>
                             <div>
                                 <?php echo get_the_date(); ?> <?php echo get_the_time(); ?>
                             </div>
-                            <div><a class="link" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">Mehr</a></div>
+                            <div><a class="link" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">mehr</a></div>
                         </div>
                     </div>
             <?php if ($count %2 != 0) : ?>
@@ -47,7 +47,8 @@ get_header('bok'); ?>
         <?php endwhile; ?>
     </div>
 </div>
-<?php wp_footer();?>
+
+<?php get_footer('bok'); ?>
 
 </body>
 </html>

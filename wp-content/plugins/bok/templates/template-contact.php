@@ -13,7 +13,7 @@ get_header('bok'); ?>
             <section>
                 <div class="container container-800">
                     <div class="row text-center">
-                        <h2>Kontakt</h2>
+                        <h2>kontakt</h2>
                     </div>
                     <div class="row">
                         <div class="col-sm-6">

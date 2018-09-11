@@ -10,7 +10,7 @@ get_header('bok'); ?>
 <div id="main-bok-content">
     <div class="row bok-restaurant-top">
         <img src="<?php echo esc_url( plugins_url( BOK__PLUGIN_NAME . '/images/recipe-cover.png') ); ?>" width="100%" />
-        <div class="top-header">Rezepte</div>
+        <div class="top-header">rezepte</div>
     </div>
     <div class="container container-800">
         <div class="row description text-center">

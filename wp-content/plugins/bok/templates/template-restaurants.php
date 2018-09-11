@@ -12,7 +12,7 @@ get_header('bok'); ?>
 <div id="main-bok-content">
     <div class="row bok-restaurant-top">
         <img src="<?php echo esc_url( plugins_url( BOK__PLUGIN_NAME . '/images/restaurant-cover.png') ); ?>" width="100%" />
-        <div class="welcome-text">Willkommen <br/> bei Bok</div>
+        <div class="welcome-text">willkommen <br/> bei Bok</div>
     </div>
     <div class="row">
         <?php $loop = new WP_Query( array( 'post_type' => 'restaurant', 'posts_per_page' => 10, 'order' => 'ASC') ); $count = 0; ?>
@@ -27,7 +27,7 @@ get_header('bok'); ?>
                     <div class="col-sm-6 col-full col-center">
                         <h3><?php the_title() ?></h3>
                         <p><?php the_content(); ?></p>
-                        <div><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">Mehr</a></div>
+                        <div><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">mehr</a></div>
                     </div>
                 <?php else: ?>
                     <?php for($i=0; $i<2; $i++) { ?>
@@ -35,7 +35,7 @@ get_header('bok'); ?>
                             <div class="col-sm-6 col-full col-center desktop">
                                 <h3><?php the_title() ?></h3>
                                 <p><?php the_content(); ?></p>
-                                <div><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">Mehr</a></div>
+                                <div><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">mehr</a></div>
                             </div>
                             <div class="col-sm-6 col-full col-center desktop">
                                 <img width="100%" src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php the_title_attribute(); ?>">
@@ -47,7 +47,7 @@ get_header('bok'); ?>
                             <div class="col-sm-6 col-full col-center mobile">
                                 <h3><?php the_title() ?></h3>
                                 <p><?php the_content(); ?></p>
-                                <div><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">Mehr</a></div>
+                                <div><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">mehr</a></div>
                             </div>
                         <?php endif; ?>
                     <?php } ?>
