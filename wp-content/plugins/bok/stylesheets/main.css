@@ -321,36 +321,35 @@ p {
   right: 42%;
   color: white;
   font-size: 60px;
-  font-weight: bold;
 }
-/* line 363, ../sass/main.scss */
+/* line 362, ../sass/main.scss */
 #main-bok-content .description {
   padding: 20px;
   font-size: 20px;
 }
-/* line 369, ../sass/main.scss */
+/* line 368, ../sass/main.scss */
 #main-bok-content #mainVideo {
   border: 1px solid white;
   width: 100%;
   height: 400px;
   display: none;
 }
-/* line 375, ../sass/main.scss */
+/* line 374, ../sass/main.scss */
 #main-bok-content #mainVideo iframe {
   width: 100%;
   height: 100%;
 }
-/* line 383, ../sass/main.scss */
+/* line 382, ../sass/main.scss */
 #main-bok-content .restaurantSlider .slick-slide img {
   width: 100%;
   max-height: 500px;
   object-fit: cover;
 }
-/* line 390, ../sass/main.scss */
+/* line 389, ../sass/main.scss */
 #main-bok-content .restaurantSlider .slick-dots {
   bottom: 10px;
 }
-/* line 393, ../sass/main.scss */
+/* line 392, ../sass/main.scss */
 #main-bok-content .restaurantSlider .slick-dots li {
   margin: 0px 2px;
   border: 1px solid #fff;
@@ -358,15 +357,15 @@ p {
   width: 10px;
   height: 10px;
 }
-/* line 401, ../sass/main.scss */
+/* line 400, ../sass/main.scss */
 #main-bok-content .restaurantSlider .slick-dots li button:before {
   content: '';
 }
-/* line 406, ../sass/main.scss */
+/* line 405, ../sass/main.scss */
 #main-bok-content .restaurantSlider .slick-dots li.slick-active {
   background-color: #fff;
 }
-/* line 413, ../sass/main.scss */
+/* line 412, ../sass/main.scss */
 #main-bok-content .restaurantSlider.slick-slider.slick-dotted {
   margin-bottom: 20px;
 }
@@ -374,36 +373,36 @@ p {
 /*==================================================
 =            NEWS                                  =
 ==================================================*/
-/* line 425, ../sass/main.scss */
+/* line 424, ../sass/main.scss */
 #main-bok-content.news .top-header {
   right: 30%;
 }
-/* line 430, ../sass/main.scss */
+/* line 429, ../sass/main.scss */
 #main-bok-content.news .bok-news-row .bok-news-col {
   padding-left: 0px;
   padding-right: 0px;
 }
-/* line 434, ../sass/main.scss */
+/* line 433, ../sass/main.scss */
 #main-bok-content.news .bok-news-row .bok-news-col img {
   width: 100%;
 }
-/* line 438, ../sass/main.scss */
+/* line 437, ../sass/main.scss */
 #main-bok-content.news .bok-news-row .bok-news-col a {
   width: 100%;
   display: inline-block;
   max-height: 350px;
   overflow: hidden;
 }
-/* line 445, ../sass/main.scss */
+/* line 444, ../sass/main.scss */
 #main-bok-content.news .bok-news-row .bok-news-col h4 {
   font-size: 24px;
   margin: 10px auto;
 }
-/* line 450, ../sass/main.scss */
+/* line 449, ../sass/main.scss */
 #main-bok-content.news .bok-news-row .bok-news-col p {
   font-size: 16px;
 }
-/* line 454, ../sass/main.scss */
+/* line 453, ../sass/main.scss */
 #main-bok-content.news .bok-news-row .bok-news-col a.link {
   display: inline-block;
   color: #ffffff;
@@ -417,11 +416,11 @@ p {
 /*==================================================
 =            ABOUT US                             =
 ==================================================*/
-/* line 470, ../sass/main.scss */
+/* line 469, ../sass/main.scss */
 #main-bok-content.about-us {
   background-color: #000000;
 }
-/* line 473, ../sass/main.scss */
+/* line 472, ../sass/main.scss */
 #main-bok-content.about-us .description p {
   color: #808080;
 }
@@ -429,7 +428,7 @@ p {
 /*==================================================
 =            SINGLE RESTAURANTS                    =
 ==================================================*/
-/* line 485, ../sass/main.scss */
+/* line 484, ../sass/main.scss */
 #main-bok-content.single-restaurant p {
   margin: 0;
   font-size: 16px;
@@ -438,13 +437,13 @@ p {
 /*==================================================
 =            FOOTER                               =
 ==================================================*/
-/* line 496, ../sass/main.scss */
+/* line 495, ../sass/main.scss */
 #bok-footer {
   background-color: #000000;
   color: gray;
   padding: 60px;
 }
-/* line 500, ../sass/main.scss */
+/* line 499, ../sass/main.scss */
 #bok-footer a {
   color: gray;
 }
@@ -452,7 +451,7 @@ p {
 /*==================================================
 =            Plugins                               =
 ==================================================*/
-/* line 510, ../sass/main.scss */
+/* line 509, ../sass/main.scss */
 .wpcf7 input, .wpcf7 textarea {
   display: block;
   width: 100%;
@@ -467,7 +466,7 @@ p {
   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-/* line 525, ../sass/main.scss */
+/* line 524, ../sass/main.scss */
 .wpcf7 input {
   height: 34px;
   padding: 6px 12px;
@@ -478,67 +477,67 @@ p {
 /*==================================================
 =            Bootstrap                             =
 ==================================================*/
-/* line 536, ../sass/main.scss */
+/* line 535, ../sass/main.scss */
 .btn-primary {
   background-color: #000;
   border-color: #ffffff;
 }
-/* line 541, ../sass/main.scss */
+/* line 540, ../sass/main.scss */
 .btn-primary:hover {
   background-color: gray;
 }
 
-/* line 546, ../sass/main.scss */
+/* line 545, ../sass/main.scss */
 .container {
   padding: 0px;
 }
 
-/* line 550, ../sass/main.scss */
+/* line 549, ../sass/main.scss */
 .margin {
   margin: 20px 0;
 }
 
-/* line 554, ../sass/main.scss */
+/* line 553, ../sass/main.scss */
 .panel {
   background-color: transparent;
 }
 
-/* line 558, ../sass/main.scss */
+/* line 557, ../sass/main.scss */
 .ui-widget-content {
   background: inherit;
 }
 
-/* line 562, ../sass/main.scss */
+/* line 561, ../sass/main.scss */
 #accordion {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* line 567, ../sass/main.scss */
+/* line 566, ../sass/main.scss */
 .restaurant-menu {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* line 573, ../sass/main.scss */
+/* line 572, ../sass/main.scss */
 .ui-accordion .ui-accordion-header {
   color: #ffffff;
   background-color: #534741;
 }
-/* line 578, ../sass/main.scss */
+/* line 577, ../sass/main.scss */
 .ui-accordion .ui-accordion-content {
   padding: 0px;
   border-left: none;
   border-right: none;
 }
 
-/* line 585, ../sass/main.scss */
+/* line 584, ../sass/main.scss */
 .ui-state-default {
   color: #000000;
   background: none;
 }
 
-/* line 590, ../sass/main.scss */
+/* line 589, ../sass/main.scss */
 .ui-widget-content {
   color: #ffffff;
 }
@@ -546,11 +545,11 @@ p {
 /*==================================================
 =            Slick lib                             =
 ==================================================*/
-/* line 598, ../sass/main.scss */
+/* line 597, ../sass/main.scss */
 .slick-slide .youtubeModal {
   position: relative;
 }
-/* line 601, ../sass/main.scss */
+/* line 600, ../sass/main.scss */
 .slick-slide .youtubeModal .play-icon {
   position: absolute;
   top: 42%;
@@ -558,7 +557,7 @@ p {
   width: 20px;
   height: 20px;
 }
-/* line 609, ../sass/main.scss */
+/* line 608, ../sass/main.scss */
 .slick-slide .youtubeModal span {
   position: absolute;
   left: 50%;
@@ -568,13 +567,13 @@ p {
   bottom: 10px;
 }
 
-/* line 620, ../sass/main.scss */
+/* line 619, ../sass/main.scss */
 .slick-prev {
   left: -56px !important;
   height: 38px !important;
 }
 
-/* line 625, ../sass/main.scss */
+/* line 624, ../sass/main.scss */
 .slick-next {
   right: -56px !important;
   height: 38px !important;
@@ -594,77 +593,77 @@ p {
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /* line 675, ../sass/main.scss */
+  /* line 674, ../sass/main.scss */
   .navbar {
     margin: 0px;
   }
 
-  /* line 679, ../sass/main.scss */
+  /* line 678, ../sass/main.scss */
   .navbar-default {
     position: relative;
     height: auto;
     background-color: #534741;
   }
-  /* line 684, ../sass/main.scss */
+  /* line 683, ../sass/main.scss */
   .navbar-default .container-fluid {
     margin: 0px;
   }
-  /* line 689, ../sass/main.scss */
+  /* line 688, ../sass/main.scss */
   .navbar-default .navbar-nav .menu-item {
     margin-left: 0px;
   }
-  /* line 694, ../sass/main.scss */
+  /* line 693, ../sass/main.scss */
   .navbar-default .navbar-nav .menu-item:hover ul.sub-menu {
     display: none !important;
   }
 
-  /* line 704, ../sass/main.scss */
+  /* line 703, ../sass/main.scss */
   #main-bok-content .welcome-text, #main-bok-content .top-header {
     font-size: 30px;
   }
-  /* line 708, ../sass/main.scss */
+  /* line 707, ../sass/main.scss */
   #main-bok-content .welcome-text {
     top: 30%;
     left: 30%;
   }
-  /* line 714, ../sass/main.scss */
+  /* line 713, ../sass/main.scss */
   #main-bok-content.single-restaurant .telephone {
     text-align: left !important;
   }
-  /* line 720, ../sass/main.scss */
+  /* line 719, ../sass/main.scss */
   #main-bok-content.news .top-header {
     right: 15%;
   }
 
-  /* line 727, ../sass/main.scss */
+  /* line 726, ../sass/main.scss */
   .row.equal {
     display: inherit;
   }
 
-  /* line 733, ../sass/main.scss */
+  /* line 732, ../sass/main.scss */
   .bok-restaurant-row .mobile {
     display: flex !important;
   }
-  /* line 736, ../sass/main.scss */
+  /* line 735, ../sass/main.scss */
   .bok-restaurant-row .desktop {
     display: none !important;
   }
-  /* line 740, ../sass/main.scss */
+  /* line 739, ../sass/main.scss */
   .bok-restaurant-row .col-center {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  /* line 744, ../sass/main.scss */
+  /* line 743, ../sass/main.scss */
   .bok-restaurant-row .col-center a {
     display: inline-block;
   }
-  /* line 748, ../sass/main.scss */
+  /* line 747, ../sass/main.scss */
   .bok-restaurant-row .col-center p {
     margin-left: 20px;
     margin-right: 20px;
   }
 
-  /* line 755, ../sass/main.scss */
+  /* line 754, ../sass/main.scss */
   #bok-footer {
     padding: 60px 0px 60px 0px;
   }

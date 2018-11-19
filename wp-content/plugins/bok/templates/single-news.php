@@ -17,7 +17,7 @@ get_header('bok'); ?>
                             <div>
                                 <?php echo get_the_date(); ?> <?php echo get_the_time(); ?>
                             </div>
-                            <div class="thumbnail media-top">
+                            <div class="_thumbnail media-top">
                                 <img src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php the_title_attribute(); ?>">
                             </div>
                             <div class="news-body">
@@ -29,7 +29,7 @@ get_header('bok'); ?>
 
                             <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                 <div class="row">
-                                    <a class="thumbnail" href="<?php the_permalink(); ?>">
+                                    <a class="_thumbnail" href="<?php the_permalink(); ?>">
                                         <?php if ( has_post_thumbnail() ) : ?>
                                             <img src="<?php the_post_thumbnail_url('thumbnail'); ?>" alt="<?php the_title_attribute(); ?>" />
                                         <?php endif; ?>
