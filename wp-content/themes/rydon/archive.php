@@ -31,7 +31,7 @@ get_header(); ?>
                         </div>
                          <?php endwhile; ?>
                      </div>
-                      
+
                   </div>
                </section>
             </div>
@@ -51,12 +51,12 @@ get_header(); ?>
                      </div>
                   </div>
             </div>
-      
+
             <?php wp_reset_postdata(); ?>
             <?php else:  ?>
             <p><?php esc_html_e( 'Sorry, no posts matched your criteria.', 'rydon' ); ?></p>
             <?php endif; ?>
-         
+
      </div>
 
 <?php get_sidebar(); ?>

@@ -29,29 +29,29 @@
  * Ersetze datenbankname_hier_einfuegen
  * mit dem Namen der Datenbank, die du verwenden möchtest.
  */
-define('DB_NAME', 'datenbankname_hier_einfuegen');
+define('DB_NAME', 'db1140792-central');
 
 /**
  * Ersetze benutzername_hier_einfuegen
  * mit deinem MySQL-Datenbank-Benutzernamen.
  */
-define('DB_USER', 'benutzername_hier_einfuegen');
+define('DB_USER', 'db1140792-bokre');
 
 /**
  * Ersetze passwort_hier_einfuegen mit deinem MySQL-Passwort.
  */
-define('DB_PASSWORD', 'passwort_hier_einfuegen');
+define('DB_PASSWORD', '36503650');
 
 /**
  * Ersetze localhost mit der MySQL-Serveradresse.
  */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'wp470.webpack.hosteurope.de');
 
 /**
  * Der Datenbankzeichensatz, der beim Erstellen der
  * Datenbanktabellen verwendet werden soll
  */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /**
  * Der Collate-Type sollte nicht geändert werden.
@@ -70,14 +70,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'Füge hier deine Zeichenkette ein');
-define('SECURE_AUTH_KEY',  'Füge hier deine Zeichenkette ein');
-define('LOGGED_IN_KEY',    'Füge hier deine Zeichenkette ein');
-define('NONCE_KEY',        'Füge hier deine Zeichenkette ein');
-define('AUTH_SALT',        'Füge hier deine Zeichenkette ein');
-define('SECURE_AUTH_SALT', 'Füge hier deine Zeichenkette ein');
-define('LOGGED_IN_SALT',   'Füge hier deine Zeichenkette ein');
-define('NONCE_SALT',       'Füge hier deine Zeichenkette ein');
+define('AUTH_KEY',         '(t0f%Q(nE)6atCLim(j7L1#3');
+define('SECURE_AUTH_KEY',  '4amE9aKZViCoy$H$5s1w#8fs');
+define('LOGGED_IN_KEY',    '#ondno#$(dHmdV51%2LifVP5');
+define('NONCE_KEY',        '?Km76#j0iP98$3Q1Ct3HnCHL');
+define('AUTH_SALT',        'Eyw/6a/01#CR0o(m?#V%m1Gd');
+define('SECURE_AUTH_SALT', 'ZHnsP4$R4CE)/9#UmVV927Lo');
+define('LOGGED_IN_SALT',   '$sijym$B#yft5PL)jdB)CXZj');
+define('NONCE_SALT',       'H6BdL233sm?L9Cn3H7#?iZa9');
 
 /**#@-*/
 
@@ -88,7 +88,7 @@ define('NONCE_SALT',       'Füge hier deine Zeichenkette ein');
  * verschiedene WordPress-Installationen betreiben.
  * Bitte verwende nur Zahlen, Buchstaben und Unterstriche!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'wp441_';
 
 /**
  * Für Entwickler: Der WordPress-Debug-Modus.
